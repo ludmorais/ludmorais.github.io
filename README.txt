@@ -22,8 +22,3 @@ Você pode acessar a versão publicada clicando aqui (https://ludmorais.github.i
 Este projeto está licenciado.
 Para mais detalhes, consulte o arquivo LICENSE.
 
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)

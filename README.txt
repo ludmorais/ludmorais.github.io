@@ -3,7 +3,6 @@ Este repositório contém o código do meu portfólio pessoal.
 
 ✨ Sobre o projeto
 O objetivo deste projeto é apresentar de forma simples e direta meu trabalho como profissional. Para isso, utilizei um modelo HTML como base e fiz pequenas personalizações para refletir meu gosto pessoal, como:
-
 - Ajustes de cores, fontes e espaçamentos
 - Alteração de textos e seções
 - Inserção de informações sobre mim e meus projetos

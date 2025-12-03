@@ -1,0 +1,43 @@
+/* IMPORTS */ 
+/* Google Font */ 
+/* Typography */ @import "/css/typography.css";
+/* Buttons */
+/* Icons */
+
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0; 
+  font: inherit;
+  vertical-align: 0;
+  text-decoration: none;
+}
+
+
+/* Body */
+.container {
+  width: 390px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Icons Ion Icons */
+ion-icon {
+
+}
+
+
+/* Button */
+
+
+
+
+/* Label */
+
+
+

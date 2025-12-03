@@ -1,5 +1,5 @@
 /* IMPORTS */ 
-/* Google Font */ 
+/* Google Font */ @import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
 /* Typography */ @import "/css/typography.css";
 /* Buttons */
 /* Icons */
@@ -11,7 +11,7 @@
   padding: 0;
   border: 0;
   font-size: 0; 
-  font: inherit;
+  font-family: "Spline Sans Mono", monospace;
   vertical-align: 0;
   text-decoration: none;
 }

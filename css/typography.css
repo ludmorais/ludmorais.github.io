@@ -1,4 +1,5 @@
 /* Typography */
+
 h1 {
   font-size: 32px;
   color: 000000;
@@ -23,6 +24,10 @@ h5 {
 
 h6 {
 
+}
+
+.title-nav {
+  color:blueviolet;
 }
 
 .title-dark-blue {

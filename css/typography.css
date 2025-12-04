@@ -11,6 +11,8 @@ h1 {
 }
 
 h2 {
+  line-height: 24px;
+  letter-spacing: 0%;
   font-size: 1.625rem;
   /* 26px */
 }

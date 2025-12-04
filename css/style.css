@@ -31,18 +31,41 @@
   background-color: rgb(180, 122, 193);
 }
 
-.introduction-text {
+.nav-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-mobile h1 {
+  text-align: left;
+  margin: 32px 26px;
+  width: 207px;
+}
+
+.nav-mobile button {
+  align-items: right;
+  margin: 32px 26px;
+}
+
+
+.container section img {
+  justify-content: center;
+  margin: 26px 120px;
+}
+
+.container .introduction-text {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
 
-.introduction-text h1 {
+.container .introduction-text h1 {
   margin: 26px 32px 32px 32px;
 }
 
-.introduction-text h2 {
-  margin: 
+.container .introduction-text h2 {
+  margin: 0 43px 20px 43px;
 }
 
 /* PAREI AQUI, OLHAR O FIGMA E REPRODUZIR */ 

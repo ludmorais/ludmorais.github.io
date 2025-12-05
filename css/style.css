@@ -1,9 +1,9 @@
 /* IMPORTS */ 
 /* Google Font */ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
 /* Typography */ @import url(/css/typography.css);
-/* Buttons */
-/* Icons */
-/* Responsive */ @import url(/css/responsive-elements.css);
+/* Components */ @import url(/css/components.css);
+/* Display */ @import url(/css/display.css);
+/* Responsive */ @import url(/css/media-queries.css);
 
 
 /* Reset CSS */
@@ -19,56 +19,9 @@
   text-decoration: none;
 }
 
-
-/* Body */
-
-.container {
-  display: flex;
-  flex-direction: column; 
-  width: 100%;
-  margin: 0;
-
-  background-color: rgb(180, 122, 193);
+/* Styling Specific Items */ 
+body {
+  background-color: #FFFFFF;
 }
-
-.nav-mobile {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.nav-mobile h1 {
-  text-align: left;
-  margin: 32px 26px;
-  width: 207px;
-}
-
-.nav-mobile button {
-  align-items: right;
-  margin: 32px 26px;
-}
-
-
-.container section img {
-  justify-content: center;
-  margin: 26px 120px;
-}
-
-.container .introduction-text {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.container .introduction-text h1 {
-  margin: 26px 32px 32px 32px;
-}
-
-.container .introduction-text h2 {
-  margin: 0 43px 20px 43px;
-}
-
-/* PAREI AQUI, OLHAR O FIGMA E REPRODUZIR */ 
-
 
 

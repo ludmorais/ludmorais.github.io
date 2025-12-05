@@ -1,0 +1,111 @@
+/* FLEX BOX */
+
+
+/* HEADER */
+
+/* container-header */
+.container-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+
+  background-color: #FFFFFF;
+}
+
+.nav-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  background-color: #FFFFFF;
+}
+
+.container-header .nav-mobile h1 {
+  text-align: left;
+  margin: 20px 14px;
+  padding: 12px;
+  width: 207px;
+}
+
+.nav-mobile button {
+  align-items: right;
+  margin: 32px 26px;
+}
+
+
+/*----------------------------------------*/
+
+
+/* MAIN */ 
+
+/* container-main */
+.container-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+
+  background-color: #FFFFFF;
+}
+
+/* Section Introduction */
+.container-main section img {
+  justify-content: center;
+  margin: 26px 120px 12px 120px;
+}
+
+.container-introduction-text {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.container-introduction-text h1 {
+  margin: 12px 32px 6px 32px;
+}
+
+.container-introduction-text h2 {
+  margin: 6px 42px 10px 42px;
+}
+
+.container-localization {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin: 6px 24px;
+
+  background-color: #FFFFFF;
+}
+
+.container-localization i {
+  margin: 4px 0 4px 72px;
+}
+
+.container-localization h3 {
+  margin: 4px 72px 4px 8px;
+}
+
+/* Section Projects */
+.container-main .container-projects {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/*----------------------------------------*/
+
+
+/* FOOTER */ 
+
+/* container-footer */

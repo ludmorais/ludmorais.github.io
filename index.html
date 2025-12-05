@@ -6,39 +6,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <script src="https://kit.fontawesome.com/27c0b71175.js" crossorigin="anonymous"></script>
+
   <title>Portfolio</title>
 </head>
 
 <body>
   <!-- Header -->
-  <header class="container">
+  <header class="container-header">
     <nav class="nav-mobile">
-      <h1 class="h1-small semibold" href="#">{Ludmilla Morais}</h1>
-      <button>IconMenu</button>
+      <a href="#" class="color-primary-01">
+        <h1 class="h1-small semibold">{Ludmilla Morais}</h1>
+      </a>
+
+      <button class="btn-icon">
+        <i class="fa-solid fa-bars fa-lg color-primary-01"></i>
+      </button>
     </nav>
   </header>
   <!-- End of Header -->
 
 
-  <!-- Container -->
-  <main class="container">
+  <!-- Main -->
+  <main class="container-main">
     <!-- Section Introduction -->
-    <section class="introduction-text">
-      <img src="#" alt="LudmillaMorais">
+    <section>
+      <div class="container-introduction-text">
+        <img src="/assets/images/avatar-150x150.svg" alt="LudmillaMorais">
 
-      <h1 class="h1-medium bold"> Hi,<br> I'm Ludmilla Morais :)</h1>
-      
-      <h2 class="h2-medium medium">Front-End Developer with UX/UI Design background</h2>
+        <div>
+          <h1 class="h1-medium bold color-neutral-30"> Hi,<br></h1>
+          <h1 class="h1-medium bold color-secundary-01">I'm Ludmilla Morais :)</h1>
+        </div>
 
-      <i>????</i><h3>Porto, Portugal</h3>
+        <h2 class="h2-medium medium color-neutral-30">Front-End Developer with UX/UI Design background</h2>
+      </div>
+
+      <div class="container-localization color-primary-01">
+        <i class="fa-solid fa-location-dot fa-lg"></i>
+        <h3 class="h3-large">Porto, Portugal</h3>
+      </div>
 
       <button>???????</button>
     </section>
 
-     <!-- Section Projects -->
-      <section class="projects">
-        <i>???</i><h1>Projects</h1>
-      </section>
+    <!-- Section Projects -->
+    <section class="container-projects">
+      <i>???</i>
+      <h1>Projects</h1>
+    </section>
 
   </main>
   <!-- End of Container -->

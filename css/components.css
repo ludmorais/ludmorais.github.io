@@ -1,0 +1,54 @@
+/* Colors - Primary */
+.color-primary-01 {
+  color: #0C2B4E;
+}
+
+.color-primary-02 {
+  color: #1A3D64;
+}
+
+.color-primary-03 {
+  color: #1D546C;
+}
+
+.color-primary-04 {
+  color: #F4F4F4;
+}
+
+/* Colors - Secundary */
+.color-secundary-01 {
+  color: #4D5D28;
+}
+
+/* Colors - Neutral */
+.color-neutral-30 {
+  color: #464649;
+}
+.color-neutral-100 {
+  color: #FFFFFF;
+}
+
+
+/*----------------------------------------*/
+
+
+/* Buttons */
+.btn {
+  padding: 12px auto;
+  border-radius: 20px;
+}
+
+/*.btn .btn-primary {
+
+*/
+
+.btn-icon {
+  padding: 18px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+
+
+
+/*----------------------------------------*/

@@ -1,0 +1,88 @@
+:root {
+
+
+  /* Size */
+
+  /* -- Size px to rem (1 rem = 16 px) */
+  --size-10px: 0.625rem;
+  --size-12px: 0.75rem; 
+  --size-14px: 0.875rem;
+  --size-16px: 1rem;
+  --size-18px: 1.125rem;
+  --size-24px: 1.5rem;
+  --size-26px: 1.625rem;
+  --size-32px: 2rem;
+  --size-34px: 2.125rem;
+  --size-36px: 2.25rem;
+  --size-40px: 2.5rem;
+  --size-42px: 2.625rem;
+  --size-48px: 3rem;
+  
+
+  /*----------------------------------------*/
+
+
+  /* Typography */ 
+  
+  /* -- Font Size px to rem (1 rem = 16 px) */
+  --font-size-10px: 0.625rem;
+  --font-size-12px: 0.75rem; 
+  --font-size-14px: 0.875rem;
+  --font-size-16px: 1rem;
+  --font-size-18px: 1.125rem;
+  --font-size-24px: 1.5rem;
+  --font-size-26px: 1.625rem;
+  --font-size-32px: 2rem;
+  --font-size-34px: 2.125rem;
+  --font-size-36px: 2.25rem;
+  --font-size-40px: 2.5rem;
+  --font-size-42px: 2.625rem;
+  --font-size-48px: 3rem;
+
+  /* Font Weight */
+  --font-weight-thin: 100;
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 900;
+
+  /* Line Height */
+  --line-height-title: var(--size-36px);
+  --line-height-subtitle: var(--size-26px);
+  --line-height-text: var(--size-24px);
+
+
+  /*----------------------------------------*/
+  
+  
+  /* Colors */
+
+  /* -- Colors Primary */
+  --color-primary-01: #0C2B4E;
+  --color-primary-02: #1A3D64;
+  --color-primary-03: #1D546C;
+  --color-primary-04: #F4F4F4;
+
+  /* -- Colors Secundary */
+  --color-secundary-01:#4D5D28;
+
+  /* Colors - Neutral */
+  --color-neutral-30:#464649;
+  --color-neutral-90: #E1E2E6;
+  --color-neutral-100:#FFFFFF;
+
+
+  /*----------------------------------------*/
+
+  /* Button characteristics */
+
+  /* 
+
+
+
+
+
+}

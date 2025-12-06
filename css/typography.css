@@ -1,165 +1,133 @@
 /* 
 TYPOGRAPHY 
-$ type-size-weight: $ h1-extralarge-bold 
+
+ex.: type-size weight = .h1-extralarge bold 
 */
 
+
+/*----------------------------------------*/
+
+
+/* Basic Font */
+
 h1 {
-  line-height: 36px;
-  letter-spacing: 2%;
-  font-size: 2rem;
-  /* 32px */
+  font-size: var(--size-32px);
+  line-height: var(--line-height-title);
 }
 
 h2 {
-  line-height: 24px;
-  letter-spacing: 0%;
   font-size: 1.625rem;
-  /* 26px */
+  line-height: var(--line-height-subtitle);
 }
 
 h3 {
-  font-size: 1.125rem;
-  /* 18px */
+  font-size: var(--size-18px);
 }
 
 p {
   font-family: "Poppins", sans-serif;
-  font-size: 1.125rem;
-  /* 18px */
+  font-size: var(--size-18px);
 }
 
 
 /*----------------------------------------*/
 
 
-/* H1 - SIZE VARIANTS */
+/* Font Size Variants */ 
+
+/* h1 Size Variants */ 
 .h1-extralarge {
-  font-size: 3rem;
-  /* 48px */
+  font-size: var(--size-48px);
 }
 
 .h1-large {
-  font-size: 2.625rem;
-  /* 42px */
+  font-size: var(--size-42px);
 }
 
 .h1-medium {
-  font-size: 1.5rem;
-  /* 24px */
+  font-size: var(--size-24px);
 }
 
 .h1-small {
-  font-size: 1.125rem;
-  /* 18px */
+  font-size: var(--size-20px);
+}
+
+.h1-extrasmall {
+  font-size: var(--size-18px);
 }
 
 
-/*----------------------------------------*/
-
-
-/* H2 - SIZE VARIANTS */
+/* h2 Size Variants */ 
 .h2-extralarge {
-  font-size: 1.5rem;
-  /* 24px */
+  font-size: var(--size-24px);
 }
 
 .h2-large {
-  font-size: 1.25rem;
-  /* 20px */
+  font-size: var(--size-20px);
 }
 
 .h2-medium {
-  font-size: 1rem;
-  /* 16px */
+  font-size: var(--size-16px);
 }
 
 .h2-small {
-  font-size: 0.875rem;
-  /* 14px */
+  font-size: var(--size-14px);
+}
+
+
+/* h3 and paragraph Size Variants */
+.h3-paragraph-extralarge {
+  font-size: var(--size-16px);
+}
+
+.h3-paragraph-large {
+  font-size: var(--size-14px);
+}
+
+.h3-paragraph-medium {
+  font-size: var(--size-12px);
+}
+
+.h3-paragraph-small {
+  font-size: var(--size-10px);
 }
 
 
 /*----------------------------------------*/
 
 
-/* H3 - SIZE VARIANTS */
-.h3-extralarge {
-  font-size: 1rem;
-  /* 16px */
+/* Font Weight Variants */
+.thin {
+    font-weight: var(--font-weight-thin);
 }
 
-.h3-large {
-  font-size: 0.875rem;
-  /* 14px */
+.extralight {
+  font-weight: var(--font-weight-extralight);
 }
 
-.h3-medium {
-  font-size: 0.75rem;
-  /* 12px */
-}
-
-.h3-small {
-  font-size: 0.625rem;
-  /* 10px */
-}
-
-
-/*----------------------------------------*/
-
-
-/* P - SIZE VARIANTS */
-.paragraph-extralarge {
-  font-size: 1rem;
-  /* 16px */
-}
-
-.paragraph-large {
-  font-size: 0.875rem;
-  /* 14px */
-}
-
-.paragraph-medium {
-  font-size: 0.75rem;
-  /* 12px */
-}
-
-.paragraph-small {
-  font-size: 0.625rem;
-  /* 10px */
-}
-
-
-
-/*----------------------------------------*/
-
-
-/* FONT WEIGHT VARIANTS */
-.bold {
-  font-weight: 700;
-}
-
-.semibold {
-  font-weight: 600;
-}
-
-.medium {
-  font-weight: 500;
+.light {
+  font-weight: var(--font-weight-light);
 }
 
 .regular {
-  font-weight: 400;
+  font-weight: var(--font-weight-regular);
+}
+
+.medium {
+  font-weight: var(--font-weight-medium);
+}
+
+.semibold {
+  font-weight: var(--font-weight-semibold);
+}
+
+.bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.extrabold {
+  font-weight: var(--font-weight-extrabold);
 }
 
 
 /*----------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-

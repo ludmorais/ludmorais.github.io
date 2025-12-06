@@ -1,8 +1,9 @@
 /* IMPORTS */ 
 /* Google Font */ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+/* Design Tokens */ @import url(/css/design-tokens.css);
 /* Typography */ @import url(/css/typography.css);
 /* Components */ @import url(/css/components.css);
-/* Display */ @import url(/css/display.css);
+/* Display */ @import url(/css/display-flex.css);
 /* Responsive */ @import url(/css/media-queries.css);
 
 
@@ -13,15 +14,30 @@
   border: 0;
   vertical-align: 0;
 
-  font-size: 1rem; /* 16px HTML definition */
+  font-size: 16px; /* 16px HTML definition - 16px = 1rem*/
   font-family: "Spline Sans Mono", monospace; 
   font-weight: 400;
-  text-decoration: none;
+  text-decoration: none; 
+  font-style: normal;
+
 }
+
+
 
 /* Styling Specific Items */ 
 body {
-  background-color: #FFFFFF;
+  background-color: var(--color-neutral-100);
+}
+
+main {
+  background-image: url(/assets/images/background-image-left.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+a {
+  text-decoration: none;
+  color: none;
 }
 
 

@@ -1,5 +1,15 @@
 /* FLEX BOX */
 
+/*----------------------------------------*/
+
+
+/* BODY */
+
+
+
+
+/*----------------------------------------*/
+
 
 /* HEADER */
 
@@ -7,7 +17,7 @@
 .container-header {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 72px;
   margin: 0;
 }
 
@@ -17,26 +27,23 @@
   justify-content: space-between;
   align-items: baseline;
 
-  background-color: #FFFFFF;
+  background-color: var(--color-neutral-100);
+
+  position: fixed;
+  width: 100%;
 }
 
 .container-header .nav-mobile h1 {
   text-align: left;
-  margin: 12px;
-  padding: 12px 32px;
+  margin: 2px;
+  padding: 10px 32px;
   width: 207px;
+
 }
 
 .nav-mobile button {
   align-items: center;
 }
-
-
-/*----------------------------------------*/
-
-/* BODY */
-body 
-
 
 
 /*----------------------------------------*/
@@ -49,30 +56,29 @@ body
   display: flex;
   flex-direction: column;
   width: 100%;
-
-
-  background-color: #FFFFFF;
+  margin-top: 85px;
 }
 
 
 /* Section Introduction */
 .container-main section img {
   justify-content: center;
-  margin: 26px 120px 12px 120px;
+  margin: 26px 120px 26px 120px;
 }
 
 .container-introduction-text {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
 }
 
-.container-introduction-text h1 {
-  margin: 12px 32px 6px 32px;
+.container-introduction-text h1 .h1-hi {
+  margin: 0;
 }
 
 .container-introduction-text h2 {
-  margin: 6px 42px 10px 42px;
+  margin: 12px 42px 10px 42px;
 }
 
 .container-localization {
@@ -82,8 +88,6 @@ body
   align-items: center;
 
   margin: 6px 24px;
-
-  background-color: #FFFFFF;
 }
 
 .container-localization i {
@@ -112,11 +116,21 @@ body
   align-items: center;
 }
 
-.container-projects i {
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.title-section i {
   padding: 2px;
   margin: 20px 12px 6px 12px;
 }
 
+.title-section h1 {
+  margin-bottom: 14px;
+}
 
 
 

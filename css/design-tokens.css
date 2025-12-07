@@ -74,15 +74,42 @@
   --color-neutral-90: #E1E2E6;
   --color-neutral-100:#FFFFFF;
 
+  /* Dark Color Opacity */
+  --color-opacity-dark-05: #4646490D;
+  --color-opacity-dark-10: #4646491A;
+  --color-opacity-dark-15: #46464926;
+  --color-opacity-dark-20: #46464933;
+  --color-opacity-dark-25: #46464940;
+  --color-opacity-dark-30: #4646494D;
+  --color-opacity-dark-35: #46464959;
+  --color-opacity-dark-45: #46464973;
+  --color-opacity-dark-50: #46464980;
+  --color-opacity-dark-60: #46464999;
+  --color-opacity-dark-70: #464649B3;
+  --color-opacity-dark-75: #464649BF;
+  --color-opacity-dark-80: #464649CC;
+
 
   /*----------------------------------------*/
 
-  /* Button characteristics */
+  
+  /* Elements Characteristics */
 
-  /* 
-
-
-
+  /* Box Shadow */ 
+  --box-shadow-05: 0px 2px 4px 0 var(--color-opacity-dark-05);
+  --box-shadow-10: 0px 2px 4px 0 var(--color-opacity-dark-10);
+  --box-shadow-15: 0px 2px 4px 0 var(--color-opacity-dark-15);
+  --box-shadow-20: 0px 2px 4px 0 var(--color-opacity-dark-20);
+  --box-shadow-25: 0px 2px 4px 0 var(--color-opacity-dark-25);
+  --box-shadow-30: 0px 2px 4px 0 var(--color-opacity-dark-30);
+  --box-shadow-35: 0px 2px 4px 0 var(--color-opacity-dark-35);
+  --box-shadow-45: 0px 2px 4px 0 var(--color-opacity-dark-45); 
+  --box-shadow-50: 0px 2px 4px 0 var(--color-opacity-dark-50);
+  --box-shadow-60: 0px 2px 4px 0 var(--color-opacity-dark-60);
+  --box-shadow-70: 0px 2px 4px 0 var(--color-opacity-dark-70);
+  --box-shadow-75: 0px 2px 4px 0 var(--color-opacity-dark-75);
+  --box-shadow-80: 0px 2px 4px 0 var(--color-opacity-dark-80);
+  
 
 
 }

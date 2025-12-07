@@ -3,7 +3,7 @@
 /* Design Tokens */ @import url(/css/design-tokens.css);
 /* Typography */ @import url(/css/typography.css);
 /* Components */ @import url(/css/components.css);
-/* Display */ @import url(/css/display-flex.css);
+/* Display */ @import url(/css/elements-flex.css);
 /* Responsive */ @import url(/css/media-queries.css);
 
 
@@ -25,19 +25,22 @@
 
 
 /* Styling Specific Items */ 
+
 body {
-  background-color: var(--color-neutral-100);
+  background-image: 
+    url("/assets/images/background-image-left.png"), 
+    url("/assets/images/background-image-right.png");
+  background-position: -200px 106px, 184px 16px;
+  background-repeat: no-repeat;
 }
 
-main {
-  background-image: url(/assets/images/background-image-left.png);
-  background-repeat: no-repeat;
-  background-position: left center;
-}
+
 
 a {
   text-decoration: none;
   color: none;
 }
+
+
 
 

@@ -1,107 +1,101 @@
-/* 
-TYPOGRAPHY 
+/* TYPOGRAPHY */
 
-ex.: type-size weight = .h1-extralarge bold 
+/* How to use? */
+/*  
+  <tag class="family size weight">
+  ex.: <h1 class="poppins size-20px bold">
 */
 
 
 /*----------------------------------------*/
-
-
 /* Basic Font */
+/*----------------------------------------*/
 
 h1 {
-  font-size: var(--size-32px);
+  font-family: var(--font-family-spline); 
+  font-size: var(--font-size-32px); 
   line-height: var(--line-height-title);
 }
 
 h2 {
-  font-size: 1.625rem;
+  font-family: var(--font-family-spline); 
+  font-size: var(--font-size-26px);
   line-height: var(--line-height-subtitle);
 }
 
 h3 {
-  font-size: var(--size-18px);
+  font-family: var(--font-family-spline); 
+  font-size: var(--font-size-18px);
+  line-height: var(--line-height-text);
 }
 
 p {
-  font-family: "Poppins", sans-serif;
-  font-size: var(--size-18px);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-18px);
+  line-height: var(--line-height-text);
 }
 
 
 /*----------------------------------------*/
+/* Font Family Variants */ 
+/*----------------------------------------*/
+
+/* Default */
+.spline {
+  font-family: var(--font-family-spline);
+}
+
+/* Variant */
+.poppins {
+  font-family: var(--font-family-poppins);
+}
 
 
+/*----------------------------------------*/
 /* Font Size Variants */ 
+/*----------------------------------------*/
 
-/* h1 Size Variants */ 
-.h1-extralarge {
-  font-size: var(--size-48px);
+.fs-10px {
+  font-size: var(--font-size-10px);
 }
 
-.h1-large {
-  font-size: var(--size-42px);
+.fs-12px {
+  font-size: var(--font-size-12px);
 }
 
-.h1-medium {
-  font-size: var(--size-24px);
+.fs-14px {
+  font-size: var(--font-size-14px);
 }
 
-.h1-medium-poppins {
-  font-size: var(--size-24px);
-  font-family: "Poppins", sans-serif;
+.fs-16px {
+  font-size: var(--font-size-16px);
 }
 
-.h1-small {
-  font-size: var(--size-20px);
+.fs-18px {
+  font-size: var(--font-size-18px);
 }
 
-.h1-extrasmall {
-  font-size: var(--size-18px);
+.fs-20px {
+  font-size: var(--font-size-20px);
 }
 
-
-/* h2 Size Variants */ 
-.h2-extralarge {
-  font-size: var(--size-24px);
+.fs-24px {
+  font-size: var(--font-size-24px);
 }
 
-.h2-large {
-  font-size: var(--size-20px);
+.fs-42px {
+  font-size: var(--font-size-42px);
 }
 
-.h2-medium {
-  font-size: var(--size-16px);
-}
-
-.h2-small {
-  font-size: var(--size-14px);
-}
-
-
-/* h3 and paragraph Size Variants */
-.h3-paragraph-extralarge {
-  font-size: var(--size-16px);
-}
-
-.h3-paragraph-large {
-  font-size: var(--size-14px);
-}
-
-.h3-paragraph-medium {
-  font-size: var(--size-12px);
-}
-
-.h3-paragraph-small {
-  font-size: var(--size-10px);
+.fs-48px {
+  font-size: var(--font-size-48px);
 }
 
 
 /*----------------------------------------*/
-
-
 /* Font Weight Variants */
+/*----------------------------------------*/
+
 .thin {
     font-weight: var(--font-weight-thin);
 }
@@ -135,4 +129,138 @@ p {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+
+
+/* 48px */
+.h1-extralarge {
+  font-size: var(--font-size-48px);
+}
+
+/*----------------------------------------*/
+
+/* 42px */
+.h1-large {
+  font-size: var(--font-size-42px);
+}
+
+/*----------------------------------------*/
+
+/* 24px */
+.h1-medium {
+  font-size: var(--font-size-24px);
+}
+
+.h1-medium-poppins {
+  font-size: var(--font-size-24px);
+  font-family: "Poppins", sans-serif;
+}
+
+.h2-extralarge {
+  font-size: var(--font-size-24px);
+}
+
+
+/*----------------------------------------*/
+
+/* 20px */
+.h1-small {
+  font-size: var(--font-size-20px);
+}
+
+.h2-large {
+  font-size: var(--font-size-20px);
+}
+
+/*----------------------------------------*/
+
+/* 18px */ 
+.h1-extrasmall {
+  font-size: var(--font-size-18px);
+}
+
+/*----------------------------------------*/
+
+/* 16px */
+.h2-medium {
+  font-size: var(--font-size-16px);
+}
+
+.h3-paragraph-extralarge {
+  font-size: var(--font-size-16px);
+}
+
+
+
+/*----------------------------------------*/
+
+/* 14px */
+.h2-small {
+  font-size: var(--font-size-14px);
+}
+
+.h3-paragraph-large {
+  font-size: var(--font-size-14px);
+}
+
+/*----------------------------------------*/
+
+/* 12px */
+
+.h3-paragraph-medium {
+  font-size: var(--font-size-12px);
+}
+
+/*----------------------------------------*/
+
+/* 10 px */
+
+.h3-paragraph-small {
+  font-size: var(--font-size-10px);
+}
+
+/*----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+
+

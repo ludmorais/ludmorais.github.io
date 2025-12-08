@@ -23,6 +23,10 @@
 
 
   /* Typography */ 
+
+  /* -- Font Family */
+  --font-family-spline: "Spline Sans Mono", monospace;
+  --font-family-poppins: "Poppins", sans-serif;
   
   /* -- Font Size px to rem (1 rem = 16 px) */
   --font-size-10px: 0.625rem;
@@ -30,6 +34,7 @@
   --font-size-14px: 0.875rem;
   --font-size-16px: 1rem;
   --font-size-18px: 1.125rem;
+  --font-size-20px: 1.25rem;
   --font-size-24px: 1.5rem;
   --font-size-26px: 1.625rem;
   --font-size-32px: 2rem;

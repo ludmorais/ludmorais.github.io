@@ -1,17 +1,18 @@
 /* FLEX BOX */
 
 /*----------------------------------------*/
-
-
 /* BODY */
+/*----------------------------------------*/
 
-
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 
 /*----------------------------------------*/
-
-
 /* HEADER */
+/*----------------------------------------*/
 
 /* container-header */
 .container-header {
@@ -38,7 +39,6 @@
   margin: 2px;
   padding: 10px 32px;
   width: 207px;
-
 }
 
 .nav-mobile button {
@@ -47,18 +47,18 @@
 
 
 /*----------------------------------------*/
-
-
 /* MAIN */ 
+/*----------------------------------------*/
 
 /* container-main */
 .container-main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 85px;
+  margin-top: 71px;
 }
 
+/*----------------------------------------*/
 
 /* Section Introduction */
 .container-main section img {
@@ -103,17 +103,17 @@
   flex-direction: row;
   justify-content: center;
   align-items: space-between;
-  
-  padding: 12px;
-  margin: 10px;
+  margin: 12px;
 }
 
+/*----------------------------------------*/
 
 /* Section Projects */
 .container-projects {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: auto;
 }
 
 .title-section {
@@ -132,16 +132,27 @@
   margin-bottom: 14px;
 }
 
+/*----------------------------------------*/
 
+/* Section Contact */
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 24px;
+}
 
-
-
+.container-contact h3 {
+  padding: 0 20px;
+  text-align: center;
+  justify-content: right;
+}
 
 
 
 /*----------------------------------------*/
-
-
 /* FOOTER */ 
+/*----------------------------------------*/
 
 /* container-footer */

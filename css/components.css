@@ -33,9 +33,10 @@
 
 
 /*----------------------------------------*/
-
-
 /* Buttons */
+/*----------------------------------------*/
+
+/* Basic Button */
 .btn {
   
   margin: 18px;
@@ -52,17 +53,20 @@
   letter-spacing: 0.8px;
 }
 
+/* Primary Button */
 .btn.btn-primary {
   background-color: var(--color-primary-01);
   color: var(--color-neutral-100);
 }
 
+/* Secundary Button */
 .btn.btn-secundary {
   background-color: var(--color-neutral-100);
   color: var(--color-secundary-01);
   border: 1px solid var(--color-secundary-01);
 }
 
+/* Background Icon Button */
 .btn-background-icon {
   background-color: var(--color-neutral-100);
   padding: 20px;
@@ -70,6 +74,7 @@
   border-radius: 50%;
 }
 
+/* Icon Button */
 .btn-icon {
   background-color: var(--color-neutral-100);
   color: var(--color-secundary-01);
@@ -82,12 +87,17 @@
   height: 44px;
 }
 
+.neutral {
+  color: var(--color-neutral-30);
+  background-color: transparent;
+}
+
 
 /*----------------------------------------*/
-
 /* Cards */
+/*----------------------------------------*/
 
-/* Image Card*/
+/* Image Card */
 .card { 
   background-image: none;
   background-color: var(--color-opacity-dark-75);
@@ -125,6 +135,46 @@
 }
 
 
+/*----------------------------------------*/
+/* Title and Text Sections */
+/*----------------------------------------*/
+
+/* Section Title */
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 18px;
+}
+
+.title-section-icon {
+  padding: 2px;
+}
+
+.title-section-text {
+  padding: 2px;
+}
+
+/*----------------------------------------*/
+
+/* Text Block */ 
+.text-block {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin: 0 24px 0 24px;
+}
+
+/*----------------------------------------*/
+
+/* Badge */ 
+.badge {
+  
+}
+
+.badge-vscode {
+  
+}
 
 
 
@@ -132,8 +182,8 @@
 
 
 /*----------------------------------------*/
-
 /* Other Elements */
+/*----------------------------------------*/
 
 /* Divisor Content*/
 .divisor {
@@ -144,3 +194,5 @@
   flex-direction: column;
   justify-content: center;
 }
+
+/*----------------------------------------*/

@@ -1,4 +1,4 @@
-/* FLEX BOX */
+/* FLEX BOX - INDEX */
 
 /*----------------------------------------*/
 /* BODY */
@@ -63,7 +63,7 @@ body {
 /* Section Introduction */
 .container-main section img {
   justify-content: center;
-  margin: 26px 120px 26px 120px;
+  margin: 26px 0 26px 0; 
 }
 
 .container-introduction-text {
@@ -116,22 +116,6 @@ body {
   margin-bottom: auto;
 }
 
-.title-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-}
-
-.title-section i {
-  padding: 2px;
-  margin: 20px 12px 6px 12px;
-}
-
-.title-section h1 {
-  margin-bottom: 14px;
-}
-
 /*----------------------------------------*/
 
 /* Section Contact */
@@ -144,11 +128,13 @@ body {
 }
 
 .container-contact h3 {
-  padding: 0 20px;
-  text-align: center;
-  justify-content: right;
+  /*padding: 0 20px;*/
+  align-self: center;
 }
 
+.container-contact button {
+  align-self: center;
+}
 
 
 /*----------------------------------------*/
@@ -156,3 +142,29 @@ body {
 /*----------------------------------------*/
 
 /* container-footer */
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 24px;
+
+  background-color: var(--color-primary-04);
+}  
+
+.menu-inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 8px;
+}
+
+.menu-inline li a {
+  margin: 0 8px;
+  padding: 6px 12px;
+} 
+
+.container-footer h3 {
+  margin: 6px;
+}

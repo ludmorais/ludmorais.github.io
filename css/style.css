@@ -3,7 +3,8 @@
 /* Design Tokens */ @import url(/css/design-tokens.css);
 /* Typography */ @import url(/css/typography.css);
 /* Components */ @import url(/css/components.css);
-/* Display */ @import url(/css/flex-elements.css);
+/* Display - Index */ @import url(/css/flex-elements-index.css);
+/* Display - Projects */ @import url(/css/flex-elements-projects.css);
 /* Responsive */ @import url(/css/media-queries.css);
 
 
@@ -19,6 +20,7 @@
   font-weight: 400;
   text-decoration: none; 
   font-style: normal;
+  list-style: none;
 
 }
 
@@ -38,7 +40,7 @@ body {
 
 /*----------------------------------------*/
 
-/* Link */
+/* Link e Items */
 a {
   text-decoration: none;
   color: none;

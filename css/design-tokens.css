@@ -83,9 +83,10 @@
   --color-secundary-01:#4D5D28;
 
   /* Colors - Neutral */
+  --color-neutral-10:#1B1B1F;
   --color-neutral-30:#464649;
   --color-neutral-90: #E1E2E6;
-  --color-neutral-100:#FFFFFF;
+  --color-neutral-100:#FAFAFA;
 
   /* Dark Color Opacity */
   --color-opacity-dark-05: #4646490D;

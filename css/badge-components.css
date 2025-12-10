@@ -1,0 +1,144 @@
+/*----------------------------------------*/
+
+/* Badge */ 
+.badge-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 24px;
+  max-width: max-content;
+}
+
+.badge {
+  border-radius: 6px;
+  margin: 6px;
+  padding: 6px 12px;
+  max-width: max-content;
+
+  background-color: var(--color-neutral-30);
+  color: var(--color-neutral-100);
+
+  text-align: center;
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-hight-subtitle);
+  letter-spacing: 0.8px;
+}
+
+.badge-figma {
+  color: #2D2D35;
+  background-image: linear-gradient(270deg,#0ACF83,#A259FF,#F24E1E,#FF7262,#1ABCFE);
+}
+
+.badge-adobexd {
+  color: #FF61F6;
+  background-color: #470137;
+}
+
+.badge-vscode {
+  color: var(--color-neutral-100);
+  background-color: #2C88ED;
+}
+.badge-html {
+  color: var(--color-neutral-100);
+  background-color: #F17C3B;
+}
+.badge-css {
+  color: var(--color-neutral-100);
+  background-color: #2BB6F1;
+}
+.badge-js {
+  color: var(--color-neutral-10);
+  background-color: #F9EB23;
+}
+.badge-figjam {
+  color: var(--color-neutral-100);
+  background-color: #691ACE;
+}
+
+.badge-miro {
+  color: var(--color-neutral-10);
+  background-color: #FFD02F;
+}
+
+.badge-mural {
+  color: var(--color-neutral-100);
+  background-color: #B20042;
+}
+
+.badge-marvel {
+  color: var(--color-neutral-100);
+  background-color: #1991EB;
+}
+
+.badge-codex {
+  color: var(--color-neutral-100);
+  background-color: #241584;
+}
+
+.badge-materialdesign {
+  color: var(--color-neutral-10);
+  background-color: #BDBDBD;
+}
+
+.badge-tailwind {
+  color: var(--color-neutral-10);
+  background-color: #3AB2AF;
+}
+
+.badge-jira {
+  color: var(--color-neutral-100);
+  background-color: #1770EB;
+}
+
+.badge-notion {
+  color: var(--color-neutral-100);
+  background-color: var(--color-neutral-10);
+}
+
+.badge-trello {
+  color: var(--color-neutral-100);
+  background-color: #3179BA;
+}
+
+.badge-clickup {
+  color: var(--color-neutral-100);
+  background-color: #CF0072;
+}
+
+.badge-slack {
+  color: var(--color-neutral-100);
+  background-color: #DF9B00;
+}
+
+.badge-discord {
+  color: var(--color-neutral-100);
+  background-color: #5865F2;
+}
+
+.badge-microsoftforms {
+  color: var(--color-neutral-100);
+  background-color: #026D60;
+}
+
+.badge-googleforms {
+  color: var(--color-neutral-100);
+  background-color: #7248B9;
+}
+
+.badge-googleanalytics {
+  color: var(--color-neutral-10);
+  background-color: #F8AB00;
+}
+
+.badge-hotjar {
+  color: var(--color-neutral-100);
+  background-color: #FF3900;
+}
+
+.badge-vegaspro {
+  color: #11AEFB;
+  background-color: var(--color-neutral-10);
+}

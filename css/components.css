@@ -23,6 +23,9 @@
 }
 
 /* Colors - Neutral */
+.color-neutral-10 {
+  color: var(--color-neutral-10);
+}
 .color-neutral-30 {
   color: var(--color-neutral-30);
 }
@@ -38,7 +41,6 @@
 
 /* Basic Button */
 .btn {
-  
   margin: 18px;
   padding: 14px 28px;
   max-width: max-content;
@@ -87,9 +89,30 @@
   height: 44px;
 }
 
-.neutral {
+.btn-icon.neutral {
   color: var(--color-neutral-30);
   background-color: transparent;
+}
+
+.btn-icon-text-transparent {
+  background-color: transparent;
+  color: var(--color-neutral-30);
+  padding: 12px;
+  margin: 12px 8px;
+  border-radius: 50px;
+  box-shadow: none;
+  max-width: max-content;
+
+  text-align: left;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-hight-subtitle);
+  letter-spacing: 0.8px;
+}
+
+.btn-icon-text-transparent i {
+  margin-right: 4px;
 }
 
 
@@ -140,45 +163,32 @@
 /*----------------------------------------*/
 
 /* Section Title */
-.title-section {
+.section-title {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 18px;
 }
 
-.title-section-icon {
+.section-title i {
   padding: 2px;
+  margin: 2px;
 }
 
-.title-section-text {
+.section-title h1 {
   padding: 2px;
+  margin: 4px;
 }
 
 /*----------------------------------------*/
 
-/* Text Block */ 
-.text-block {
+/* Text Box */ 
+.text-box {
   display: flex;
   flex-direction: column;
-  text-align: justify;
+  text-align: left;
   margin: 0 24px 0 24px;
 }
-
-/*----------------------------------------*/
-
-/* Badge */ 
-.badge {
-  
-}
-
-.badge-vscode {
-  
-}
-
-
-
-
 
 
 /*----------------------------------------*/
@@ -196,3 +206,8 @@
 }
 
 /*----------------------------------------*/
+
+/* Space Between Section */
+.space-between-section-12px {
+  margin: 12px;
+}

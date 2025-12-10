@@ -3,6 +3,7 @@
 /* Design Tokens */ @import url(/css/design-tokens.css);
 /* Typography */ @import url(/css/typography.css);
 /* Components */ @import url(/css/components.css);
+/* Badge Components */ @import url(/css/badge-components.css);
 /* Display - Index */ @import url(/css/flex-elements-index.css);
 /* Display - Projects */ @import url(/css/flex-elements-projects.css);
 /* Responsive */ @import url(/css/media-queries.css);
@@ -30,12 +31,16 @@
 /*----------------------------------------*/
 
 /* Body */
-body {
+#index-body {
   background-image: 
     url("/assets/images/background-image-left.png"), 
     url("/assets/images/background-image-right.png");
   background-position: -200px 106px, 184px 16px;
   background-repeat: no-repeat;
+}
+
+#project-body {
+  background-image: none;
 }
 
 /*----------------------------------------*/

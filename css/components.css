@@ -28,6 +28,7 @@
 .color-neutral-10 {
   color: var(--color-neutral-10);
 }
+
 .color-neutral-30 {
   color: var(--color-neutral-30);
 }
@@ -83,9 +84,9 @@
   background-color: var(--color-neutral-100);
   color: var(--color-secundary-01);
   display: inline-block;
-  border: 1px solid var(--color-secundary-01); 
+  border: 1px solid var(--color-secundary-01);
   border-radius: 100%;
-  margin: 8px;  
+  margin: 8px;
   padding: 2px;
   width: 44px;
   height: 44px;
@@ -104,6 +105,7 @@
   border-radius: 50px;
   box-shadow: none;
   max-width: max-content;
+  align-self: flex-start;
 
   text-align: left;
   font-family: var(--font-family-poppins);
@@ -123,13 +125,13 @@
 /*----------------------------------------*/
 
 /* Image Card */
-.card { 
+.card {
   background-image: none;
   background-color: var(--color-opacity-dark-75);
   border-radius: 6px;
   box-shadow: var(--box-shadow-20);
 
-  margin: 18px;
+  margin: 18px 24px 18px 24px;
   padding: 24px;
   width: 292px;
   height: 182px;
@@ -150,14 +152,14 @@
 .title-card {
   align-self: flex-start;
   margin-top: auto;
-  margin-bottom: 2px; 
+  margin-bottom: 2px;
 
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-18px);
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-text-02);
   color: var(--color-neutral-100);
-  
+
   /* text truncate */
   overflow: hidden;
   white-space: nowrap;
@@ -187,7 +189,7 @@
 /* Titles and Texts */
 /*----------------------------------------*/
 
-/* Text Logo */ 
+/* Text Logo */
 .text-logo {
   font-family: var(--font-family-spline);
   font-size: var(--font-size-18px);
@@ -202,9 +204,9 @@
 .introduction-title-box {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  align-items: center;
   text-align: center;
-  margin: 0 24px 0 24px;
+  margin: 24px 0 24px;
 }
 
 
@@ -214,6 +216,8 @@
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-title);
   color: var(--color-neutral-30);
+  margin: 0;
+
 }
 
 .introduction-title-02 {
@@ -222,6 +226,8 @@
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-title);
   color: var(--color-primary-01);
+  margin: 0;
+
 }
 
 .introduction-title-03 {
@@ -229,7 +235,8 @@
   font-size: var(--font-size-24px);
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-title);
-  color: var(--color-secundary-01);
+  color: var(--color-primary-01);
+  margin: 0;
 }
 
 
@@ -237,22 +244,20 @@
 /* Introduction Subtitle */
 .introduction-subtitle-box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
-  margin: 12px 42px 10px 42px;
+  justify-content: center;
+  margin: 12px 42px 20px 42px;
 }
 
 .introduction-subtitle-01 {
   font-family: var(--font-family-spline);
   font-size: var(--font-size-16px);
   font-weight: var(--font-weight-medium);
-  line-height: var(--line-height-title);
+  line-height: var(--line-height-subtitle);
   color: var(--color-neutral-30);
 }
-
-
-
 
 
 /*----------------------------------------*/
@@ -311,7 +316,7 @@
 
 
 /*----------------------------------------*/
-/* Text Box Left */ 
+/* Text Box Left */
 .text-box-left {
   display: flex;
   flex-direction: column;
@@ -320,7 +325,7 @@
 }
 
 /*----------------------------------------*/
-/* Text Box Center */ 
+/* Text Box Center */
 
 .text-box-center {
   display: flex;
@@ -331,7 +336,7 @@
 
 
 /*----------------------------------------*/
-/* Text Spline */ 
+/* Text Spline */
 .text-spline-01 {
   font-family: var(--font-family-spline);
   font-size: var(--font-size-16px);
@@ -343,7 +348,7 @@
 
 
 /*----------------------------------------*/
-/* Text Poppins */ 
+/* Text Poppins */
 .text-poppins-01 {
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-16px);
@@ -363,13 +368,8 @@
 }
 
 
-
-
-
-
-
 /*----------------------------------------*/
-/* FOOTER */ 
+/* FOOTER */
 /*----------------------------------------*/
 .footer {
   display: flex;
@@ -398,7 +398,7 @@
   line-height: var(--line-height-text-02);
   color: var(--color-neutral-30);
   text-decoration: var(--underline);
-} 
+}
 
 .created-by {
   padding: 12px;
@@ -410,6 +410,28 @@
 }
 
 
+/*----------------------------------------*/
+/* IMAGES */
+/*----------------------------------------*/
+.mockup-project {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+#avatar-150x150{
+  margin-top: 2px;
+  margin-bottom: 26px;
+}
+
+#avatar-200x200 {
+  margin-top: 14px;
+  margin-bottom: 24px;
+}
 
 
 /*----------------------------------------*/
@@ -432,4 +454,3 @@
 .space-between-section-12px {
   margin: 12px;
 }
-

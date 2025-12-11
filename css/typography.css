@@ -11,6 +11,7 @@
 /* Basic Font */
 /*----------------------------------------*/
 
+/*
 h1 {
   font-family: var(--font-family-spline); 
   font-size: var(--font-size-32px); 
@@ -26,16 +27,17 @@ h2 {
 h3 {
   font-family: var(--font-family-spline); 
   font-size: var(--font-size-18px);
-  line-height: var(--line-height-text);
+  line-height: var(--line-height-text-01);
   margin-bottom: var(--size-14px);
 }
 
 p {
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-18px);
-  line-height: var(--line-height-text);
+  line-height: var(--line-height-text-02);
   margin-bottom: var(--size-14px);
 }
+  */
 
 
 /*----------------------------------------*/

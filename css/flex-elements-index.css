@@ -34,7 +34,7 @@ body {
   width: 100%;
 }
 
-.container-header .nav-mobile h1 {
+.container-header .nav-mobile .text-logo{
   text-align: left;
   margin: 2px;
   padding: 10px 32px;
@@ -65,7 +65,7 @@ body {
   justify-content: center;
   margin: 26px 0 26px 0; 
 }
-
+/*
 .container-introduction-text {
   display: flex;
   flex-direction: column;
@@ -80,6 +80,7 @@ body {
 .container-introduction-text h2 {
   margin: 12px 42px 10px 42px;
 }
+  */
 
 .container-localization {
   display: flex;
@@ -137,34 +138,3 @@ body {
 }
 
 
-/*----------------------------------------*/
-/* FOOTER */ 
-/*----------------------------------------*/
-
-/* container-footer */
-.container-footer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 24px;
-
-  background-color: var(--color-primary-04);
-}  
-
-.menu-inline {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 16px 8px;
-}
-
-.menu-inline li a {
-  margin: 0 8px;
-  padding: 6px 12px;
-} 
-
-.container-footer h3 {
-  margin: 6px;
-}

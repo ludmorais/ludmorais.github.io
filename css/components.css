@@ -1,4 +1,6 @@
+/*----------------------------------------*/
 /* Colors */
+/*----------------------------------------*/
 
 /* Colors - Primary */
 .color-primary-01 {
@@ -127,8 +129,7 @@
   border-radius: 6px;
   box-shadow: var(--box-shadow-20);
 
-
-  margin: 14px 24px 20px 24px;
+  margin: 18px;
   padding: 24px;
   width: 292px;
   height: 182px;
@@ -144,51 +145,271 @@
   transform: rotate(45deg);
   align-self: flex-end;
   margin-top: 12px;
-  
 }
 
 .title-card {
-  /* margin-top: 112px;*/
   align-self: flex-start;
   margin-top: auto;
+  margin-bottom: 2px; 
+
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-18px);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-text-02);
+  color: var(--color-neutral-100);
+  
+  /* text truncate */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 288px;
 }
 
 .subtitle-card {
   margin-top: 4px;
+  margin-bottom: 2px;
+
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-text-02);
+  color: var(--color-neutral-100);
+
+  /* text truncate */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 288px;
 }
 
 
 /*----------------------------------------*/
-/* Title and Text Sections */
+/* Titles and Texts */
 /*----------------------------------------*/
 
+/* Text Logo */ 
+.text-logo {
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-18px);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-title);
+  color: var(--color-primary-01);
+}
+
+
+/*----------------------------------------*/
+/* Introduction Title */
+.introduction-title-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 24px 0 24px;
+}
+
+
+.introduction-title-01 {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-24px);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-title);
+  color: var(--color-neutral-30);
+}
+
+.introduction-title-02 {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-24px);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-title);
+  color: var(--color-primary-01);
+}
+
+.introduction-title-03 {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-24px);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-title);
+  color: var(--color-secundary-01);
+}
+
+
+/*----------------------------------------*/
+/* Introduction Subtitle */
+.introduction-subtitle-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 12px 42px 10px 42px;
+}
+
+.introduction-subtitle-01 {
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-16px);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-title);
+  color: var(--color-neutral-30);
+}
+
+
+
+
+
+/*----------------------------------------*/
 /* Section Title */
 .section-title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 18px;
+  text-align: center;
+  margin: 16px 24px 12px 24px;
 }
 
-.section-title i {
+.icon-section-title {
   padding: 2px;
   margin: 2px;
+  color: var(--color-primary-01);
 }
 
-.section-title h1 {
+.text-section-title {
   padding: 2px;
   margin: 4px;
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-20px);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-title);
+  color: var(--color-primary-01);
 }
 
-/*----------------------------------------*/
 
-/* Text Box */ 
-.text-box {
+/*----------------------------------------*/
+/* Section Subtitle */
+.section-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 14px 24px 14px 24px;
+}
+
+.section-subtitle img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.text-section-subtitle {
+  margin: 2px;
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-18px);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-title);
+  color: var(--color-secundary-01);
+}
+
+
+/*----------------------------------------*/
+/* Text Box Left */ 
+.text-box-left {
   display: flex;
   flex-direction: column;
   text-align: left;
   margin: 0 24px 0 24px;
 }
+
+/*----------------------------------------*/
+/* Text Box Center */ 
+
+.text-box-center {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 24px 0 24px;
+}
+
+
+/*----------------------------------------*/
+/* Text Spline */ 
+.text-spline-01 {
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-16px);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-text-01);
+  margin-bottom: var(--size-14px);
+  color: var(--color-neutral-30);
+}
+
+
+/*----------------------------------------*/
+/* Text Poppins */ 
+.text-poppins-01 {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-16px);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-text-01);
+  margin-bottom: var(--size-14px);
+  color: var(--color-neutral-30);
+}
+
+.text-poppins-02 {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-16px);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-text-02);
+  margin-bottom: var(--size-14px);
+  color: var(--color-neutral-30);
+}
+
+
+
+
+
+
+
+/*----------------------------------------*/
+/* FOOTER */ 
+/*----------------------------------------*/
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 24px;
+
+  background-color: var(--color-primary-04);
+}
+
+.menu-inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 8px;
+}
+
+.link-menu-inline {
+  margin: 0 8px;
+  padding: 6px 12px;
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-text-02);
+  color: var(--color-neutral-30);
+  text-decoration: var(--underline);
+} 
+
+.created-by {
+  padding: 12px;
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-text-02);
+  color: var(--color-neutral-30);
+}
+
+
 
 
 /*----------------------------------------*/
@@ -211,3 +432,4 @@
 .space-between-section-12px {
   margin: 12px;
 }
+

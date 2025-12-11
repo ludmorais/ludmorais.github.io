@@ -1,13 +1,4 @@
-/* FLEX BOX - INDEX */
-
-/*----------------------------------------*/
-/* BODY */
-/*----------------------------------------*/
-
-body {
-  display: flex;
-  flex-direction: column;
-}
+/* FLEX BOX */
 
 
 /*----------------------------------------*/
@@ -47,13 +38,14 @@ body {
 
 
 /*----------------------------------------*/
-/* MAIN */ 
+/* BODY */ 
 /*----------------------------------------*/
 
 /* container-main */
 .container-main {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   margin-top: 71px;
 }
@@ -61,26 +53,6 @@ body {
 /*----------------------------------------*/
 
 /* Section Introduction */
-.container-main section img {
-  justify-content: center;
-  margin: 26px 0 26px 0; 
-}
-/*
-.container-introduction-text {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.container-introduction-text h1 .h1-hi {
-  margin: 0;
-}
-
-.container-introduction-text h2 {
-  margin: 12px 42px 10px 42px;
-}
-  */
 
 .container-localization {
   display: flex;
@@ -105,16 +77,6 @@ body {
   justify-content: center;
   align-items: space-between;
   margin: 12px;
-}
-
-/*----------------------------------------*/
-
-/* Section Projects */
-.container-projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: auto;
 }
 
 /*----------------------------------------*/

@@ -1,12 +1,12 @@
 /*----------------------------------------*/
 
-/* Badge */ 
+/* Badge */
 .badge-box {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 24px;
+  margin: 6px 24px 38px 24px;
   max-width: max-content;
 }
 
@@ -29,7 +29,7 @@
 
 .badge-figma {
   color: #2D2D35;
-  background-image: linear-gradient(270deg,#0ACF83,#A259FF,#F24E1E,#FF7262,#1ABCFE);
+  background-image: linear-gradient(270deg, #0ACF83, #A259FF, #F24E1E, #FF7262, #1ABCFE);
 }
 
 .badge-adobexd {
@@ -41,18 +41,22 @@
   color: var(--color-neutral-100);
   background-color: #2C88ED;
 }
+
 .badge-html {
   color: var(--color-neutral-100);
   background-color: #F17C3B;
 }
+
 .badge-css {
   color: var(--color-neutral-100);
   background-color: #2BB6F1;
 }
+
 .badge-js {
   color: var(--color-neutral-10);
   background-color: #F9EB23;
 }
+
 .badge-figjam {
   color: var(--color-neutral-100);
   background-color: #691ACE;
@@ -141,4 +145,22 @@
 .badge-vegaspro {
   color: #11AEFB;
   background-color: var(--color-neutral-10);
+}
+
+.badge-areas {
+  color: var(--color-neutral-100);
+  /*background-color: var(--color-primary-01);*/
+  background-color: #1A3D64CC; 
+}
+
+.badge-skills {
+  color: var(--color-neutral-100);
+  /*background-color: var(--color-secundary-01);*/
+   background-color: #4D5D28CC;
+}
+
+.badge-toolkit {
+  color: var(--color-neutral-100);
+  /*background-color: var(--color-primary-02);*/
+  background-color: #1D546CCC; 
 }

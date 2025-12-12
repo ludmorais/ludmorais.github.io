@@ -6,40 +6,6 @@
   ex.: <h1 class="poppins size-20px bold">
 */
 
-
-/*----------------------------------------*/
-/* Basic Font */
-/*----------------------------------------*/
-
-/*
-h1 {
-  font-family: var(--font-family-spline); 
-  font-size: var(--font-size-32px); 
-  line-height: var(--line-height-title);
-}
-
-h2 {
-  font-family: var(--font-family-spline); 
-  font-size: var(--font-size-26px);
-  line-height: var(--line-height-subtitle);
-}
-
-h3 {
-  font-family: var(--font-family-spline); 
-  font-size: var(--font-size-18px);
-  line-height: var(--line-height-text-01);
-  margin-bottom: var(--size-14px);
-}
-
-p {
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-18px);
-  line-height: var(--line-height-text-02);
-  margin-bottom: var(--size-14px);
-}
-  */
-
-
 /*----------------------------------------*/
 /* Font Family Variants */ 
 /*----------------------------------------*/

@@ -1,0 +1,124 @@
+/*----------------------------------------*/
+/* Cards */
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/* Image Card */
+/*----------------------------------------*/
+.card {
+  background-image: none;
+  background-color: var(--color-opacity-dark-75);
+  border-radius: 6px;
+  box-shadow: var(--box-shadow-20);
+
+  margin: 18px 24px 18px 24px;
+  padding: 24px;
+  width: 292px;
+  height: 182px;
+
+  display: flex;
+  flex-direction: column;
+
+  color: var(--color-neutral-100);
+  text-shadow: none;
+
+}
+
+.icon-card {
+  transform: rotate(45deg);
+  align-self: flex-end;
+  margin-top: 12px;
+}
+
+.title-card {
+  align-self: flex-start;
+  margin-top: auto;
+  margin-bottom: 2px;
+
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-18px);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-text-02);
+  color: var(--color-neutral-100);
+
+  /* text truncate */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 288px;
+}
+
+.subtitle-card {
+  margin-top: 4px;
+  margin-bottom: 2px;
+
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-text-02);
+  color: var(--color-neutral-100);
+
+  /* text truncate */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 288px;
+}
+
+
+
+
+/*----------------------------------------*/
+/* Quote Card */
+/*----------------------------------------*/
+
+.quote-card {
+  background-color: var(--color-neutral-100);
+  border-radius: 28px;
+  border: 1px solid var(--color-secundary-01);
+
+  margin: 18px 24px 18px 24px;
+  padding: 24px;
+  width: 292px;
+  height: max-content;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.quote-card-01 {
+  border-color: var(--color-secundary-01);
+  color: var(--color-secundary-01);
+}
+
+.quote-card-01 i {
+  color: var(--color-secundary-01);
+}
+
+.quote-card-02 {
+  border-color: var(--color-primary-02);
+  color: var(--color-primary-02);
+}
+
+.quote-card-02 i {
+  color: var(--color-primary-02);
+}
+
+.icon-quote-card {
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+.text-quote-card {
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-subtitle);
+}
+

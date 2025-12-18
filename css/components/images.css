@@ -1,0 +1,22 @@
+/*----------------------------------------*/
+/* IMAGES */
+/*----------------------------------------*/
+.mockup-project {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+#avatar-150x150{
+  margin-top: 2px;
+  margin-bottom: 26px;
+}
+
+#avatar-200x200 {
+  margin-top: 14px;
+  margin-bottom: 24px;
+}

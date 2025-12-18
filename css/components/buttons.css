@@ -1,0 +1,80 @@
+/*----------------------------------------*/
+/* Buttons */
+/*----------------------------------------*/
+
+/* Basic Button */
+.btn {
+  margin: 18px;
+  padding: 14px 28px;
+  max-width: max-content;
+  border-radius: 50px;
+  box-shadow: var(--box-shadow-20);
+
+  text-align: center;
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-hight-subtitle);
+  letter-spacing: 0.8px;
+}
+
+/* Primary Button */
+.btn.btn-primary {
+  background-color: var(--color-primary-01);
+  color: var(--color-neutral-100);
+}
+
+/* Secundary Button */
+.btn.btn-secundary {
+  background-color: var(--color-neutral-100);
+  color: var(--color-secundary-01);
+  border: 1px solid var(--color-secundary-01);
+}
+
+/* Background Icon Button */
+.btn-background-icon {
+  background-color: var(--color-neutral-100);
+  padding: 20px;
+  margin: 6px;
+  border-radius: 50%;
+}
+
+/* Icon Button */
+.btn-icon {
+  background-color: var(--color-neutral-100);
+  color: var(--color-secundary-01);
+  display: inline-block;
+  border: 1px solid var(--color-secundary-01);
+  border-radius: 100%;
+  margin: 8px;
+  padding: 2px;
+  width: 44px;
+  height: 44px;
+}
+
+.btn-icon.neutral {
+  color: var(--color-neutral-30);
+  background-color: transparent;
+}
+
+.btn-icon-text-transparent {
+  background-color: transparent;
+  color: var(--color-neutral-30);
+  padding: 12px;
+  margin: 12px 8px;
+  border-radius: 50px;
+  box-shadow: none;
+  max-width: max-content;
+  align-self: flex-start;
+
+  text-align: left;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-hight-subtitle);
+  letter-spacing: 0.8px;
+}
+
+.btn-icon-text-transparent i {
+  margin-right: 4px;
+}

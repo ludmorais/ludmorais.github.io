@@ -1,0 +1,40 @@
+/*----------------------------------------*/
+/* FOOTER */
+/*----------------------------------------*/
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 24px;
+
+  background-color: var(--color-primary-04);
+}
+
+.menu-inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 8px;
+}
+
+.link-menu-inline {
+  margin: 0 8px;
+  padding: 6px 12px;
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-text-02);
+  color: var(--color-neutral-30);
+  text-decoration: var(--underline);
+}
+
+.created-by {
+  padding: 12px;
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-text-02);
+  color: var(--color-neutral-30);
+}

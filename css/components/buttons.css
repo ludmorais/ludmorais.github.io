@@ -2,7 +2,11 @@
 /* Buttons */
 /*----------------------------------------*/
 
-/* Basic Button */
+/*----------------------------------------*/
+/* REGULAR BUTTON */
+/*----------------------------------------*/
+
+/* Base Button */
 .btn {
   margin: 18px;
   padding: 14px 28px;
@@ -19,19 +23,28 @@
 }
 
 /* Primary Button */
-.btn.btn-primary {
+.btn-primary {
   background-color: var(--color-primary-01);
   color: var(--color-neutral-100);
 }
 
 /* Secundary Button */
-.btn.btn-secundary {
+.btn-secundary {
   background-color: var(--color-neutral-100);
   color: var(--color-secundary-01);
   border: 1px solid var(--color-secundary-01);
 }
 
-/* Background Icon Button */
+
+
+
+/*----------------------------------------*/
+/* ICON BUTTON */
+/*----------------------------------------*/
+
+
+/* BACKGROUND ICON BUTTON */
+/* Button just with icon inside, without background and border */
 .btn-background-icon {
   background-color: var(--color-neutral-100);
   padding: 20px;
@@ -39,7 +52,8 @@
   border-radius: 50%;
 }
 
-/* Icon Button */
+/* ICON BUTTON */
+/* Button with border and icon, without text */
 .btn-icon {
   background-color: var(--color-neutral-100);
   color: var(--color-secundary-01);
@@ -57,6 +71,9 @@
   background-color: transparent;
 }
 
+
+/* ICON BUTTON WITH TEXT */
+/* Button with icon and text without background or border */
 .btn-icon-text-transparent {
   background-color: transparent;
   color: var(--color-neutral-30);
@@ -73,8 +90,11 @@
   font-weight: var(--font-weight-regular);
   line-height: var(--line-hight-subtitle);
   letter-spacing: 0.8px;
+
+  & i {
+  margin-right: 4px;
+  }
+
 }
 
-.btn-icon-text-transparent i {
-  margin-right: 4px;
-}
+ 

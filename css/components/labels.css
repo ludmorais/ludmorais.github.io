@@ -2,13 +2,11 @@
 /* Labels and Texts */
 /*----------------------------------------*/
 
-
-
 /*----------------------------------------*/
-/* Titles and Texts */
-/*----------------------------------------*/
-
 /* Text Logo */
+/*----------------------------------------*/
+
+/* Text use like a logo */ 
 .text-logo {
   font-family: var(--font-family-spline);
   font-size: var(--font-size-18px);
@@ -20,6 +18,9 @@
 
 /*----------------------------------------*/
 /* Introduction Title */
+/*----------------------------------------*/
+
+/* Box to insert the title introduction */
 .introduction-title-box {
   display: flex;
   flex-direction: column;
@@ -28,7 +29,7 @@
   margin: 24px 0 24px;
 }
 
-
+/* Introduction Title - Type 1 */
 .introduction-title-01 {
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-24px);
@@ -36,9 +37,9 @@
   line-height: var(--line-height-title);
   color: var(--color-neutral-30);
   margin: 0;
-
 }
 
+/* Introduction Title - Type 2 */
 .introduction-title-02 {
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-24px);
@@ -46,9 +47,9 @@
   line-height: var(--line-height-title);
   color: var(--color-primary-01);
   margin: 0;
-
 }
 
+/* Introduction Title - Type 3 */
 .introduction-title-03 {
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-24px);
@@ -61,6 +62,9 @@
 
 /*----------------------------------------*/
 /* Introduction Subtitle */
+/*----------------------------------------*/
+
+/* Box to insert the subtitle introduction */
 .introduction-subtitle-box {
   display: flex;
   flex-direction: row;
@@ -70,6 +74,7 @@
   margin: 12px 42px 20px 42px;
 }
 
+/* Introduction Subitle - Type 1 */
 .introduction-subtitle-01 {
   font-family: var(--font-family-spline);
   font-size: var(--font-size-16px);
@@ -79,8 +84,13 @@
 }
 
 
+
+
 /*----------------------------------------*/
 /* Section Title */
+/*----------------------------------------*/
+
+/* Box to insert the Section Title */
 .section-title {
   display: flex;
   flex-direction: column;
@@ -89,12 +99,14 @@
   margin: 16px 24px 12px 24px;
 }
 
+/* Icon to use inside the Section Title */ 
 .icon-section-title {
   padding: 2px;
   margin: 2px;
   color: var(--color-primary-01);
 }
 
+/* Text to use inside the Section Title */ 
 .text-section-title {
   padding: 2px;
   margin: 4px;
@@ -106,24 +118,30 @@
 }
 
 
+
+
 /*----------------------------------------*/
 /* Section Subtitle */
+/*----------------------------------------*/
+
+/* Box to insert the Section Subitle */
 .section-subtitle {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   margin: 14px 24px 14px 24px;
-}
 
-.section-subtitle img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 14px;
-  margin-bottom: 20px;
+  & img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+    margin-bottom: 20px;
+  }
 }
-
+ 
+/* Text to use inside the Section Subtitle */ 
 .text-section-subtitle {
   margin: 2px;
   font-family: var(--font-family-spline);
@@ -135,17 +153,17 @@
 
 
 /*----------------------------------------*/
-/* Text Box Left */
+/* Text Alignment Box */
+/*----------------------------------------*/
+
+/* Left-aligned text */ 
 .text-box-left {
   display: flex;
   flex-direction: column;
   text-align: left;
   margin: 0 24px 0 24px;
 }
-
-/*----------------------------------------*/
-/* Text Box Center */
-
+/* Center-aligned text */ 
 .text-box-center {
   display: flex;
   flex-direction: column;
@@ -154,8 +172,14 @@
 }
 
 
+
+
 /*----------------------------------------*/
-/* Text Spline */
+/* Spline Text Font Type */
+/*----------------------------------------*/
+/* Text with Spline font type */ 
+
+/* Spline Text - Type 1 */
 .text-spline-01 {
   font-family: var(--font-family-spline);
   font-size: var(--font-size-16px);
@@ -166,8 +190,14 @@
 }
 
 
+
+
 /*----------------------------------------*/
-/* Text Poppins */
+/* Poppins Text Font Type */
+/*----------------------------------------*/
+/* Text with Poppins font type */ 
+
+/* Poppins Text - Type 1 */
 .text-poppins-01 {
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-16px);
@@ -177,6 +207,7 @@
   color: var(--color-neutral-30);
 }
 
+/* Poppins Text - Type 2 */
 .text-poppins-02 {
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-16px);

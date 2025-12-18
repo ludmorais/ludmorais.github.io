@@ -6,6 +6,9 @@
 /* Image Card */
 /*----------------------------------------*/
 .card {
+  display: flex;
+  flex-direction: column;
+
   background-image: none;
   background-color: var(--color-opacity-dark-75);
   border-radius: 6px;
@@ -16,29 +19,28 @@
   width: 292px;
   height: 182px;
 
-  display: flex;
-  flex-direction: column;
-
+  font-family: var(--font-family-poppins);
+  line-height: var(--line-height-text-02);
   color: var(--color-neutral-100);
   text-shadow: none;
-
 }
 
+/* Icon to use inside the card */
 .icon-card {
   transform: rotate(45deg);
   align-self: flex-end;
   margin-top: 12px;
 }
 
+/* Title to use inside the card */
 .title-card {
   align-self: flex-start;
   margin-top: auto;
   margin-bottom: 2px;
 
-  font-family: var(--font-family-poppins);
   font-size: var(--font-size-18px);
   font-weight: var(--font-weight-semibold);
-  line-height: var(--line-height-text-02);
+  font-family: var(--font-family-poppins);
   color: var(--color-neutral-100);
 
   /* text truncate */
@@ -48,14 +50,14 @@
   max-width: 288px;
 }
 
+/* Subtitle to use inside the card */
 .subtitle-card {
   margin-top: 4px;
   margin-bottom: 2px;
 
-  font-family: var(--font-family-poppins);
   font-size: var(--font-size-14px);
   font-weight: var(--font-weight-regular);
-  line-height: var(--line-height-text-02);
+  font-family: var(--font-family-poppins);
   color: var(--color-neutral-100);
 
   /* text truncate */
@@ -72,6 +74,7 @@
 /* Quote Card */
 /*----------------------------------------*/
 
+/* Quote card base */ 
 .quote-card {
   background-color: var(--color-neutral-100);
   border-radius: 28px;
@@ -89,29 +92,34 @@
   justify-content: center;
 }
 
+/* Quote Card - Type 1 */
 .quote-card-01 {
   border-color: var(--color-secundary-01);
   color: var(--color-secundary-01);
+
+  & i {
+    color: var(--color-secundary-01);
+  }
 }
 
-.quote-card-01 i {
-  color: var(--color-secundary-01);
-}
-
+/* Quote Card - Type 2 */
 .quote-card-02 {
   border-color: var(--color-primary-02);
   color: var(--color-primary-02);
+
+  & i {
+    color: var(--color-primary-02);
+  }
 }
 
-.quote-card-02 i {
-  color: var(--color-primary-02);
-}
 
+/* Icon to use inside quote card (type 1 and 2)*/
 .icon-quote-card {
   margin-top: 18px;
   margin-bottom: 12px;
 }
 
+/* Text to use inside quote card (type 1 and 2)*/
 .text-quote-card {
   margin-top: 12px;
   margin-bottom: 12px;
@@ -121,4 +129,3 @@
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-subtitle);
 }
-

@@ -2,6 +2,7 @@
 /* Imports */ 
 /*----------------------------------------*/
 
+
 /*----------------------------------------*/
 /* Extern Imports */ 
 /*----------------------------------------*/
@@ -27,6 +28,7 @@
 /* Footer */ @import url(./components/footer.css);
 /* Images */ @import url(./components/images.css);
 /* Labels and Texts */ @import url(./components/labels.css);
+/* Menu */ @import url(./components/menu.css);
 
 
 /*----------------------------------------*/

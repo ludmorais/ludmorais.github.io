@@ -78,6 +78,35 @@
   background-color: transparent;
 }
 
+.btn-icon.without-border {
+  border: transparent;
+}
+
+.btn-icon.without-border:hover,
+.btn-icon.without-border:focus {
+  background-color: var(--color-primary-01);
+  border-radius: 100%;
+}
+
+.icon-primary {
+  color: var(--color-primary-01);
+  border-radius: 100%;
+}
+
+.icon-secundary {
+  color: var(--color-secundary-01);
+  border-radius: 100%;
+}
+
+.icon-primary:hover,
+.icon-secundary:hover {
+  color: var(--color-neutral-100);
+  border-radius: 100%;
+}
+
+
+
+
 
 
 /* ICON BUTTON WITH TEXT */

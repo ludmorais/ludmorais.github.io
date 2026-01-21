@@ -1,15 +1,28 @@
 .menu-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-end;  
 
   position: absolute;
   top: 72px;
   width: 100%;
   height: auto;
-
-  background-color: var(--color-primary-01);
+  background-color: var(--color-secundary-01);
+  transition: all 1s ease;
 }
+
+.menu-container.transition {
+  width: 100%;
+  height: auto;
+  background-color: var(--color-primary-01);
+  transition: all 1s ease;
+}
+
+.menu-container.close-menu {
+  display: none;
+}
+
+
 
 .menu-list {
   display: flex;
@@ -40,3 +53,23 @@
   padding: 52px 20px;
 }
 
+
+.icon-menu {
+  color: var(--color-primary-01);
+}
+
+.menu-btn:hover {
+  background-color: var(--color-secundary-01);
+  color: var(--color-neutral-100)
+}
+/*.icon-menu:hover {
+  color: var(--color-neutral-100);
+}*/
+
+.menu-btn:focus {
+  background-color: var(--color-primary-01);
+}
+
+.closeBtn {
+  display: none;
+}

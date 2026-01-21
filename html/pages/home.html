@@ -14,17 +14,29 @@
 <body id="index-body">
   
   <!-- Header -->
+  <!--
   <header class="container-header">
-    <nav class="nav-mobile">
+    <nav class="container-logo">
+      <a href="home.html" class="color-primary-01">
+        <span class="text-logo">{Ludmilla Morais}</span>
+      </a>
+    </nav>
+    <nav class="menu-container"></nav>
+  </header>
+  --> 
+
+  <header class="container-header">
+    <nav class="container-nav">
       <a href="#" class="color-primary-01">
         <span class="text-logo">{Ludmilla Morais}</span>
       </a>
 
-      <button class="btn-background-icon">
-        <i class="fa-solid fa-bars fa-lg color-primary-01"></i>
+      <button class="btn-icon without-border" aria-expanded="false" id="menu-btn">
+        <i class="fa-solid fa-bars fa-lg icon-primary" id="icon-btn"></i>
       </button>
     </nav>
   </header>
+  <div id="menu-container" class="menu-container"></div>
   <!-- End of Header -->
 
   <!-- Divisor Content-->
@@ -152,6 +164,11 @@
     <div class="created-by">© Ludmilla Morais 2025</div>
   </footer>
   <!-- End of Footer -->
+
+
+  <!-- JavaScript -->
+  <script src="../../javascript/menu.js"></script>
+ 
 
 </body>
 

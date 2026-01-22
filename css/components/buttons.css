@@ -1,12 +1,11 @@
 /*----------------------------------------*/
-/* Buttons */
+/* BUTTON */
 /*----------------------------------------*/
 
+/*--------------------------------------------------------------------------------*/
 /*----------------------------------------*/
-/* REGULAR BUTTON */
+/* BASE OF ALL 
 /*----------------------------------------*/
-
-/* Base Button */
 .btn {
   margin: 18px;
   padding: 14px 28px;
@@ -20,93 +19,135 @@
   font-weight: var(--font-weight-medium);
   line-height: var(--line-hight-subtitle);
   letter-spacing: 0.8px;
+
+  background-color: transparent;
+  transition: all 0.3s ease;
 }
 
-/* Primary Button */
-.btn-primary {
+
+
+/*--------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* REGULAR BUTTON */
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* 
+✅ text 
+✅ fill (primary or secundary)
+❌ border 
+*/
+
+/*----------------------------------------*/
+/* Primary (.btn.primary)
+/*----------------------------------------*/
+/* default */
+.btn.primary {
   background-color: var(--color-primary-01);
   color: var(--color-neutral-100);
 }
-
-/* Secundary Button */
-.btn-secundary {
-  background-color: var(--color-neutral-100);
-  color: var(--color-secundary-01);
-  border: 1px solid var(--color-secundary-01);
+/* hover */
+.btn.primary:hover {
+  background-color: var(--color-secundary-01);
 }
-
-
-
 
 /*----------------------------------------*/
-/* ICON BUTTON */
+/* Secundary (.btn.secundary)
 /*----------------------------------------*/
-
-
-/* BACKGROUND ICON BUTTON */
-/* Button just with icon inside, without background and border */
-.btn-background-icon {
-  background-color: var(--color-neutral-100);
-  padding: 20px;
-  margin: 6px;
-  border-radius: 50%;
-}
-
-/* ICON BUTTON */
-/* Button with border and icon, without text */
-.btn-icon {
-  background-color: var(--color-neutral-100);
-  color: var(--color-secundary-01);
-  display: inline-block;
-  border: 1px solid var(--color-secundary-01);
-  border-radius: 100%;
-  margin: 8px;
-  padding: 2px;
-  width: 44px;
-  height: 44px;
-}
-
-.btn-icon.neutral {
-  color: var(--color-neutral-30);
-  border: 1px solid var(--color-neutral-30);
-  background-color: transparent;
-}
-
-.btn-icon.light {
+/* default */
+.btn.secundary {
+  background-color: var(--color-secundary-01);
   color: var(--color-neutral-100);
-  border: 1px solid var(--color-neutral-100);
-  background-color: transparent;
 }
-
-.btn-icon.without-border {
-  border: transparent;
-}
-
-.btn-icon.without-border:hover,
-.btn-icon.without-border:focus {
+/* hover */
+.btn.secundary:hover {
   background-color: var(--color-primary-01);
-  border-radius: 100%;
 }
 
-.icon-primary {
+
+
+/*--------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* BORDER BUTTON */
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* 
+✅ text 
+✅ border 
+❌ fill
+*/
+
+/*----------------------------------------*/
+/* Primary (.btn.border.primary)
+/*----------------------------------------*/
+/* default */
+.btn.border.primary {
+  background-color: transparent;
+  border: 1px solid var(--color-primary-01);
   color: var(--color-primary-01);
-  border-radius: 100%;
 }
-
-.icon-secundary {
-  color: var(--color-secundary-01);
-  border-radius: 100%;
-}
-
-.icon-primary:hover,
-.icon-secundary:hover {
+/* hover */
+.btn.border.primary:hover {
+  background-color: var(--color-primary-01);
+  border: 1px solid var(--color-primary-01);
   color: var(--color-neutral-100);
-  border-radius: 100%;
+}
+
+/*----------------------------------------*/
+/* Secundary (.btn.border.secundary)
+/*----------------------------------------*/
+/* default */
+.btn.border.secundary {
+  background-color: transparent;
+  border: 1px solid var(--color-secundary-01);
+  color: var(--color-secundary-01);
+}
+/* hover */
+.btn.border.secundary:hover {
+  background-color: var(--color-secundary-01);
+  border: 1px solid var(--color-secundary-01);
+  color: var(--color-neutral-100);
 }
 
 
 
 
+
+/* text button */ 
+/* base */ 
+.btn-text {
+  margin: 8px;
+  padding: 6px 12px;
+  border-radius: 50px;
+
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-text-02);
+  letter-spacing: 0.8px;
+  text-decoration: var(--underline);
+
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+/* dark */ 
+.btn-text.dark {
+  color: var(--color-neutral-30);
+}
+.btn-text.dark:hover {
+  color: var(--color-neutral-10);
+  box-shadow: var(--box-shadow-20);
+}
+
+/* light ??????????????? */ 
+
+
+
+
+
+/* text button icon ?????? este abaixo */ 
 
 
 /* ICON BUTTON WITH TEXT */

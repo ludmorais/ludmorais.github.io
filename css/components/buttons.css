@@ -105,15 +105,14 @@
   background-color: transparent;
   border: 1px solid var(--color-secundary-01);
   color: var(--color-secundary-01);
-
-  /* hover */
-  &:hover {
-    background-color: var(--color-secundary-01);
-    border: 1px solid var(--color-secundary-01);
-    color: var(--color-neutral-100);
-  }
 }
 
+/* hover */
+.btn.border.secundary:hover {
+  background-color: var(--color-secundary-01);
+  border: 1px solid var(--color-secundary-01);
+  color: var(--color-neutral-100);
+}
 
 
 
@@ -136,6 +135,7 @@
 /* Base Text Button (.btn-text)
 /*----------------------------------------*/
 /* default */
+
 .btn-text {
   margin: 8px;
   padding: 14px 20px;
@@ -149,19 +149,14 @@
   line-height: var(--line-height-text-02);
   letter-spacing: 0.8px;
   text-decoration: var(--underline);
+  box-shadow: none;
 
   background-color: transparent;
   color: var(--color-neutral-30);
   transition: all 0.3s ease;
-
-  /* hover */
-  /*
-  &:hover {
-    color: var(--color-neutral-10);
-    box-shadow: var(--box-shadow-20);
-  }*/
 }
 
+/* hover */
 .btn-text:hover {
   color: var(--color-neutral-10);
   box-shadow: var(--box-shadow-20);
@@ -176,52 +171,30 @@
   align-self: flex-start;
   padding: 12px;
   margin: 12px 8px;
+  max-width: max-content;
+  border-radius: 50px;
+
   text-align: left;
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-medium);
   line-height: var(--line-hight-subtitle);
   letter-spacing: 0.8px;
+  text-decoration: var(--underline);
 
-  & i {
-    margin-right: 4px;
-    pointer-events: none;
-  }
-
-  
-
-}
-
-
-
-
-
-
-/* text button icon ?????? este abaixo */
-
-
-/* ICON BUTTON WITH TEXT */
-/* Button with icon and text without background or border */
-.btn-icon-text-transparent {
   background-color: transparent;
   color: var(--color-neutral-30);
-  padding: 12px;
-  margin: 12px 8px;
-  border-radius: 50px;
-  box-shadow: none;
-  max-width: max-content;
-  align-self: flex-start;
+  transition: all 0.3s ease;
+}
 
-  text-align: left;
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-14px);
-  font-weight: var(--font-weight-regular);
-  line-height: var(--line-hight-subtitle);
-  letter-spacing: 0.8px;
+.btn-text-icon i {
+  margin-right: 8px;
+  pointer-events: none;
+}
 
-  & i {
-    margin-right: 4px;
-    pointer-events: none;
-
-  }
-
+/* hover */
+.btn-text-icon:hover {
+  color: var(--color-neutral-10);
+  background-color: var(--color-opacity-dark-05);
+  box-shadow: var(--box-shadow-20);
 }

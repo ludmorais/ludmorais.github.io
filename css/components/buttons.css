@@ -46,6 +46,7 @@
   background-color: var(--color-primary-01);
   color: var(--color-neutral-100);
 }
+
 /* hover */
 .btn.primary:hover {
   background-color: var(--color-secundary-01);
@@ -59,6 +60,7 @@
   background-color: var(--color-secundary-01);
   color: var(--color-neutral-100);
 }
+
 /* hover */
 .btn.secundary:hover {
   background-color: var(--color-primary-01);
@@ -87,6 +89,7 @@
   border: 1px solid var(--color-primary-01);
   color: var(--color-primary-01);
 }
+
 /* hover */
 .btn.border.primary:hover {
   background-color: var(--color-primary-01);
@@ -102,25 +105,44 @@
   background-color: transparent;
   border: 1px solid var(--color-secundary-01);
   color: var(--color-secundary-01);
+
+  /* hover */
+  &:hover {
+    background-color: var(--color-secundary-01);
+    border: 1px solid var(--color-secundary-01);
+    color: var(--color-neutral-100);
+  }
 }
-/* hover */
-.btn.border.secundary:hover {
-  background-color: var(--color-secundary-01);
-  border: 1px solid var(--color-secundary-01);
-  color: var(--color-neutral-100);
-}
 
 
 
 
 
-/* text button */ 
-/* base */ 
+*--------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* TEXT BUTTON */
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* 
+✅ text 
+✅/❌ decoration
+✅/❌ icon
+❌ border 
+❌ fill
+*/
+
+/*----------------------------------------*/
+/* Base Text Button (.btn-text)
+/*----------------------------------------*/
+/* default */
 .btn-text {
   margin: 8px;
-  padding: 6px 12px;
+  padding: 14px 20px;
+  max-width: max-content;
   border-radius: 50px;
 
+  text-align: center;
   font-family: var(--font-family-spline);
   font-size: var(--font-size-14px);
   font-weight: var(--font-weight-medium);
@@ -129,25 +151,52 @@
   text-decoration: var(--underline);
 
   background-color: transparent;
+  color: var(--color-neutral-30);
   transition: all 0.3s ease;
+
+  /* hover */
+  /*
+  &:hover {
+    color: var(--color-neutral-10);
+    box-shadow: var(--box-shadow-20);
+  }*/
 }
 
-/* dark */ 
-.btn-text.dark {
-  color: var(--color-neutral-30);
-}
-.btn-text.dark:hover {
+.btn-text:hover {
   color: var(--color-neutral-10);
   box-shadow: var(--box-shadow-20);
 }
 
-/* light ??????????????? */ 
+
+/*----------------------------------------*/
+/* Icon Text Button (.btn-text.icon)
+/*----------------------------------------*/
+/* default */
+.btn-text-icon {
+  align-self: flex-start;
+  padding: 12px;
+  margin: 12px 8px;
+  text-align: left;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-14px);
+  line-height: var(--line-hight-subtitle);
+  letter-spacing: 0.8px;
+
+  & i {
+    margin-right: 4px;
+    pointer-events: none;
+  }
+
+  
+
+}
 
 
 
 
 
-/* text button icon ?????? este abaixo */ 
+
+/* text button icon ?????? este abaixo */
 
 
 /* ICON BUTTON WITH TEXT */
@@ -170,9 +219,9 @@
   letter-spacing: 0.8px;
 
   & i {
-  margin-right: 4px;
+    margin-right: 4px;
+    pointer-events: none;
+
   }
 
 }
-
- 

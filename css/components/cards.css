@@ -25,8 +25,13 @@
   text-shadow: none;
 }
 
+.card:hover {
+  box-shadow: var(--box-shadow-80);
+}
+
 /* Icon to use inside the card */
 .icon-card {
+  pointer-events: none;
   transform: rotate(45deg);
   align-self: flex-end;
   margin-top: 12px;
@@ -34,6 +39,7 @@
 
 /* Title to use inside the card */
 .title-card {
+  pointer-events: none;
   align-self: flex-start;
   margin-top: auto;
   margin-bottom: 2px;
@@ -52,6 +58,7 @@
 
 /* Subtitle to use inside the card */
 .subtitle-card {
+  pointer-events: none;
   margin-top: 4px;
   margin-bottom: 2px;
 

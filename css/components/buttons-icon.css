@@ -1,0 +1,175 @@
+/*----------------------------------------*/
+/* ICON BUTTON */
+/*----------------------------------------*/
+
+/*--------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/* BASE OF ALL 
+/*----------------------------------------*/
+.btn-icon {
+  display: inline-block; 
+  border-radius: 100%;
+  margin: 8px;
+  padding: 2px;
+  width: 44px;
+  height: 44px;
+  box-shadow: var(--box-shadow-15);
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* REGULAR ICON BUTTON */
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* 
+✅ icon inside (primary or secundary) 
+✅ transparent background 
+❌ border 
+*/
+
+/*----------------------------------------*/
+/* Primary (.btn-icon.primary)
+/*----------------------------------------*/
+/* default */
+.btn-icon.primary i {
+  pointer-events: none;
+  color: var(--color-primary-01);
+  transition: color 0.3s ease;
+}
+/* hover */
+.btn-icon.primary:hover {
+  background-color: var(--color-primary-01);
+}
+.btn-icon.primary:hover i {
+  color: var(--color-neutral-100);
+}
+
+/*----------------------------------------*/
+/* Secundary (.btn-icon.secundary)
+/*----------------------------------------*/
+/* default */
+.btn-icon.secundary i {
+  pointer-events: none;
+  color: var(--color-secundary-01);
+  transition: color 0.3s ease;
+}
+/* hover */
+.btn-icon.secundary:hover {
+  background-color: var(--color-secundary-01);
+}
+.btn-icon.secundary:hover i {
+  color: var(--color-neutral-100);
+}
+
+
+
+
+/*--------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* BORDER ICON BUTTON */
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* 
+✅ icon inside (primary or secundary) 
+✅ transparent background 
+✅ border 
+*/
+
+
+/*----------------------------------------*/
+/* Primary (.btn-icon.border.primary)
+/*----------------------------------------*/
+/* add border */
+.btn-icon.border.primary  {
+  border: 1px solid var(--color-primary-01);
+}
+/* default */
+.btn-icon.border.primary i {
+  pointer-events: none;
+  color: var(--color-primary-01);
+  transition: color 0.3s ease;
+}
+/* hover */
+.btn-icon.border.primary:hover {
+  background-color: var(--color-primary-01);
+}
+.btn-icon.border.primary:hover i {
+  color: var(--color-neutral-100);
+}
+
+/*----------------------------------------*/
+/* Secundary (.btn-icon.border.secundary)
+/*----------------------------------------*/
+/* add border */
+.btn-icon.border.secundary  {
+  border: 1px solid var(--color-secundary-01);
+}
+/* default */
+.btn-icon.border.secundary i {
+  pointer-events: none;
+  color: var(--color-secundary-01);
+  transition: color 0.3s ease;
+}
+/* hover */
+.btn-icon.border.secundary:hover {
+  background-color: var(--color-secundary-01);
+}
+.btn-icon.border.secundary:hover i {
+  color: var(--color-neutral-100);
+}
+
+/*----------------------------------------*/
+/* Light (.btn-icon.border.light)
+/*----------------------------------------*/
+/* add border */
+.btn-icon.border.light  {
+  border: 1px solid var(--color-neutral-100);
+}
+/* default */
+.btn-icon.border.light i {
+  pointer-events: none;
+  color: var(--color-neutral-100);
+  transition: color 0.3s ease;
+}
+/* hover */
+.btn-icon.border.light:hover {
+  background-color: var(--color-secundary-01);
+  border-color: var(--color-secundary-01);
+}
+.btn-icon.border.light:hover i {
+  color: var(--color-neutral-100);
+}
+
+/*----------------------------------------*/
+/* Dark (.btn-icon.border.dark)
+/*----------------------------------------*/
+/* add border */
+.btn-icon.border.dark  {
+  border: 1px solid var(--color-neutral-30);
+}
+/* default */
+.btn-icon.border.dark i {
+  pointer-events: none;
+  color: var(--color-neutral-30);
+  transition: color 0.3s ease;
+}
+/* hover */
+.btn-icon.border.dark:hover {
+  background-color: var(--color-secundary-01);
+  border-color: var(--color-secundary-01);
+}
+.btn-icon.border.dark:hover i {
+  color: var(--color-neutral-100);
+}
+
+
+
+
+

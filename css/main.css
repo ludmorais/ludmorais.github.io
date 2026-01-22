@@ -21,7 +21,8 @@
 /* Components */ 
 /*----------------------------------------*/
 /* Badge */ @import url(./components/badge.css);
-/* Buttons */ @import url(./components/buttons.css);
+/* Buttons */ @import url(./components/buttons.css); 
+/* Buttons - Icon */ @import url(./components/buttons-icon.css);
 /* Cards */ @import url(./components/cards.css);
 /* Colors */ @import url(./components/colors.css);
 /* Divisor and Spaces */ @import url(./components/divisor.css);

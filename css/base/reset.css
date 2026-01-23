@@ -13,5 +13,10 @@
   text-decoration: none; 
   font-style: normal;
   list-style: none;
-
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+

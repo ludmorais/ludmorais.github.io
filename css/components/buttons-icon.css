@@ -7,7 +7,12 @@
 /* BASE OF ALL 
 /*----------------------------------------*/
 .btn-icon {
-  display: inline-block; 
+  /* center adjust */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+
   border-radius: 100%;
   margin: 8px;
   padding: 2px;
@@ -31,6 +36,7 @@
 ✅ icon inside (primary or secundary) 
 ✅ transparent background 
 ❌ border 
+❌ text (for this, check buttons.css)
 */
 
 /*----------------------------------------*/
@@ -80,6 +86,7 @@
 ✅ icon inside (primary or secundary) 
 ✅ transparent background 
 ✅ border 
+❌ text (for this, check buttons.css)
 */
 
 

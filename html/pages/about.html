@@ -8,23 +8,25 @@
   <link rel="stylesheet" type="text/css" href="/css/main.css">
   <script src="https://kit.fontawesome.com/27c0b71175.js" crossorigin="anonymous"></script>
 
-  <title>Portfolio</title>
+  <title>About Me</title>
 </head>
 
 <body id="about-body">
 
   <!-- Header -->
   <header class="container-header">
-    <nav class="nav-mobile">
+    <nav class="container-nav">
       <a href="#" class="color-primary-01">
         <span class="text-logo">{Ludmilla Morais}</span>
       </a>
 
-      <button class="btn-background-icon">
-        <i class="fa-solid fa-bars fa-lg color-primary-01"></i>
-      </button>
+      <a class="btn-icon primary" aria-expanded="false" id="menu-btn">
+        <i class="fa-solid fa-bars fa-lg"></i>
+      </a>
     </nav>
   </header>
+  <!-- Menu JS -->
+  <div id="menu-container" class="menu-container"></div>
   <!-- End of Header -->
 
   <!-- Divisor Content-->
@@ -35,10 +37,9 @@
   <main>
     <div class="container-main">
 
-      <button class="btn-icon-text-transparent">
-        <i class="fa-solid fa-arrow-left fa-lg color-neutral-30"></i>
-        Back to Projects
-      </button>
+      <a href="./home-projects.html" class="btn-text-icon">
+        <i class="fa-solid fa-arrow-left fa-lg"></i>Back to Projects
+      </a>
 
       <!-- Introduction -->
       <div class="introduction-title-box">
@@ -90,7 +91,7 @@
         </p>
       </div>
 
-      <button class="btn btn-secundary" style>View My CV</button>
+      <button class="btn border secundary" style>View My CV</button>
       <!-- End of About Me -->
 
       <hr class="space-between-section-12px">
@@ -319,19 +320,25 @@
         <span class="text-section-title">See My Projects</span>
       </div>
 
-      <div class="card card-perguntorl">
-        <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
-        <span class="title-card">PerguntORL UX/UI Design Project</span>
-        <span class="subtitle-card">Question solving App</span>
+      <div>
+        <!-- ./projects/personal-portfolio -->
+        <a href="#" class="card card-portfolio page-in-progress">
+          <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
+          <span class="title-card">Portfolio Front-End Case Study</span>
+          <span class="subtitle-card">Design and Code Personal Portfolio</span>
+        </a>
       </div>
 
-      <div class="card card-wellify">
-        <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
-        <span class="title-card">Wellify UX/UI Design Project</span>
-        <span class="subtitle-card">Telemedicine App</span>
+      <div>
+        <!-- ./projects/advice-education.html -->
+        <a href="#" class="card card-advice page-in-progress">
+          <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
+          <span class="title-card">Advice Education UX/UI Design Project</span>
+          <span class="subtitle-card">Complex online learning Website</span>
+        </a>
       </div>
 
-      <button class="btn btn-secundary" style>All My Projects</button>
+      <button class="btn border secundary" style>All My Projects</button>
     </div>
     <!-- End of section Project Details -->
 
@@ -347,11 +354,9 @@
         <i class="fa-solid fa-circle fa-2xs icon-section-title"></i>
         <span class="text-section-title">Get in Touch</span>
       </div>
-
       <span class="text-box-center text-spline-01">Want me on your team? I'd have to hear from you!</span>
-
-
-      <button class="btn btn-primary" style>Send Me an Email</button>
+      <button class="btn primary" onclick="window.location.href='mailto:ludmillamorais.dev@outlook.pt'">Send Me an
+        Email</a>
     </section>
     <!-- End of Section Get in Touch -->
 
@@ -361,21 +366,26 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="menu-inline">
-      <li><a href="#" class="link-menu-inline">Projects</a></li>
-      <li><a href="#" class="link-menu-inline">About Me </a> </li>
-      <li><a href="#" class="link-menu-inline"> Contact</a></li>
+      <li><a href="#top" class="link-menu-inline">Projects</a></li>
+      <li><a href="./about.html" class="link-menu-inline">About Me</a></li>
+      <li><a href="./contact.html" class="link-menu-inline">Contact</a></li>
     </div>
 
     <div class="container-social-media">
-      <button class="btn-icon neutral"><i class="fa-brands fa-linkedin-in fa-lg"></i></button>
-      <button class="btn-icon neutral"><i class="fa-brands fa-github fa-lg"></i></button>
-      <button class="btn-icon neutral"><i class="fa-brands fa-medium fa-lg"></i></button>
+      <a href="https://www.linkedin.com/in/ludmillamorais/" target="_blank" class="btn-icon border dark"><i
+          class="fa-brands fa-linkedin-in fa-lg"></i></a>
+      <a href="https://github.com/ludmorais" target="_blank" class="btn-icon border dark"><i
+          class="fa-brands fa-github fa-lg"></i></a>
+      <!--<a class="btn-icon border dark"><i class="fa-brands fa-medium fa-lg"></i></a>-->
     </div>
 
-    <div class="created-by">© Ludmilla Morais 2025</div>
+    <div class="created-by">&copy; Ludmilla Morais 2026</div>
   </footer>
   <!-- End of Footer -->
 
+  <!-- JavaScript -->
+  <script src="../../javascript/menu.js"></script>
+  <script src="../../javascript/page-in-progress.js"></script>
 
 </body>
 

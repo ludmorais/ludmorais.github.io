@@ -19,15 +19,24 @@
   margin: 16px 8px;
 }
 
+
 .link-menu-inline {
   margin: 0 8px;
-  padding: 6px 12px;
+  padding: 12px;
   font-family: var(--font-family-spline);
   font-size: var(--font-size-14px);
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-text-02);
   color: var(--color-neutral-30);
   text-decoration: var(--underline);
+  transition: all 0.3s ease;
+}
+
+.link-menu-inline:hover{
+  color: var(--color-neutral-100);
+  background-color: var(--color-primary-03);
+  box-shadow: var(--box-shadow-20);
+  border-radius: 50px;
 }
 
 .created-by {

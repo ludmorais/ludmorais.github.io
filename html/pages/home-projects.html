@@ -8,22 +8,10 @@
   <link rel="stylesheet" type="text/css" href="/css/main.css">
   <script src="https://kit.fontawesome.com/27c0b71175.js" crossorigin="anonymous"></script>
 
-  <title>Portfolio</title>
+  <title>Ludmilla Morais</title>
 </head>
 
 <body id="index-body">
-
-  <!-- Header -->
-  <!--
-  <header class="container-header">
-    <nav class="container-logo">
-      <a href="home.html" class="color-primary-01">
-        <span class="text-logo">{Ludmilla Morais}</span>
-      </a>
-    </nav>
-    <nav class="menu-container"></nav>
-  </header>
-  -->
   <!-- Header -->
   <header class="container-header">
     <nav class="container-nav">
@@ -32,9 +20,8 @@
       </a>
 
       <a class="btn-icon primary" aria-expanded="false" id="menu-btn">
-        <i class="fa-solid fa-bars fa-lg" id="icon-btn"></i>
+        <i class="fa-solid fa-bars fa-lg"></i>
       </a>
-
     </nav>
   </header>
   <!-- Menu JS -->
@@ -69,9 +56,9 @@
         </div>
 
         <div class="container-social-media">
-          <a href="https://www.linkedin.com/in/ludmillamorais/" class="btn-icon border secundary"><i
+          <a href="https://www.linkedin.com/in/ludmillamorais/" target="_blank" class="btn-icon border secundary"><i
               class="fa-brands fa-linkedin-in fa-lg"></i></a>
-          <a href="https://github.com/ludmorais" class="btn-icon border secundary"><i
+          <a href="https://github.com/ludmorais" target="_blank" class="btn-icon border secundary"><i
               class="fa-brands fa-github fa-lg"></i></a>
           <!--<a href="https://medium.com/@ludmilla-morais" class="btn-icon border secundary"><i class="fa-brands fa-medium fa-lg"></i></a>-->
         </div>
@@ -83,9 +70,9 @@
         <span class="text-section-title">Projects</span>
       </div>
 
-
       <div>
-        <a href="./projects/personal-portfolio" data-in-progress class="card card-portfolio">
+        <!-- ./projects/personal-portfolio -->
+        <a href="#" class="card card-portfolio page-in-progress">
           <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
           <span class="title-card">Portfolio Front-End Case Study</span>
           <span class="subtitle-card">Design and Code Personal Portfolio</span>
@@ -93,7 +80,8 @@
       </div>
 
       <div>
-        <a href="./projects/advice-education.html" data-in-progress class="card card-advice">
+        <!-- ./projects/advice-education.html -->
+        <a href="#" class="card card-advice page-in-progress">
           <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
           <span class="title-card">Advice Education UX/UI Design Project</span>
           <span class="subtitle-card">Complex online learning Website</span>
@@ -101,7 +89,8 @@
       </div>
 
       <div>
-        <a href="./projects/perguntorl.html" data-in-progress class="card card-perguntorl">
+        <!-- ./projects/perguntorl.html -->
+        <a href="#" class="card card-perguntorl page-in-progress">
           <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
           <span class="title-card">PerguntORL UX/UI Design Project</span>
           <span class="subtitle-card">Question solving App</span>
@@ -109,7 +98,8 @@
       </div>
 
       <div>
-        <a href="./projects/wellify.html" data-in-progress class="card card-wellify">
+        <!-- ./projects/wellify.html -->
+        <a href="#" class="card card-wellify in-progress">
           <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
           <span class="title-card">Wellify UX/UI Design Project</span>
           <span class="subtitle-card">Telemedicine App</span>
@@ -117,7 +107,8 @@
       </div>
 
       <div>
-        <a href="./projects/cropfix.html" data-in-progress class="card card-cropfix">
+        <!-- ./projects/cropfix.html -->
+        <a href="#" class="card card-cropfix page-in-progress">
           <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
           <span class="title-card">Cropfix UX/UI Design Project</span>
           <span class="subtitle-card">Website redesign</span>
@@ -125,7 +116,8 @@
       </div>
 
       <div>
-        <a href="./projects/selbetti.html" data-in-progress class="card card-selbetti">
+        <!-- ./projects/selbetti.html -->
+        <a href="#" class="card card-selbetti page-in-progress">
           <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
           <span class="title-card">Selbetti UX/UI Design Project</span>
           <span class="subtitle-card">Digital and eletronic signature Website</span>
@@ -133,14 +125,15 @@
       </div>
 
       <div>
-        <a href="./projects/fluere.html" data-in-progress class="card card-fluere">
+        <!-- ./projects/fluere.html -->
+        <a href="#" class="card card-fluere page-in-progress">
           <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
           <span class="title-card">Fluere UX/UI Design Case Study</span>
           <span class="subtitle-card">Phychological care App</span>
         </a>
       </div>
 
-      <a class="btn border secundary">Learn About Me</a>
+      <a href="./about.html" class="btn border secundary">Learn About Me</a>
     </div>
 
     <!-- Divisor Content-->
@@ -156,7 +149,7 @@
         <span class="text-section-title">Get in Touch</span>
       </div>
       <span class="text-box-center text-spline-01">Want me on your team? I'd have to hear from you!</span>
-      <a class="btn primary">Send Me an Email</a>
+      <button class="btn primary" onclick="window.location.href='mailto:ludmillamorais.dev@outlook.pt'">Send Me an Email</a>
     </section>
     <!-- End of Section Get in Touch -->
 
@@ -166,15 +159,15 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="menu-inline">
-      <li><a href="#" class="link-menu-inline">Projects</a></li>
-      <li><a href="#" class="link-menu-inline">About Me</a></li>
-      <li><a href="#" class="link-menu-inline">Contact</a></li>
+      <li><a href="#top" class="link-menu-inline">Projects</a></li>
+      <li><a href="./about.html" class="link-menu-inline">About Me</a></li>
+      <li><a href="./contact.html" class="link-menu-inline">Contact</a></li>
     </div>
 
     <div class="container-social-media">
-      <a class="btn-icon border dark"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
-      <a class="btn-icon border dark"><i class="fa-brands fa-github fa-lg"></i></a>
-      <a class="btn-icon border dark"><i class="fa-brands fa-medium fa-lg"></i></a>
+      <a href="https://www.linkedin.com/in/ludmillamorais/" target="_blank" class="btn-icon border dark"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+      <a href="https://github.com/ludmorais" target="_blank" class="btn-icon border dark"><i class="fa-brands fa-github fa-lg"></i></a>
+      <!--<a class="btn-icon border dark"><i class="fa-brands fa-medium fa-lg"></i></a>-->
     </div>
 
     <div class="created-by">&copy; Ludmilla Morais 2026</div>
@@ -184,7 +177,7 @@
 
   <!-- JavaScript -->
   <script src="../../javascript/menu.js"></script>
-  <script src="../../javascript/in-progress.js"></script>
+  <script src="../../javascript/page-in-progress.js"></script>
 
 
 </body>

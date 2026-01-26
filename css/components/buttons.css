@@ -52,6 +52,16 @@
   background-color: var(--color-secundary-01);
 }
 
+/* active */
+.btn.primary:active {
+  transform: none;
+}
+
+/* focus */ 
+.btn.primary:focus {
+  transform: none;
+}
+
 /*----------------------------------------*/
 /* Secundary (.btn.secundary)
 /*----------------------------------------*/
@@ -65,6 +75,17 @@
 .btn.secundary:hover {
   background-color: var(--color-primary-01);
 }
+
+/* active */
+.btn.secundary:active {
+  transform: none;
+}
+
+/* focus */ 
+.btn.secundary:focus {
+  transform: none;
+}
+
 
 
 
@@ -98,6 +119,16 @@
   color: var(--color-neutral-100);
 }
 
+/* active */
+.btn.border.primary:active {
+  transform: none;
+}
+
+/* focus */ 
+.btn.border.primary:focus {
+  transform: none;
+}
+
 /*----------------------------------------*/
 /* Secundary (.btn.border.secundary)
 /*----------------------------------------*/
@@ -114,6 +145,16 @@
   background-color: var(--color-secundary-01);
   border: 1px solid var(--color-secundary-01);
   color: var(--color-neutral-100);
+}
+
+/* active */
+.btn.border.secundary:active {
+  transform: none;
+}
+
+/* focus */ 
+.btn.border.secundary:focus {
+  transform: none;
 }
 
 
@@ -167,4 +208,14 @@
   color: var(--color-neutral-10);
   background-color: var(--color-opacity-dark-05);
   box-shadow: var(--box-shadow-20);
+}
+
+/* active */
+.btn-text-icon::active {
+  transform: none;
+}
+
+/* focus */ 
+.btn-text-icon:focus {
+  transform: none;
 }

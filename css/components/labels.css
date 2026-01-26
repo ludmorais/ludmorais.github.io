@@ -29,6 +29,10 @@
   margin: 24px 0 24px;
 }
 
+.introduction-title-box.contact {
+  margin-top: 8px;
+}
+
 /* Introduction Title - Type 1 */
 .introduction-title-01 {
   font-family: var(--font-family-poppins);

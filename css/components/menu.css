@@ -70,20 +70,59 @@
   justify-content: center;
   align-items: center;
 }
+
+.menu-social-media {
+  padding: 52px 20px;
+}
+
+
+
 .menu-link {
-  margin: 12px 12px;
+  /*margin: 12px 12px;
   padding: 8px 8px;
   font-family: var(--font-family-spline);
   font-size: var(--font-size-14px);
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-text-02);
   color: var(--color-neutral-100);
+  text-decoration: var(--underline);*/
+
+
+
+  margin: 12px;
+  padding: 12px 28px;
+  max-width: max-content;
+  border-radius: 50px;
+  box-shadow: var(--box-shadow-20);
+
+  text-align: center;
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-hight-subtitle);
+  letter-spacing: 0.8px;
+
+  color: var(--color-neutral-100);
   text-decoration: var(--underline);
+  background-color: transparent;
+  transition: all 0.3s ease;
 }
 
-.menu-social-media {
-  padding: 52px 20px;
+
+
+
+/* hover */
+.menu-link:hover {
+  background-color: var(--color-primary-02);
 }
+
+/* active */
+.menu-link.active {
+  background-color: var(--color-primary-03);
+}
+
+
+
 
 
 

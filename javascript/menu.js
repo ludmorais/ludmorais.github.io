@@ -1,37 +1,8 @@
-
-/*
-document.getElementById('menu-btn').addEventListener('click', () => {
-  fetch('../../html/components/menu.html') // pego esse documento
-    .then(res => res.text()) // quero pega-lo para usa-lo
-    .then(html => {
-      let container = document.querySelector('#menu-container')
-      container.innerHTML = html;
-      initMenu();
-    });
-
-})
-
-
-function initMenu() {
-  // adc uma classe junto com menu-container (la no css essa classe vai mudar a cor do brackgroud)
-
-  let menu = document.querySelector('.menu-container')
-  menu.classList.add('transition')
-
-  document.getElementById('menu-btn').addEventListener('click', () => {
-    const closeMenu = menu.classList.toggle('close-menu')
-  })
-
-  document.getElementById('icon-btn').addEventListener('click', () => {
-    const closeMenu = menu.classList.toggle('close-menu')
-  })
-
-}
-*/
+// HTML
 const menuHTML = `
   <nav class="side-menu">
   <div>
-    <a class="btn-icon primary" aria-expanded="true" id="close-menu">
+    <a class="btn-icon secundary" aria-expanded="true" id="close-menu">
         <i class="fa-solid fa-close fa-lg"></i>
     </a>
   </div>
@@ -43,50 +14,35 @@ const menuHTML = `
       <li class="container-menu-link"><a href="/html/pages/contact.html" class="menu-link">Contact</a></li>
     </ul>
 
-    <div class="container-social-media menu-social-media">
-      <button class="btn-icon border light"><i class="fa-brands fa-linkedin-in fa-lg"></i></button>
-      <button class="btn-icon border light"><i class="fa-brands fa-github fa-lg"></i></button>
-      <button class="btn-icon border light"><i class="fa-brands fa-medium fa-lg"></i></button>
-    </div>
+    <div class="container-social-media">
+          <a href="https://www.linkedin.com/in/ludmillamorais/" target="_blank" class="btn-icon border light"><i
+              class="fa-brands fa-linkedin-in fa-lg"></i></a>
+          <a href="https://github.com/ludmorais" target="_blank" class="btn-icon border light"><i
+              class="fa-brands fa-github fa-lg"></i></a>
+          <!--<a href="https://medium.com/@ludmilla-morais" class="btn-icon border light"><i class="fa-brands fa-medium fa-lg"></i></a>-->
+        </div>
   </div>
 </nav>
 `
 
-
+// get HTML elements (index.html)
 const container = document.querySelector('#menu-container')
 const menuBtn = document.querySelector('#menu-btn')
-const overlay = document.querySelector('#overlay')
+const overlay = document.querySelector('#overlay') 
 
-// injetar HTML
-/*
-fetch('../../html/components/menu.html') // pego esse documento
-  .then(res => res.text()) // quero pega-lo para usa-lo
-  .then(html => {
-    container.innerHTML = html;
-  });
-*/
-
-// injetar HTML
+// add HTML
 container.innerHTML = menuHTML
 
 const sideMenu = container.querySelector('.side-menu')
 const closeBtn = container.querySelector('#close-menu')
 
-// abrir 
+// open menu 
 menuBtn.addEventListener('click', () => {
   sideMenu.classList.add('active')
   overlay.classList.add('active')
 })
 
-/*menuBtn.addEventListener('click', () => {
-  if (menuBtn.classList.contains('active')) {
-    sideMenu.classList.remove('active')
-    overlay.classList.remove('active') 
-  } 
-})*/
-
-
-
+// close menu
 const closeMenu = () => {
   sideMenu.classList.remove('active')
   overlay.classList.remove('active') 
@@ -94,3 +50,17 @@ const closeMenu = () => {
 
 closeBtn.addEventListener('click', closeMenu);
 overlay.addEventListener('click', closeMenu);
+
+
+////////
+
+const currentPath = window.location.pathname;
+const links = document.querySelectorAll('.menu-link');
+
+links.forEach(link => {
+  const linkPath = new URL(link.href).pathname;
+
+  if (linkPath === currentPath) {
+    link.classList.add('active');
+  }
+});

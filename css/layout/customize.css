@@ -12,7 +12,7 @@ body {
 /*----------------------------------------*/
 
 /* Background */
-#index-body {
+#background-index {
   background-image: 
     url("/assets/images/background-image-left.png"), 
     url("/assets/images/background-image-right.png");
@@ -20,17 +20,17 @@ body {
   background-repeat: no-repeat;
 }
 
-#project-body {
+#background-project {
   background-image: none;
 }
 
-#about-body {
+#background-about {
   background-image: url("/assets/images/background-image-left.png");
   background-position: center 220px;
   background-repeat: no-repeat;
 }
 
-#contact-body {
+#background-contact {
   background-image: 
     url("/assets/images/background-image-left.png"), 
     url("/assets/images/background-image-right.png");

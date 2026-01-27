@@ -147,8 +147,8 @@
 }
 /* hover */
 .btn-icon.border.light:hover {
-  background-color: var(--color-secundary-01);
-  border-color: var(--color-secundary-01);
+  background-color: var(--color-primary-03);
+  border-color: var(--color-primary-03);
 }
 .btn-icon.border.light:hover i {
   color: var(--color-neutral-100);

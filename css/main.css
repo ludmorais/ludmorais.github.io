@@ -37,7 +37,8 @@
 /*----------------------------------------*/
 /* Customization of Specific Elements */ @import url(./layout/customize.css);
 /* Display Flex */ @import url(./layout/flex-container.css);
-/* Responsive */ @import url(./layout/media-queries.css);
+/* Responsive Background */ @import url(./layout/responsive-background.css);
+/* Responsive Elements */ @import url(./layout/responsive-elements.css);
 
 
 

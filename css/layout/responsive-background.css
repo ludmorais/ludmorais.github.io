@@ -1,0 +1,80 @@
+#background-index {
+  background-image:
+    url("/assets/images/background-image-left.png"),
+    url("/assets/images/background-image-right.png");
+  background-position: -200px 106px, 184px 16px;
+  background-repeat: no-repeat;
+}
+
+#background-project {
+  background-image: none;
+}
+
+#background-about {
+  background-image: url("/assets/images/background-image-left.png");
+  background-position: center 220px;
+  background-repeat: no-repeat;
+}
+
+#background-contact {
+  background-image:
+    url("/assets/images/background-image-left.png"),
+    url("/assets/images/background-image-right.png");
+  background-position: -200px 106px, 184px 16px;
+  background-repeat: no-repeat;
+}
+
+
+@media (min-width: 500px) {
+  #background-index {
+   background-position: -150px 106px, 250px 16px;
+  }
+}
+
+
+@media (min-width: 620px) {
+  #background-index {
+    background-image:url("/assets/images/background-image-left.png");
+    background-position: center 16px;
+    background-size: 520px;
+    background-repeat: no-repeat;
+  }
+}
+
+
+@media (min-width: 768px) {
+  #background-index {
+    background-image:url("/assets/images/background-image-left.png");
+    background-position: center 16px;
+    background-size: 600px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1024px) {
+  #background-index {
+    background-image:url("/assets/images/background-image-left.png");
+    background-position: center 16px;
+    background-size:700px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1200px) {
+  #background-index {
+    background-image:url("/assets/images/background-image-left.png");
+    background-position: center 16px;
+    background-size:800px;
+    background-repeat: no-repeat;
+  }
+}
+
+/*
+@media (min-width: 1400px) {
+  #background-index {
+    background-image:url("/assets/images/background-image-left.png");
+    background-position: center 16px;
+    background-size:800px;
+    background-repeat: no-repeat;
+  }
+}*/

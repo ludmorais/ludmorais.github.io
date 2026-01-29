@@ -1,0 +1,24 @@
+@media (max-width: 390px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    /* alinhamento horizontal dos conteudos de cada celula */
+  }
+}
+
+
+

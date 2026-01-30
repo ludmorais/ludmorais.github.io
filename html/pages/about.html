@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="../../css/main.css">
   <script src="https://kit.fontawesome.com/27c0b71175.js" crossorigin="anonymous"></script>
 
   <title>About Me</title>
@@ -19,9 +19,9 @@
       <a href="/index.html" class="color-primary-01">
         <span class="text-logo">{Ludmilla Morais}</span>
       </a>
-      <a class="btn-icon primary" aria-expanded="false" id="menu-btn">
+      <button class="btn-icon primary" aria-expanded="false" id="menu-btn">
         <i class="fa-solid fa-bars fa-lg"></i>
-      </a>
+      </button>
     </nav>
   </header>
   <!-- Menu JS -->
@@ -90,8 +90,11 @@
           are built with meticulous attention to both design and code.
         </p>
       </div>
-
-      <button class="btn border secundary" style>View My CV</button>
+      
+  
+      <a href="/assets/documents/cv_Frontend_Ludmilla_Morais.pdf" target="_blank" class="btn border secundary">
+        View My CV
+      </a>
       <!-- End of About Me -->
 
       <hr class="space-between-section-12px">
@@ -99,13 +102,13 @@
       <!-- My Areas of Expertise -->
       <div class="section-title">
         <i class="fa-solid fa-circle fa-2xs icon-section-title"></i>
-        <span class="text-section-title">My Areas of Expertise</span>
+        <span class="text-section-title">Industry Experience</span>
       </div>
 
       <div class="badge-box">
-        <span class="badge badge-areas">Games</span>
-        <span class="badge badge-areas">Education</span>
-        <span class="badge badge-areas">Health</span>
+        <span class="badge badge-areas">Gaming</span>
+        <span class="badge badge-areas">E-learning Education</span>
+        <span class="badge badge-areas">Healthcare and Telemedicine</span>
         <span class="badge badge-areas">BPMS Management Software</span>
         <span class="badge badge-areas">Eletronic and Digital Signature</span>
         <span class="badge badge-areas">Telecommunication</span>
@@ -355,8 +358,7 @@
         <span class="text-section-title">Get in Touch</span>
       </div>
       <span class="text-box-center text-spline-01">Want me on your team? I'd have to hear from you!</span>
-      <button class="btn primary" onclick="window.location.href='mailto:ludmillamorais.dev@outlook.pt'">Send Me an
-        Email</a>
+      <a class="btn primary" href="mailto:ludmillamorais.dev@outlook.pt">Send Me an Email</a>
     </section>
     <!-- End of Section Get in Touch -->
 
@@ -384,8 +386,8 @@
   <!-- End of Footer -->
 
   <!-- JavaScript -->
-  <script src="../../javascript/menu.js"></script>
-  <script src="../../javascript/page-in-progress.js"></script>
+  <script src="/javascript/menu.js"></script>
+  <script src="/javascript/page-in-progress.js"></script>
 
 </body>
 

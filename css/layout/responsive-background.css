@@ -16,13 +16,16 @@
   background-repeat: no-repeat;
 }
 
+
+
+/*
 #background-contact {
   background-image:
     url("/assets/images/background-image-left.png"),
     url("/assets/images/background-image-right.png");
   background-position: -200px 106px, 184px 16px;
   background-repeat: no-repeat;
-}
+}*/
 
 
 @media (min-width: 500px) {

@@ -1,48 +1,59 @@
 /*----------------------------------------*/
-/* Imports */ 
+/* Imports */
 /*----------------------------------------*/
 
 
 /*----------------------------------------*/
-/* Extern Imports */ 
+/* Extern Imports */
 /*----------------------------------------*/
-/* Google Font */ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
 
 
 /*----------------------------------------*/
 /* Base */
 /*----------------------------------------*/
-/* Design Tokens */ @import url(./base/design-tokens.css);
-/* Reset */ @import url(./base/reset.css);
-/* Typography */ @import url(./base/typography.css);
+/* Design Tokens */
+@import url(./base/design-tokens.css);
+/* Reset */
+@import url(./base/reset.css);
+/* Typography */
+@import url(./base/typography.css);
 
 
 /*----------------------------------------*/
-/* Components */ 
+/* Components */
 /*----------------------------------------*/
-/* Badge */ @import url(./components/badge.css);
-/* Buttons */ @import url(./components/buttons.css); 
-/* Buttons - Icon */ @import url(./components/buttons-icon.css);
-/* Cards */ @import url(./components/cards.css);
-/* Colors */ @import url(./components/colors.css);
-/* Divisor and Spaces */ @import url(./components/divisor.css);
-/* Footer */ @import url(./components/footer.css);
-/* Images */ @import url(./components/images.css);
-/* Labels and Texts */ @import url(./components/labels.css);
-/* Menu */ @import url(./components/menu.css);
+/* Badge */
+@import url(./components/badge.css);
+/* Buttons */
+@import url(./components/buttons.css);
+/* Buttons - Icon */
+@import url(./components/buttons-icon.css);
+/* Cards */
+@import url(./components/cards.css);
+/* Colors */
+@import url(./components/colors.css);
+/* Divisor and Spaces */
+@import url(./components/divisor.css);
+/* Footer */
+@import url(./components/footer.css);
+/* Images */
+@import url(./components/images.css);
+/* Labels and Texts */
+@import url(./components/labels.css);
+/* Menu */
+@import url(./components/menu.css);
 
 
 /*----------------------------------------*/
-/* Layout */ 
+/* Layout */
 /*----------------------------------------*/
-/* Customization of Specific Elements */ @import url(./layout/customize.css);
-/* Display Flex */ @import url(./layout/flex-container.css);
-/* Responsive Background */ @import url(./layout/responsive-background.css);
-/* Responsive Elements */ @import url(./layout/responsive-elements.css);
-
-
-
-
-
-
-
+/* Customization of Specific Elements */
+@import url(./layout/customize.css);
+/* Display Flex */
+@import url(./layout/flex-container.css);
+/* Responsive Background */
+@import url(./layout/responsive-background.css);
+/* Responsive Elements */
+@import url(./layout/responsive-elements.css);

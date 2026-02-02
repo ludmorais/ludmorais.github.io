@@ -14,12 +14,12 @@
 }
 
 @media (min-width: 768px) {
-  .cards {
+  .cards,
+  .quote-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
   }
-
   
 }
 

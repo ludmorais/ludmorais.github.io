@@ -1,5 +1,11 @@
-#menu-btn {
+/*----------------------------------------*/
+/* MENU MOBILE */
+/*----------------------------------------*/
+
+#menu-mobile {
   cursor: pointer;
+  position: fixed;
+  right: 32px;
 }
 
 .side-menu {
@@ -47,14 +53,10 @@
   cursor: pointer;
   float: right;
 } 
+
 #close-menu i {
   color: var(--color-neutral-100);
 }
-
-
-
-
-
 
 .menu-list {
   display: flex;
@@ -75,8 +77,6 @@
   padding: 52px 20px;
 }
 
-
-
 .menu-link {
   /*margin: 12px 12px;
   padding: 8px 8px;
@@ -86,8 +86,6 @@
   line-height: var(--line-height-text-02);
   color: var(--color-neutral-100);
   text-decoration: var(--underline);*/
-
-
 
   margin: 12px;
   padding: 12px 28px;
@@ -108,9 +106,6 @@
   transition: all 0.3s ease;
 }
 
-
-
-
 /* hover */
 .menu-link:hover {
   background-color: var(--color-primary-02);
@@ -120,6 +115,85 @@
 .menu-link.active {
   background-color: var(--color-primary-03);
 }
+
+
+/*----------------------------------------*/
+/* MENU DESKTOP */
+/*----------------------------------------*/
+
+.menu-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 62px;
+  width: 500px;
+  height: 32px;
+}
+
+.menu-desktop-link {
+  margin: 12px;
+  padding: 12px 28px;
+  max-width: max-content;
+  border-radius: 50px;
+  
+  text-align: center;
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-hight-subtitle);
+  letter-spacing: 0.8px;
+
+  color: var(--color-primary-01);
+  text-decoration: var(--underline);
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+/* hover */
+.menu-desktop-link:hover {
+  color: var(--color-neutral-100);
+  background-color: var(--color-primary-02);
+  box-shadow: var(--box-shadow-20);
+}
+
+/* active */
+.menu-desktop-link.active {
+  
+  /*
+  color: var(--color-primary-01);
+  */
+  
+  /*
+  color: var(--color-neutral-100);
+  background-color: var(--color-secundary-01);
+  */
+
+  /*
+  background-color: var(--color-neutral-100);
+  border: 1px solid var(--color-primary-01);
+  color: var(--color-primary-01);
+  */
+
+  text-decoration: underline dotted;
+  color: var(--color-primary-01);
+
+}
+
+.menu-desktop-link.active:hover {
+  color: var(--color-neutral-100);
+  background-color: var(--color-primary-02);
+  box-shadow: var(--box-shadow-20);
+}
+
+/* hidden menu desktop - default */
+#menu-desktop {
+  display: none;
+}
+
+
+
+
 
 
 

@@ -19,22 +19,85 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
   }
+
+  
 }
 
 @media (min-width: 1172px) {
+  /* all */
+  #menu-mobile {
+    display: none;
+  }
+
+  #menu-desktop {
+    display: block;
+  } 
+  
+  /* index.html */
   .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    gap: 12px;
   }
 
-  /* VER COMO POSSO DEIXAR ISSO PRA FICAR BONITINHO 
-  .footer {
+  /* about.html */
+  .text-box-center,
+  .badge-box {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .quote-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 8px;
+  }
+
+  .cards.about {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 8px;
+  }
+
+  /*
+  .container {
+    /*
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }*/
+  
+
+  
+ 
+
+
+  
+
+
+  /*
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-inline {
+    justify-self: center;
+  }
+
+  .footer .container-social-media {
+    justify-self: center;
+  }
+
+  .created-by {
+    grid-column: 1 / -1;
     justify-items: center;
-    /* alinhamento horizontal dos conteudos de cada celula */
-  /* }*/
+  }*/
+
 }
 
 @media (min-width: 1700px) {

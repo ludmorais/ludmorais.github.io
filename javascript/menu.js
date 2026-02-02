@@ -1,4 +1,8 @@
-// HTML
+/*----------------------------------------*/
+/* MENU MOBILE */
+/*----------------------------------------*/
+
+// HTML text
 const menuHTML = `
   <nav class="side-menu">
   <div>
@@ -26,41 +30,67 @@ const menuHTML = `
 `
 
 // get HTML elements (index.html)
-const container = document.querySelector('#menu-container')
-const menuBtn = document.querySelector('#menu-btn')
-const overlay = document.querySelector('#overlay') 
+let container = document.querySelector('#menu-container')
+let menuMobile = document.querySelector('#menu-mobile')
+let overlay = document.querySelector('#overlay')
 
 // add HTML
 container.innerHTML = menuHTML
 
-const sideMenu = container.querySelector('.side-menu')
-const closeBtn = container.querySelector('#close-menu')
+let sideMenu = container.querySelector('.side-menu')
+let closeBtn = container.querySelector('#close-menu')
 
 // open menu 
-menuBtn.addEventListener('click', () => {
+menuMobile.addEventListener('click', () => {
   sideMenu.classList.add('active')
   overlay.classList.add('active')
 })
 
 // close menu
-const closeMenu = () => {
+let closeMenu = () => {
   sideMenu.classList.remove('active')
-  overlay.classList.remove('active') 
+  overlay.classList.remove('active')
 };
 
 closeBtn.addEventListener('click', closeMenu);
 overlay.addEventListener('click', closeMenu);
 
-
-////////
-
-const currentPath = window.location.pathname;
-const links = document.querySelectorAll('.menu-link');
-
+// highlighted current path 
+let currentPath = window.location.pathname;
+let links = document.querySelectorAll('.menu-link');
 links.forEach(link => {
-  const linkPath = new URL(link.href).pathname;
-
+  let linkPath = new URL(link.href).pathname;
   if (linkPath === currentPath) {
     link.classList.add('active');
   }
 });
+
+
+
+
+/*----------------------------------------*/
+/* MENU DESKTOP */
+/*----------------------------------------*/
+
+// HTML text 
+const menuHTMLdesktop = `
+  <ul class="menu-desktop">
+    <li><a href="/index.html" class="menu-desktop-link">Project</a></li>
+    <li><a href="/html/pages/about.html" class="menu-desktop-link">About Me</a></li>
+    <li><a href="/html/pages/contact.html" class="menu-desktop-link">Contact</a></li>
+  </ul>
+`
+// get HTML elements (index.html)
+let menuDesktop = document.querySelector('#menu-desktop')
+menuDesktop.innerHTML = menuHTMLdesktop
+
+// highlighted current path 
+let currentPathDesktop = window.location.pathname;
+let linksDesktop = document.querySelectorAll('.menu-desktop-link');
+linksDesktop.forEach(linkDesktop => {
+  let linkPathDesktop = new URL(linkDesktop.href).pathname;
+  if (linkPathDesktop === currentPathDesktop) {
+    linkDesktop.classList.add('active');
+  }
+});
+

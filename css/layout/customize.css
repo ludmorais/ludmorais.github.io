@@ -19,16 +19,6 @@ a {
 
 /*----------------------------------------*/
 
-/* Divisor Content */ 
-.divisor.divisor-header {
-  position: fixed;
-}
-.divisor.divisor-projects {
-  margin-top: 20px;
-}
-
-/*----------------------------------------*/
-
 /* Cards */
 .card.card-portfolio { 
   background-image: url(#);

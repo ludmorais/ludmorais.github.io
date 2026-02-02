@@ -19,19 +19,28 @@
       <a href="/index.html" class="color-primary-01">
         <span class="text-logo">{Ludmilla Morais}</span>
       </a>
-      <button class="btn-icon primary" aria-expanded="false" id="menu-btn">
+      <!-- Menu Mobile -->
+      <button class="btn-icon primary" aria-expanded="false" id="menu-mobile">
         <i class="fa-solid fa-bars fa-lg"></i>
       </button>
+      <!-- End of Menu Mobile -->
+
+      <!-- Menu Desktop -->
+      <div id="menu-desktop">
+      </div>
+      <!-- End of Menu Desktop -->
+
+      <!-- Divisor Content-->
+      <hr class="divisor divisor-header">
+      <!-- End of Divisor Content-->
     </nav>
   </header>
+
   <!-- Menu JS -->
   <div id="menu-container" class="menu-container"></div>
-  <div id="overlay" class="overlay"></div> 
+  <div id="overlay" class="overlay"></div>
+  <!-- End of Menu JS -->
   <!-- End of Header -->
-
-  <!-- Divisor Content-->
-  <hr class="container-main divisor divisor-header">
-  <!-- End of Divisor Content-->
 
   <!-- Main -->
   <main>
@@ -90,8 +99,8 @@
           are built with meticulous attention to both design and code.
         </p>
       </div>
-      
-  
+
+
       <a href="/assets/documents/cv_Frontend_Ludmilla_Morais.pdf" target="_blank" class="btn border secundary">
         View My CV
       </a>
@@ -256,47 +265,48 @@
         </p>
       </div>
 
-      <div class="quote-card quote-card-01">
-        <i class="fa-solid fa-quote-left fa-xl icon-quote-card"></i>
-        <p class="text-quote-card">
-          Ludi, congratulations on the <span class="semibold">roadmap</span> you created with
-          the Product Manager! I just managed to watch the presentation. I tought it was great
-          <span class="semibold">how you organized</span> everything and brought those
-          insights to him for priorization.
-        </p>
-        <p class="text-quote-card italic">
-          — Design Ops Lead at Selbetti Technology
-        </p>
-      </div>
+      <div class="quote-cards">
+        <div class="quote-card quote-card-01">
+          <i class="fa-solid fa-quote-left fa-xl icon-quote-card"></i>
+          <p class="text-quote-card">
+            Ludi, congratulations on the <span class="semibold">roadmap</span> you created with
+            the Product Manager! I just managed to watch the presentation. I tought it was great
+            <span class="semibold">how you organized</span> everything and brought those
+            insights to him for priorization.
+          </p>
+          <p class="text-quote-card italic">
+            — Design Ops Lead at Selbetti Technology
+          </p>
+        </div>
 
-      <div class="quote-card quote-card-02">
-        <i class="fa-solid fa-quote-left fa-xl icon-quote-card"></i>
-        <p class="text-quote-card">
-          <span class="semibold">Proactive</span> and <span class="semibold">determined</span>.
-          From the beginning I could observe her resourcefulness in structuring research, writing,
-          <span class="semibold">documentation</span> and <span class="semibold">analysis</span>.
-          She made excellent use of her <span class="semibold">background</span> in UX methods
-          to solve new challenges. It was a <span class="semibold">pleasure to develop this
-            project together!</span> Ludmilla certainly represents a
-          <span class="semibold">great asset to any organization.</span>
-        </p>
-        <p class="text-quote-card italic">
-          — Teammate at the Fluere project
-        </p>
-      </div>
+        <div class="quote-card quote-card-02">
+          <i class="fa-solid fa-quote-left fa-xl icon-quote-card"></i>
+          <p class="text-quote-card">
+            <span class="semibold">Proactive</span> and <span class="semibold">determined</span>.
+            From the beginning I could observe her resourcefulness in structuring research, writing,
+            <span class="semibold">documentation</span> and <span class="semibold">analysis</span>.
+            She made excellent use of her <span class="semibold">background</span> in UX methods
+            to solve new challenges. It was a <span class="semibold">pleasure to develop this
+              project together!</span> Ludmilla certainly represents a
+            <span class="semibold">great asset to any organization.</span>
+          </p>
+          <p class="text-quote-card italic">
+            — Teammate at the Fluere project
+          </p>
+        </div>
 
-      <div class="quote-card quote-card-01">
-        <i class="fa-solid fa-quote-left fa-xl icon-quote-card"></i>
-        <p class="text-quote-card">
-          She nailed the explanation for the client.
-          <span class="semibold">I was delighted with Ludmilla’s service</span>,
-          10 out of 10.
-        </p>
-        <p class="text-quote-card italic">
-          — Customer Support client at Algar Tech
-        </p>
+        <div class="quote-card quote-card-01">
+          <i class="fa-solid fa-quote-left fa-xl icon-quote-card"></i>
+          <p class="text-quote-card">
+            She nailed the explanation for the client.
+            <span class="semibold">I was delighted with Ludmilla’s service</span>,
+            10 out of 10.
+          </p>
+          <p class="text-quote-card italic">
+            — Customer Support client at Algar Tech
+          </p>
+        </div>
       </div>
-
       <!-- End of Recognition and Praise-->
 
       <hr class="space-between-section-12px">
@@ -323,26 +333,28 @@
         <span class="text-section-title">See My Projects</span>
       </div>
 
-      <div>
-        <!-- ./projects/personal-portfolio -->
-        <a href="#" class="card card-portfolio page-in-progress">
-          <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
-          <span class="title-card">Portfolio Front-End Case Study</span>
-          <span class="subtitle-card">Design and Code Personal Portfolio</span>
-        </a>
-      </div>
+      <div class="cards about">
+        <div>
+          <!-- ./projects/personal-portfolio -->
+          <a href="#" class="card card-portfolio page-in-progress">
+            <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
+            <span class="title-card">Portfolio Front-End Case Study</span>
+            <span class="subtitle-card">Design and Code Personal Portfolio</span>
+          </a>
+        </div>
 
-      <div>
-        <!-- ./projects/advice-education.html -->
-        <a href="#" class="card card-advice page-in-progress">
-          <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
-          <span class="title-card">Advice Education UX/UI Design Project</span>
-          <span class="subtitle-card">Complex online learning Website</span>
-        </a>
+        <div>
+          <!-- ./projects/advice-education.html -->
+          <a href="#" class="card card-advice page-in-progress">
+            <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
+            <span class="title-card">Advice Education UX/UI Design Project</span>
+            <span class="subtitle-card">Complex online learning Website</span>
+          </a>
+        </div>
       </div>
-
       <a href="/index.html" class="btn border secundary">All My Projects</a>
     </div>
+
     <!-- End of section Project Details -->
 
     <!-- Divisor Content-->

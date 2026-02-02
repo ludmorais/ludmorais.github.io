@@ -6,10 +6,18 @@
 .divisor {
   border-top: 1px solid var(--color-neutral-90);
   width: 100%;
-
+  margin: 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+}
+
+.divisor.divisor-header {
+  position: fixed;
+  margin-top: 71px;
+}
+
+.divisor.divisor-projects {
+  margin-top: 20px;
 }
 
 /*----------------------------------------*/

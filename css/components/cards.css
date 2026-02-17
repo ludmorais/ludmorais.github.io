@@ -40,6 +40,30 @@
   box-shadow: var(--box-shadow-80);
 }
 
+/* tag to use inside the card */
+.tag {
+  border-radius: 6px;
+  margin-bottom: 12px;
+  padding: 6px 12px;
+  max-width: max-content;
+  align-self: flex-start;
+
+  color: var(--color-primary-03);
+  background-color: var(--color-primary-04);
+
+  text-align: center;
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-hight-subtitle);
+  letter-spacing: 0.8px;
+}
+
+.tag-inprogress {
+  color: var(--color-primary-04);
+  background-color: var(--color-primary-03);
+}
+
 /* Icon to use inside the card */
 .icon-card {
   pointer-events: none;

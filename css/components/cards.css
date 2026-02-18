@@ -6,16 +6,17 @@
 /*----------------------------------------*/
 /* Grid Container */
 /*----------------------------------------*/
-/*.cards {
+.cards {
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
-}*/
+}
 
 
 /*----------------------------------------*/
 /* Image Card */
 /*----------------------------------------*/
+
 .card {
   display: flex;
   flex-direction: column;
@@ -153,7 +154,6 @@
     color: var(--color-primary-02);
   }
 }
-
 
 /* Icon to use inside quote card (type 1 and 2)*/
 .icon-quote-card {

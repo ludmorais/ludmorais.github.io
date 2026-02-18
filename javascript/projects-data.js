@@ -1,0 +1,45 @@
+export const projects = [
+  {
+    id: "1",
+    page_in_progress: true,
+    title: "Teste Case Study Front",
+    subtitle: "Complex online learning website",
+    area: "Front-End",
+    project_in_progress: true,
+    overview_p01: "Advice Education is a brazilian company xxxxxxxxxxxxxxx.",
+    overview_p03: "I was a sole UX/UI designer for this project.",
+    overview_p02: "The goal of this project was to create xxxxxxxxxxxxxx",
+    tool_figma: true,
+    tool_adobexd: false,
+    tool_HTML: false,
+    tool_JS: false,
+    tool_VSCode: false,
+    tool_React: false,
+    tool_TypeScript: false,
+    problem: "The problem was.........",
+    solution: "I created something to do somethingxxxx xxxxxxxxx.",
+    image_solution: "/assets/images/advice-student-user-flow.png"
+  },
+
+  {
+    id: "2",
+    page_in_progress: false,
+    title: "Teste teste Project",
+    subtitle: "Complex online learning website",
+    area: "UX/UI",
+    project_in_progress: false,
+    overview_p01: "Advice Education is a brazilian company xxxxxxxxxxxxxxx.",
+    overview_p03: "I was a sole UX/UI designer for this project.",
+    overview_p02: "The goal of this project was to create xxxxxxxxxxxxxx",
+    tool_figma: true,
+    tool_adobexd: false,
+    tool_HTML: false,
+    tool_JS: false,
+    tool_VSCode: false,
+    tool_React: false,
+    tool_TypeScript: false,
+    problem: "The problem was.........",
+    solution: "I created something to do somethingxxxx xxxxxxxxx.",
+    image_solution: "/assets/images/advice-student-user-flow.png"
+  }
+]        

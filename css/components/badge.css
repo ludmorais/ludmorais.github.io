@@ -57,6 +57,16 @@
   background-color: #F9EB23;
 }
 
+.badge-react {
+  color: var(--color-neutral-10);
+  background-color: #61DBFB;
+}
+
+.badge-typescript {
+  color: var(--color-neutral-100);
+  background-color: #3178C6;
+}
+
 .badge-figjam {
   color: var(--color-neutral-100);
   background-color: #691ACE;

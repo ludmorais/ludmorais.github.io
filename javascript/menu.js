@@ -6,9 +6,9 @@
 const menuHTML = `
   <nav class="side-menu">
   <div>
-    <a class="btn-icon secundary" aria-expanded="true" id="close-menu">
+    <button class="btn-icon secundary" aria-expanded="true" id="close-menu">
         <i class="fa-solid fa-close fa-lg"></i>
-    </a>
+    </button>
   </div>
   
   <div class="menu-list">

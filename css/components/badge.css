@@ -175,9 +175,19 @@
   background-color: #1D546CCC; 
 }
 
+/* Badge Filter */
 
+.badge-box.filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 12px 18px 12px;
+  max-width: max-content;
+}
 
 .badge-filter {
+  margin-bottom: auto;
   color: var(--color-secundary-01);
   background-color: transparent;
   border: 1px solid var(--color-secundary-01);

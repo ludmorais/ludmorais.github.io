@@ -1,5 +1,4 @@
 body.modal-open {
-  overflow: hidden;
   position: fixed;
   width: 100%;
 }
@@ -41,7 +40,9 @@ body.modal-open {
   z-index: 1000;
   top: 12px;
   right: 20px;
-  overflow-y: auto;
+  overflow-y: auto;    /* Permite scroll vertical se necessário */
+  overflow-x: hidden;  /* Esconde o scroll horizontal */
+ 
   animation: fadeIn 0.3s ease;
 
   width: 100%;

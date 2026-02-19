@@ -11,7 +11,7 @@ function renderCards(projects) {
       <div class="card ${project.image_card}" data-id="${project.id}">
         <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
         <span class="tag">${project.area}</span>
-        ${project.project_in_progress === true ? `<span class="tag tag-inprogress page-in-progress">In progress</span> ` : ""}
+        ${project.project_in_progress === true ? `<span class="tag tag-inprogress">In progress</span> ` : ""}
         
         <span class="title-card">${project.title}</span>
         <span class="subtitle-card">${project.subtitle}</span>
@@ -54,7 +54,7 @@ function renderModal(id) {
     <!-- Section Introduction -->
     <div class="introduction-title-box"> 
       <h1 class="introduction-title-03">${project.title}</h1>
-      <h1 class="introduction-title-03">${project.area} ${project.project_OR_case}</h1>
+      <h1 class="introduction-title-03">${project.area} ${project.workproject_OR_personalproject}</h1>
       <img src="${project.image_mockup}" alt="mockup-project" class="mockup-project">
     </div>
 
@@ -66,7 +66,7 @@ function renderModal(id) {
 
     <!-- Overview -->
     <div class="text-box-center">
-      <p class="text-poppins-02">${project.overview_p01}</p>
+      <p class="text-poppins-02">${project.overview}</p>
     </div>
     <!-- End of Overview -->
 
@@ -85,7 +85,7 @@ function renderModal(id) {
       ${project.tool_css === true ? `<span class="badge badge-css">CSS</span>` : ""}
       ${project.tool_js === true ? `<span class="badge badge-js">JavaScript</span>` : ""}
       ${project.tool_vscode === true ? `<span class="badge badge-vscode">VS Code</span>` : ""}
-      ${project.tool_react === true ? `<span class="badge badge-react">Reacr</span>` : ""}
+      ${project.tool_react === true ? `<span class="badge badge-react">React</span>` : ""}
       ${project.tool_typescript === true ? `<span class="badge badge-typescript">TypeScript</span>` : ""}    
     </div>
 
@@ -98,7 +98,7 @@ function renderModal(id) {
     </div>
 
     <div class="text-box-center">
-      <p class="text-poppins-02">Read a little about some small parts of the process, concerning the main ponts such as the specific problem and solution of this project.</p>
+      <p class="text-poppins-02">Read a little about some small parts of the process, concerning the main points such as the specific problem and solution of this project.</p>
     </div>
     <img src="/assets/images/Illustration-process.png" class="image-illutration" alt="Process Illustration">
 
@@ -120,24 +120,14 @@ function renderModal(id) {
 
     <div class="text-box-center">
       <p class="text-poppins-02">${project.solution}</p>
-    
-      
     </div>
     <!-- End of The Process -->
 
-    <button href="#introduction-title-box" class="btn-text-icon">
-      <i class="fa-solid fa-arrow-up fa-lg"></i>Back to Projects
-    </button>
-
-
-  
-
-    
-
-
-
-
-
+    <div class="container-text">
+      <button class="btn-back-to-top">
+        <i class="fa-solid fa-angles-up fa-lg"></i>Back to Top
+      </button>
+    </div>
   `
   }
 }
@@ -159,12 +149,63 @@ document.addEventListener("keydown", (event) => {
   }
 })
 
+// Btn Back to Top
+modalContent.addEventListener("click", (event) => {
+  if (event.target.closest(".btn-back-to-top")) {
+    modalContent.scrollTo({ top: 0, behavior: "smooth" })
+  }
+})
+
 
 // Filter 
 
+// capturar o bloco de filtros 
+const filters = document.querySelector("#select-filter")
 
+// escuto click em algum dos elementos dentro do bloco de filtros 
+filters.addEventListener("click", (event) => {
+  if (event.target.classList.contains("badge-filter")) {
+    event.preventDefault()
+    const category = event.target.value
+    filterProjects(category)
+    localStorage.setItem("selectedCategory", category)
+  }
+})
 
+// se o elemento clicado tiver value = frontend, busco no array de projetos todos os projetos que tem area = "Front-End"
+function filterProjects(category) {
+  let filtered = []
 
+  if (category === "frontend") {
+    filtered = projects.filter(project => project.area === "Front-End")
+  } else if (category === "uxui") {
+    filtered = projects.filter(project => project.area === "UX/UI")
+  } else if (category === "all") {
+    filtered = projects
+  }
 
+  renderCards(filtered)
+  setActiveBadge(category)
+}
+
+// persiste para deixar filtrados e o botao active
+
+function setActiveBadge(category) {
+  // remove from all
+  const badges = document.querySelectorAll(".badge-filter")
+  badges.forEach(bagde => bagde.classList.remove("active"))
+  
+  const activeBagde = document.querySelector(`.badge-filter[value="${category}"]`)
+  if (activeBagde) {
+    activeBagde.classList.add("active")
+
+  }
+}
+
+function applySavedFilter() {
+  const savedCategory = localStorage.getItem("selectedCategory") || "all"
+  filterProjects(savedCategory)
+}
+applySavedFilter()
 
 

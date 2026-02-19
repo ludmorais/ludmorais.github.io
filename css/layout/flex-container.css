@@ -80,6 +80,19 @@
 
 /*----------------------------------------*/
 
+/* Container Text */
+.container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 24px;
+}
+
+
+/*----------------------------------------*/
+
 /* Section Contact */
 .container-contact {
   display: flex;

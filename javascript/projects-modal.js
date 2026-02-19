@@ -6,13 +6,15 @@ const modal = document.querySelector(".modal-overlay")
 const modalContent = document.querySelector(".modal-content")
 
 function renderCards(projects) {
-  cardModal.innerHTML = projects
+  const projectDisplayed = cardModal.classList.contains("preview") ? projects.slice(-2) : projects
+
+  cardModal.innerHTML = projectDisplayed
     .map(project => `
-      <div class="card ${project.image_card}" data-id="${project.id}">
+      <div class="card" data-id="${project.id}" style="background: linear-gradient(var(--color-opacity-dark-75)), url(${project.image_card})">
         <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
         <span class="tag">${project.area}</span>
         ${project.project_in_progress === true ? `<span class="tag tag-inprogress">In progress</span> ` : ""}
-        
+            
         <span class="title-card">${project.title}</span>
         <span class="subtitle-card">${project.subtitle}</span>
       </div>
@@ -182,7 +184,7 @@ function filterProjects(category) {
     filtered = projects.filter(project => project.area === "UX/UI")
   } else if (category === "all") {
     filtered = projects
-  }
+  } 
 
   renderCards(filtered)
   setActiveBadge(category)
@@ -194,7 +196,7 @@ function setActiveBadge(category) {
   // remove from all
   const badges = document.querySelectorAll(".badge-filter")
   badges.forEach(bagde => bagde.classList.remove("active"))
-  
+
   const activeBagde = document.querySelector(`.badge-filter[value="${category}"]`)
   if (activeBagde) {
     activeBagde.classList.add("active")

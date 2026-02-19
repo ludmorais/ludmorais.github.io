@@ -20,9 +20,8 @@
 .card {
   display: flex;
   flex-direction: column;
-
-  background-image: none;
-  background-color: var(--color-opacity-dark-75);
+  background-size: cover;
+  background-position: center;
   border-radius: 6px;
   box-shadow: var(--box-shadow-20);
 

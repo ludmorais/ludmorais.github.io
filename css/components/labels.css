@@ -113,7 +113,7 @@
 /* Text to use inside the Section Title */ 
 .text-section-title {
   padding: 2px;
-  margin: 4px;
+  margin: 8px;
   font-family: var(--font-family-spline);
   font-size: var(--font-size-20px);
   font-weight: var(--font-weight-bold);

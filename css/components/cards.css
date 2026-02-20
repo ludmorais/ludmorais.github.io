@@ -10,6 +10,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
+
 }
 
 
@@ -20,10 +21,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  /*
-  background-size: cover;
-  background-position: center 100px;
-  */
+ 
   border-radius: 6px;
   box-shadow: var(--box-shadow-20);
 

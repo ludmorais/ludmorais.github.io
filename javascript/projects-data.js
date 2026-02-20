@@ -217,7 +217,7 @@ export const projects = [
   {
     // MY SH BOOKSHELF
     id: "book",
-    page_in_progress: false,
+    page_in_progress: true,
     // card and basic information
     project_in_progress: true,
     title: "My SH Bookshelf",

@@ -4,9 +4,20 @@
 .mockup-project {
   max-width: auto;
   height: 200px;
-  
   margin-top: 8px;
   margin-bottom: 16px;
+}
+
+.illustration-in-progress {
+  height: auto;
+  width: 300px;
+}
+
+.image-illustration-process {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
 }
 
 .avatar {

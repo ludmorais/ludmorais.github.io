@@ -61,7 +61,7 @@ function renderModal(id) {
       <div class="text-box-center">
         <p class="text-poppins-02">
           Sorry! This page is a work in progress. Check back soon!
-        </p>
+        </p><br><br><br>
       </div>
     `
     // window.location.href = "/html/pages/page-in-progress.html"

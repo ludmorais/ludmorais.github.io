@@ -2,6 +2,13 @@
 /* Styling Specific Items */ 
 /*----------------------------------------*/
 
+/* HTML */
+html {
+  scroll-behavior: smooth;
+}
+
+/*----------------------------------------*/
+
 /* Body */
 body {
   display: flex;
@@ -16,6 +23,26 @@ a {
   text-decoration: none;
   color: none;
 }
+
+/*----------------------------------------*/
+
+/* Smooth Transitions */
+
+/* smooth transition of everything */
+@view-transition {
+  navigation: auto;
+}
+
+/* other way to do smooth transition of everything */
+/* 
+body {
+  animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+} 
+*/
 
 /*----------------------------------------*/
 

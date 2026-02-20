@@ -10,7 +10,7 @@ function renderCards(projects) {
 
   cardModal.innerHTML = projectDisplayed
     .map(project => `
-      <div class="card" data-id="${project.id}" style="background: linear-gradient(var(--color-opacity-dark-75)), url(${project.image_card})">
+      <div class="card" data-id="${project.id}" style="background: linear-gradient(var(--color-opacity-dark-75)), url(${project.image_card}); background-size: cover; background-position: center">
         <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
         <span class="tag">${project.area}</span>
         ${project.project_in_progress === true ? `<span class="tag tag-inprogress">In progress</span> ` : ""}
@@ -42,7 +42,29 @@ function renderModal(id) {
   const project = projects.find(project => project.id === id)
 
   if (project.page_in_progress === true) {
-    window.location.href = "/html/pages/page-in-progress.html"
+    modalContent.innerHTML = `
+    
+      <!-- Button Modal -->
+      <div class="close-modal">
+      <button class="btn-icon secundary">
+          <i class="fa-solid fa-close fa-lg"></i>
+      </button>
+      </div>
+
+      <div class="section-title">
+        <i class="fa-solid fa-circle fa-2xs icon-section-title"></i>
+        <span class="text-section-title">Page in Progress...</span><br>
+      </div>
+
+      <img src="/assets/images/undraw_typing-code_6t2b.svg" alt="Illustration in progress" class="illustration-in-progress"></img><br><br>
+    
+      <div class="text-box-center">
+        <p class="text-poppins-02">
+          Sorry! This page is a work in progress. Check back soon!
+        </p>
+      </div>
+    `
+    // window.location.href = "/html/pages/page-in-progress.html"
 
   } else {
     modalContent.innerHTML = ` 

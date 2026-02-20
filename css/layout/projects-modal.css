@@ -47,7 +47,7 @@ body.modal-open {
 
   width: 100%;
   max-width: 300px;
-  height: 100%;
+  height: max-content;
   max-height: 80%;
   
   padding: 64px 32px;

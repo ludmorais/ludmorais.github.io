@@ -53,6 +53,8 @@
 @import url(./layout/customize.css);
 /* Display Flex */
 @import url(./layout/flex-container.css);
+/* Projects Modal */
+@import url(./layout/projects-modal.css);
 /* Responsive Background */
 @import url(./layout/responsive-background.css);
 /* Responsive Elements */

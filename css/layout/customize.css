@@ -2,6 +2,13 @@
 /* Styling Specific Items */ 
 /*----------------------------------------*/
 
+/* HTML */
+html {
+  scroll-behavior: smooth;
+}
+
+/*----------------------------------------*/
+
 /* Body */
 body {
   display: flex;
@@ -19,31 +26,24 @@ a {
 
 /*----------------------------------------*/
 
-/* Cards */
-.card.card-portfolio { 
-  background-image: url(#);
+/* Smooth Transitions */
+
+/* smooth transition of everything */
+@view-transition {
+  navigation: auto;
 }
 
-.card.card-advice { 
-  background-image: url(/assets/images/advice-card-image.png);
+/* other way to do smooth transition of everything */
+/* 
+body {
+  animation: fadeIn 0.5s ease-in-out;
 }
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+} 
+*/
 
-.card.card-perguntorl { 
-  background-image: url(/assets/images/perguntorl-card-image.png);
-}
+/*----------------------------------------*/
 
-.card.card-wellify { 
-  background-image: url(/assets/images/wellify-card-image.png);
-}
-
-.card.card-cropfix { 
-  background-image: url(/assets/images/cropfix-card-image.png);
-}
-
-.card.card-selbetti { 
-  background-image: url(/assets/images/selbetti-card-image.png);
-}
-
-.card.card-fluere { 
-  background-image: url(/assets/images/fluere-card-image.png);
-}
+/* xxxxxx */

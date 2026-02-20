@@ -26,7 +26,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 24px 0 24px;
+  margin: 18px;
 }
 
 .introduction-title-box.contact {
@@ -113,7 +113,7 @@
 /* Text to use inside the Section Title */ 
 .text-section-title {
   padding: 2px;
-  margin: 4px;
+  margin: 8px;
   font-family: var(--font-family-spline);
   font-size: var(--font-size-20px);
   font-weight: var(--font-weight-bold);
@@ -172,7 +172,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 0 24px 0 24px;
+  /*margin: 0 24px 0 24px;*/
 }
 
 

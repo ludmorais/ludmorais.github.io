@@ -6,22 +6,22 @@
 /*----------------------------------------*/
 /* Grid Container */
 /*----------------------------------------*/
-/*.cards {
+.cards {
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
-}*/
+
+}
 
 
 /*----------------------------------------*/
 /* Image Card */
 /*----------------------------------------*/
+
 .card {
   display: flex;
   flex-direction: column;
-
-  background-image: none;
-  background-color: var(--color-opacity-dark-75);
+ 
   border-radius: 6px;
   box-shadow: var(--box-shadow-20);
 
@@ -153,7 +153,6 @@
     color: var(--color-primary-02);
   }
 }
-
 
 /* Icon to use inside quote card (type 1 and 2)*/
 .icon-quote-card {

@@ -219,3 +219,54 @@
 .btn-text-icon:focus {
   transform: none;
 }
+
+/*----------------------------------------*/
+/* Icon Button Back to Top (.btn-back-to-top)
+/*----------------------------------------*/
+/* default */
+.btn-back-to-top {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  padding-right: 24px;
+  margin: 12px 8px;
+  max-width: max-content;
+  border-radius: 50px;
+
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-14px);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-hight-subtitle);
+  letter-spacing: 0.8px;
+  text-decoration: var(--underline);
+  text-align: left;
+
+  background-color: transparent;
+  color: var(--color-neutral-30);
+  transition: all 0.3s ease;
+}
+
+.btn-back-to-top i {
+  margin: 12px;
+  pointer-events: none;
+  text-decoration: none;
+}
+
+/* hover */
+.btn-back-to-top:hover {
+  color: var(--color-neutral-100);
+  background-color: var(--color-primary-03);
+  box-shadow: var(--box-shadow-20);
+}
+
+/* active */
+.btn-text-icon::active {
+  transform: none;
+}
+
+/* focus */ 
+.btn-text-icon:focus {
+  transform: none;
+}

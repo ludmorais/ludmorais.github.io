@@ -64,7 +64,7 @@
         <span class="text-section-title">About Me</span>
       </div>
 
-      <div class="text-box-center">
+      <div class="text-box-center container-text">
         <p class="text-poppins-02">
           I am a <span class="sembold">front-end developer</span> with
           <span class="semibold poppins">3 years of experience in UX/UI design.</span>
@@ -102,7 +102,7 @@
       </div>
 
 
-      <a href="/assets/documents/cv_Frontend_Ludmilla_Morais.pdf" target="_blank" class="btn border secundary">
+      <a href="/assets/documents/cv_frontend_ludmilla_morais.pdf" target="_blank" class="btn border secundary">
         View My CV
       </a>
       <!-- End of About Me -->
@@ -259,7 +259,7 @@
         <span class="text-section-title">Recognition and Praise</span>
       </div>
 
-      <div class="text-box-center">
+      <div class="text-box-center container-text">
         <p class="text-poppins-02">
           When we do a good job and put all our dedication into what we set out to do,
           it's inevitable that we will be recognized in some way.
@@ -327,16 +327,25 @@
       <hr class="space-between-section-12px">
       <!-- End of Divisor Content-->
 
-      <!-- See Other Projects -->
+      <!-- Check out Other Projects -->
 
       <div class="section-title">
         <i class="fa-solid fa-circle fa-2xs icon-section-title"></i>
-        <span class="text-section-title">See My Projects</span>
+        <span class="text-section-title">Check Out My Latest Project</span>
       </div>
 
+      <!-- Projects Cards -->
+      <div class="cards cards-modal preview" id="cards-preview"></div>
+      <div class="modal-overlay">
+        <div class="modal-content"></div>
+      </div>
+      <img src="/assets/images/" alt="">
+      <!-- End of Projects Cards -->
+
+      <!-- 
       <div class="cards about">
         <div>
-          <!-- ./projects/personal-boolshelf -->
+          
           <a href="#" class="card card-portfolio page-in-progress">
             <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
             <span class="tag">Front-End</span>
@@ -347,7 +356,7 @@
         </div>
 
         <div>
-          <!-- ./projects/personal-portfolio -->
+          
           <a href="#" class="card card-portfolio page-in-progress">
             <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
             <span class="tag">Front-End</span>
@@ -359,6 +368,7 @@
       </div>
       <a href="/index.html" class="btn border secundary">All My Projects</a>
     </div>
+    -->
 
     <!-- End of section Project Details -->
 
@@ -404,7 +414,9 @@
 
   <!-- JavaScript -->
   <script src="/javascript/menu.js"></script>
+
   <script src="/javascript/page-in-progress.js"></script>
+  <script type="module" src="/javascript/projects-modal.js"></script>
 
 </body>
 

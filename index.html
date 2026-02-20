@@ -8,12 +8,12 @@
   <link rel="stylesheet" type="text/css" href="/css/main.css">
   <script src="https://kit.fontawesome.com/27c0b71175.js" crossorigin="anonymous"></script>
 
-  <link rel="icon" type="image/png" href="/assets/images/l-solid-full.svg"/>
+  <link rel="icon" type="image/png" href="/assets/images/l-solid-full.svg" />
   <title>Ludmilla Morais</title>
 </head>
 
 <body id="background-index" class="container">
-  
+
   <!-- Header -->
   <header class="container-header">
     <nav class="container-nav">
@@ -30,7 +30,7 @@
       <div id="menu-desktop">
       </div>
       <!-- End of Menu Desktop -->
-      
+
       <!-- Divisor Content-->
       <hr class="divisor divisor-header">
       <!-- End of Divisor Content-->
@@ -81,16 +81,28 @@
         <span class="text-section-title">Projects</span>
       </div>
 
-      <!-- Projects Filter 
-      <div id="badge-box select-filter">
-        <button class="badge badge-filter">All Projects</button>
-        <button class="badge badge-filter">Frontend</button>
-        <button class="badge badge-filter">UX/UI</button>
-      </div>-->
+      <!-- Projects Filter -->
+      <div class="badge-box filters" id="select-filter">
+          <button class="badge badge-filter" value="all">All Projects</button>
+          <button class="badge badge-filter" value="frontend">Frontend</button>
+          <button class="badge badge-filter" value="uxui">UX/UI</button>
+      </div>
+      <!-- End of Projects Filter -->
+
+      <!-- Projects Cards -->
+      <div class="cards cards-modal"></div>
+      <div class="modal-overlay">
+        <div class="modal-content"></div>
+      </div>
+      <!-- End of Projects Cards -->
+
+
+      <!-- 
+
 
       <div class="cards">
         <div>
-          <!-- ./projects/personal-boolshelf -->
+        
           <a href="#" class="card card-portfolio page-in-progress">
             <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
             <span class="tag">Front-End</span>
@@ -101,7 +113,7 @@
         </div>
 
         <div>
-          <!-- ./projects/cpak -->
+          
           <a href="#" class="card card-portfolio page-in-progress">
             <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
             <span class="tag">Front-End</span>
@@ -112,7 +124,7 @@
         </div>
 
         <div>
-          <!-- ./projects/personal-portfolio -->
+          
           <a href="#" class="card card-portfolio page-in-progress">
             <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
             <span class="tag">Front-End</span>
@@ -123,7 +135,7 @@
         </div>
 
         <div>
-          <!-- ./projects/advice-education.html -->
+          
           <a href="#" class="card card-advice page-in-progress">
             <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
             <span class="tag">UX/UI</span>
@@ -133,7 +145,7 @@
         </div>
 
         <div>
-          <!-- ./projects/perguntorl.html -->
+        
           <a href="#" class="card card-perguntorl page-in-progress">
             <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
             <span class="tag">UX/UI</span>
@@ -143,7 +155,7 @@
         </div>
 
         <div>
-          <!-- ./projects/wellify.html -->
+          
           <a href="#" class="card card-wellify in-progress">
             <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
             <span class="tag">UX/UI</span>
@@ -153,7 +165,7 @@
         </div>
 
         <div>
-          <!-- ./projects/cropfix.html -->
+         
           <a href="#" class="card card-cropfix page-in-progress">
             <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
             <span class="tag">UX/UI</span>
@@ -163,7 +175,7 @@
         </div>
 
         <div>
-          <!-- ./projects/selbetti.html -->
+          
           <a href="#" class="card card-selbetti page-in-progress">
             <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
             <span class="tag">UX/UI</span>
@@ -173,7 +185,7 @@
         </div>
 
         <div>
-          <!-- ./projects/fluere.html -->
+        
           <a href="#" class="card card-fluere page-in-progress">
             <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
             <span class="tag">UX/UI</span>
@@ -182,6 +194,7 @@
           </a>
         </div>
       </div>
+      -->
 
       <a href="/html/pages/about.html" class="btn border secundary">Learn About Me</a>
     </div>
@@ -202,6 +215,13 @@
       <a class="btn primary" href="mailto:ludmillamorais.dev@outlook.pt">Send Me an Email</a>
     </section>
     <!-- End of Section Get in Touch -->
+
+    <div class="container-text">
+      <a href="#top" class="btn-back-to-top">
+        <i class="fa-solid fa-angles-up fa-lg"></i>Back to Top
+      </a>
+    </div>
+    
 
   </main>
   <!-- End of Container -->
@@ -229,9 +249,9 @@
 
   <!-- JavaScript -->
   <script src="/javascript/menu.js"></script>
-  <script src="/javascript/script.js"></script>
-  <script src="/javascript/page-in-progress.js"></script>
 
+  <script src="/javascript/page-in-progress.js"></script>
+  <script type="module" src="/javascript/projects-modal.js"></script>
 
 </body>
 

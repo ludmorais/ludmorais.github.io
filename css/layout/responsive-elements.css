@@ -13,6 +13,16 @@
   }
 }
 
+/*
+@media (min-width: 400px) {
+  .modal-content {
+      max-width: 320px;
+      margin: 16px;
+    }
+}
+    */
+
+
 @media (min-width: 768px) {
   .cards,
   .quote-cards {
@@ -20,6 +30,12 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
   }
+  /*
+  .modal-content {
+      max-width: 600px;
+      margin: 32px;
+    }*/
+
   
 }
 

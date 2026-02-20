@@ -2,8 +2,11 @@
 /* IMAGES */
 /*----------------------------------------*/
 .mockup-project {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  max-width: auto;
+  height: 200px;
+  
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 .avatar {
@@ -21,7 +24,4 @@
   margin-bottom: 24px;
 }
 
-.illustration-in-progress {
-  height: auto;
-  width: 300px;
-}
+

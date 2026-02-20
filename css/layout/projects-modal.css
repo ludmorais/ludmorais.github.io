@@ -23,44 +23,63 @@ body.modal-open {
   display: block;
 }
 
+.modal-content {
+  /*
+  position: relative;
+  
+  top: 12px;
+
+  right: 20px;
+
+  width: 100%;
+  max-width: 300px;
+  height: max-content;
+  max-height: 80%;
+
+  padding: 64px 32px;
+  margin: 32px;
+  border-radius: 8px;
+  */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  max-width: 276px;
+  height: max-content;
+  max-height: 80%;
+  background-color: var(--color-neutral-100);
+  color: var(--color-neutral-30);
+  
+  padding: 64px 32px;
+  margin: 24px;
+  border-radius: 8px;
+
+  overflow-y: auto;    /* Permite scroll vertical se necessário */
+  overflow-x: hidden;  /* Esconde o scroll horizontal */
+  animation: fadeIn 0.3s ease;
+  
+}
 
 .close-modal {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
+  top: 32px;
+  right: 42px;
+  cursor: pointer; 
 }
 
 .close-modal i {
   color: var(--color-primary-01);
 }
 
-.modal-content {
-  position: relative;
-  z-index: 1000;
-  top: 12px;
-  right: 20px;
-  overflow-y: auto;    /* Permite scroll vertical se necessário */
-  overflow-x: hidden;  /* Esconde o scroll horizontal */
- 
-  animation: fadeIn 0.3s ease;
-
-  width: 100%;
-  max-width: 300px;
-  height: max-content;
-  max-height: 80%;
-  
-  padding: 64px 32px;
-  margin: 32px;
-  border-radius: 8px;
-
-  background-color: var(--color-neutral-100);
-  color: var(--color-neutral-30);
+.illustration-in-progress {
+  height: auto;
+  width: 300px;
 }
 
-
-
-.image-illutration {
+.image-illustration-process {
   display: flex;
   flex-direction: column;
   justify-content: center;

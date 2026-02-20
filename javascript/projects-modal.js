@@ -6,11 +6,12 @@ const modal = document.querySelector(".modal-overlay")
 const modalContent = document.querySelector(".modal-content")
 
 function renderCards(projects) {
-  const projectDisplayed = cardModal.classList.contains("preview") ? projects.slice(-2) : projects
+  const orderedProjects = [...projects].reverse()
+  const projectDisplayed = cardModal.classList.contains("preview") ? orderedProjects.slice(0, 2) : orderedProjects
 
   cardModal.innerHTML = projectDisplayed
     .map(project => `
-      <div class="card" data-id="${project.id}" style="background: linear-gradient(var(--color-opacity-dark-75)), url(${project.image_card}); background-size: cover; background-position: center">
+      <div class="card" data-id="${project.id}" style="background: linear-gradient(var(--color-opacity-dark-50)), url(${project.image_card}); background-size: cover; background-position: center">
         <i class="fa-solid fa-arrow-up fa-lg icon-card"></i>
         <span class="tag">${project.area}</span>
         ${project.project_in_progress === true ? `<span class="tag tag-inprogress">In progress</span> ` : ""}
@@ -43,7 +44,6 @@ function renderModal(id) {
 
   if (project.page_in_progress === true) {
     modalContent.innerHTML = `
-    
       <!-- Button Modal -->
       <div class="close-modal">
       <button class="btn-icon secundary">
@@ -79,8 +79,9 @@ function renderModal(id) {
     <div class="introduction-title-box"> 
       <h1 class="introduction-title-03">${project.title}</h1>
       <h1 class="introduction-title-03">${project.area} ${project.workproject_OR_personalproject}</h1>
-      <img src="${project.image_mockup}" alt="mockup-project" class="mockup-project">
     </div>
+
+    <img src="${project.image_mockup}" alt="mockup-project" class="mockup-project">
 
     <div class="section-title">
         <i class="fa-solid fa-circle fa-2xs icon-section-title"></i>
@@ -124,7 +125,7 @@ function renderModal(id) {
     <div class="text-box-center">
       <p class="text-poppins-02">Read a little about some small parts of the process, concerning the main points such as the specific problem and solution of this project.</p>
     </div>
-    <img src="/assets/images/Illustration-process.png" class="image-illutration" alt="Process Illustration">
+    <img src="/assets/images/Illustration-process.png" class="image-illustration-process" alt="Process Illustration">
 
     <!-- The Problem -->
     <div class="section-subtitle">

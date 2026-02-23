@@ -1,5 +1,6 @@
 import { projects } from "./projects-data.js"
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Cards
 const cardModal = document.querySelector(".cards-modal")
 const modal = document.querySelector(".modal-overlay")
@@ -24,7 +25,7 @@ function renderCards(projects) {
 }
 renderCards(projects)
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Open Modal 
 cardModal.addEventListener("click", (event) => {
   const card = event.target.closest(".card")
@@ -38,6 +39,7 @@ cardModal.addEventListener("click", (event) => {
 
 })
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Render Modal 
 function renderModal(id) {
   const project = projects.find(project => project.id === id)
@@ -165,7 +167,7 @@ modal.addEventListener("click", (event) => {
   }
 })
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Close modal with ESC on keyboard
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && modal.classList.contains("active")) {
@@ -174,6 +176,7 @@ document.addEventListener("keydown", (event) => {
   }
 })
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Btn Back to Top
 modalContent.addEventListener("click", (event) => {
   if (event.target.closest(".btn-back-to-top")) {
@@ -181,7 +184,7 @@ modalContent.addEventListener("click", (event) => {
   }
 })
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Filter 
 
 // capturar o bloco de filtros 
@@ -193,7 +196,7 @@ filters.addEventListener("click", (event) => {
     event.preventDefault()
     const category = event.target.value
     filterProjects(category)
-    localStorage.setItem("selectedCategory", category)
+    sessionStorage.setItem("selectedCategory", category)
   }
 })
 
@@ -214,7 +217,6 @@ function filterProjects(category) {
 }
 
 // persiste para deixar filtrados e o botao active
-
 function setActiveBadge(category) {
   // remove from all
   const badges = document.querySelectorAll(".badge-filter")
@@ -228,9 +230,27 @@ function setActiveBadge(category) {
 }
 
 function applySavedFilter() {
-  const savedCategory = localStorage.getItem("selectedCategory") || "all"
+  const savedCategory = sessionStorage.getItem("selectedCategory") || "all"
   filterProjects(savedCategory)
 }
 applySavedFilter()
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Maintaining the previuous page position
+/*
+window.addEventListener("beforeunload", () => {
+  sessionStorage.setItem("scrollPosition", window.scrollY)
+})
+
+window.addEventListener("load", () => {
+  const savedPosition = sessionStorage.getItem("scrollPosition")
+  if (savedPosition) {
+    window.scrollTo(0, parseInt(savedPosition))
+   
+  }
+})
+*/
+
+
 
 

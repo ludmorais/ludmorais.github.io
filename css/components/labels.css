@@ -97,6 +97,16 @@
   color: var(--color-neutral-30);
 }
 
+/* Introduction Subitle - Type 2 */
+.introduction-subtitle-02 {
+  font-family: var(--font-family-spline);
+  font-size: var(--font-size-18px);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-subtitle);
+  color: var(--color-secundary-01);
+  margin: 12px;
+}
+
 
 
 

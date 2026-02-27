@@ -56,7 +56,7 @@ export const projects = [
   {
     // CROPFIX
     id: "crop",
-    page_in_progress: true,
+    page_in_progress: false,
     // card and basic information
     project_in_progress: false,
     title: "Cropfix",
@@ -77,7 +77,7 @@ export const projects = [
     tool_typescript: true,
     problem: "The problem was Advice Education is a brazilian company xxxxxxxxxxxxxxx. <br><br> I was a sole UX/UI designer for this project. <br><br> The goal of this project was to create xxxxxxxxxxxxxx. <br>",
     solution: "I created something to do somethingxxxx xxxxxxxxx.",
-    image_solution: "/assets/images/image_solution/advice-student-user-flow.png"
+    image_solution: "/assets/images/image_solution/cropfix-solution.png"
   },
 
   {

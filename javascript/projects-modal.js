@@ -79,8 +79,9 @@ function renderModal(id) {
 
     <!-- Section Introduction -->
     <div class="introduction-title-box"> 
-      <h1 class="introduction-title-03">${project.title}</h1>
-      <h1 class="introduction-title-03">${project.area} ${project.workproject_OR_personalproject}</h1>
+      <h1 class="introduction-title-04 uppercase">${project.title}</h1>
+      <h1 class="introduction-title-03 uppercase">${project.area} ${project.workproject_OR_personalproject}</h1>
+      <h2 class="introduction-subtitle-02">${project.subtitle}</h2>
     </div>
 
     <img src="${project.image_mockup}" alt="mockup-project" class="mockup-project">
@@ -148,6 +149,7 @@ function renderModal(id) {
     <div class="text-box-center">
       <p class="text-poppins-02">${project.solution}</p>
     </div>
+    <img src="${project.image_solution}" class="image-solution-process" alt="Solution image">
     <!-- End of The Process -->
 
     <div class="container-text">

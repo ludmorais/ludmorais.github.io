@@ -20,6 +20,15 @@
   max-width: 100%;
 }
 
+.image-solution-process {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
 .avatar {
   display: flex;
   justify-content: center;

@@ -111,4 +111,8 @@
   font-style: var(--italic);
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 

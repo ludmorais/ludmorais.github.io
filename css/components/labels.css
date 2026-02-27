@@ -63,6 +63,16 @@
   margin: 0;
 }
 
+/* Introduction Title - Type 3 */
+.introduction-title-04 {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-32px);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-title);
+  color: var(--color-primary-01);
+  margin-bottom: 8px;
+}
+
 
 /*----------------------------------------*/
 /* Introduction Subtitle */

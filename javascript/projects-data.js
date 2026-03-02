@@ -39,7 +39,7 @@ export const projects = [
     image_card: "/assets/images/images_projects/selbetti-project.png",
     // project details (modal)
     image_mockup: "/assets/images/images_projects/selbetti-project.png",
-    overview: "Selbetti Technology is a brazilian tech company that create information techology solutions, including software, hardware and IT services. <br><br> I <b>worked in a team</b> where each person worked on a specific product, but everyone shared experiences and lessons learned.<br><br> I contributed with two products, one for ditial and eletronic signatures <b>S-Sign</b> and another for bussiness process management <b>BMPS</b><br>.",
+    overview: "Selbetti Technology is a Brazilian tech company that create information techology solutions, including software, hardware and IT services. <br><br> I <b>worked in a team</b> where each person worked on a specific product, but everyone shared experiences and lessons learned.<br><br> I contributed with two products, one for ditial and eletronic signatures <b>S-Sign</b> and another for bussiness process management <b>BMPS</b><br>.",
     tool_figma: false,
     tool_adobexd: true,
     tool_html: false,
@@ -49,14 +49,14 @@ export const projects = [
     tool_react: false,
     tool_typescript: false,
     problem: "The main challenge was to <b>implement new feautures and improve existing ones</b>, seeking the best <b>usability</b> decisions and ensuring that <b>user needs</b> are met.",
-    solution: "I followed UX and UI Design processess <b>end to end</b>. I conducted extensive <b>user reasearchm</b>, including numerous <b>usability tests</b>. I created <b>application interfacesm</b> and contributed to the development of the company's <b>Design System</b>.",
+    solution: "I followed UX and UI Design processess <b>end to end</b>. I conducted extensive <b>user reasearch</b>, including numerous <b>usability tests</b>. I created <b>application interfacesm</b> and contributed to the development of the company's <b>Design System</b>.<br><br><b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of solutions, passing on of deliverables to development.",
     image_solution: "/assets/images/image_solution/selbetti-solution.png"
   },
 
   {
     // CROPFIX
     id: "crop",
-    page_in_progress: true,
+    page_in_progress: false,
     // card and basic information
     project_in_progress: false,
     title: "Cropfix",
@@ -66,17 +66,17 @@ export const projects = [
     image_card: "/assets/images/images_projects/cropfix-project.png",
     // project details (modal)
     image_mockup: "/assets/images/images_projects/cropfix-project.png",
-    overview: "Advice Education is a brazilian company xxxxxxxxxxxxxxx. <br><br> I was a sole UX/UI designer for this project. <br><br> The goal of this project was to create xxxxxxxxxxxxxx. <br>",
+    overview: "Cropfix is a Brazilian <b>agribusiness company</b> that provides technological products for the sector.<br><br> Cropfix was a <b>client of the company Sozei</b>, and it was through Sozei that I participated in this project. <b>I was the only UX/UI designer on the team</b> and I was in direct contact with the client. <br><br> <b>The goal</b> of this project was to <b>redesign<b> the company website's landing page.<br>",
     tool_figma: true,
-    tool_adobexd: true,
-    tool_html: true,
-    tool_css: true,
-    tool_js: true,
-    tool_vscode: true,
-    tool_react: true,
-    tool_typescript: true,
-    problem: "The problem was Advice Education is a brazilian company xxxxxxxxxxxxxxx. <br><br> I was a sole UX/UI designer for this project. <br><br> The goal of this project was to create xxxxxxxxxxxxxx. <br>",
-    solution: "I created something to do somethingxxxx xxxxxxxxx.",
+    tool_adobexd: false,
+    tool_html: false,
+    tool_css: false,
+    tool_js: false,
+    tool_vscode: false,
+    tool_react: false,
+    tool_typescript: false,
+    problem: "The challenge was to create a <b>simple, modern, and user-friendly</b> landing page that showcased the essentials about the company and its market presence.",
+    solution: "I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as market research, applications of design theories, benchmarking, among others, etc.<br><br> The interface design was the result of research and greatly pleased the client.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.",
     image_solution: "/assets/images/image_solution/cropfix-solution.png"
   },
 

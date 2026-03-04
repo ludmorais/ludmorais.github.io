@@ -76,7 +76,7 @@ export const projects = [
     tool_react: false,
     tool_typescript: false,
     problem: "The challenge was to create a <b>simple, modern, and user-friendly</b> landing page that showcased the essentials about the company and its market presence.",
-    solution: "I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as market research, applications of design theories, benchmarking, among others, etc.<br><br> The interface design was the result of research and greatly pleased the client.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.",
+    solution: "I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as market research, applications of design theories, benchmarking, among others, etc.<br><br> The interface design was the result of research and greatly pleased the client.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.<br>",
     image_solution: "/assets/images/image_solution/cropfix-solution.png"
   },
 

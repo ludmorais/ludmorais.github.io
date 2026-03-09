@@ -79,17 +79,6 @@ export const projects = [
     solution: "I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as market research, applications of design theories, benchmarking, among others, etc.<br><br> The interface design was the result of research and greatly pleased the client.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.<br>",
     image_solution: "/assets/images/image_solution/cropfix-solution.png"
   },
-
-
-
-
-
-
-
-
-
-
-
   {
     // WELLIFY
     id: "well",
@@ -116,10 +105,18 @@ export const projects = [
     solution: "I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as market research, applications of design theories, benchmarking, among others, etc.<br><br> The interface design was the result of research and greatly pleased the client.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.",
     image_solution: "/assets/images/image_solution/wellify-solution.png"
   },
+
+
+
+
+
+
+
+
   {
     // PERGUNTORL
     id: "perg",
-    page_in_progress: true,
+    page_in_progress: false,
     // card and basic information
     project_in_progress: false,
     title: "PerguntORL",
@@ -129,18 +126,18 @@ export const projects = [
     image_card: "/assets/images/images_projects/perguntorl-project.png",
     // project details (modal)
     image_mockup: "/assets/images/images_projects/perguntorl-project.png",
-    overview: "Advice Education is a brazilian company xxxxxxxxxxxxxxx. <br><br> I was a sole UX/UI designer for this project. <br><br> The goal of this project was to create xxxxxxxxxxxxxx. <br>",
+    overview: "PerguntORL is an <b>applicaion for solving preparatory questions for the medical specialization exam in otolaryngology</b>, created by a medical specialist. <br><br> PerguntORL was a <b>client of the company Sozei</b>, and it was through Sozei that I participated in this project. <b>I was the only UX/UI designer on the team</b> and I was in direct contact with the client. <br><br> <b>The goal</b> of this project was to create a <b>mobile application for solving questions</b> and a <b>desktop administrative panel</b> for registering questions and analysing users.<br>",
     tool_figma: true,
-    tool_adobexd: true,
-    tool_html: true,
-    tool_css: true,
-    tool_js: true,
-    tool_vscode: true,
-    tool_react: true,
-    tool_typescript: true,
-    problem: "The problem was Advice Education is a brazilian company xxxxxxxxxxxxxxx. <br><br> I was a sole UX/UI designer for this project. <br><br> The goal of this project was to create xxxxxxxxxxxxxx. <br>",
+    tool_adobexd: false,
+    tool_html: false,
+    tool_css: false,
+    tool_js: false,
+    tool_vscode: false,
+    tool_react: false,
+    tool_typescript: false,
+    problem: "The challenge was to create a <b>simple, modern, and user-friendly</b> app that allows users to <b>solve questions</b> and <b>track their perfomance</b> easily.",
     solution: "I created something to do somethingxxxx xxxxxxxxx.",
-    image_solution: "/assets/images/image_solution/advice-student-user-flow.png"
+    image_solution: "/assets/images/image_solution/perguntorl-solution.png"
   },
 
   {

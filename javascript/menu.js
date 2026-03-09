@@ -13,7 +13,7 @@ const menuHTML = `
   
   <div class="menu-list">
     <ul>
-      <li class="container-menu-link"><a href="/index.html" class="menu-link">Project</a></li>
+      <li class="container-menu-link"><a href="/index.html" class="menu-link">Projects</a></li>
       <li class="container-menu-link"><a href="/html/pages/about.html" class="menu-link">About Me</a></li>
       <li class="container-menu-link"><a href="/html/pages/contact.html" class="menu-link">Contact</a></li>
     </ul>

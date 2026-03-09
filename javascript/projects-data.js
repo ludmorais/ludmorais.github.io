@@ -49,7 +49,7 @@ export const projects = [
     tool_react: false,
     tool_typescript: false,
     problem: "The main challenge was to <b>implement new feautures and improve existing ones</b>, seeking the best <b>usability</b> decisions and ensuring that <b>user needs</b> are met.",
-    solution: "I followed UX and UI Design processess <b>end to end</b>. I conducted extensive <b>user reasearch</b>, including numerous <b>usability tests</b>. I created <b>application interfacesm</b> and contributed to the development of the company's <b>Design System</b>.<br><br><b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of solutions, passing on of deliverables to development.",
+    solution: "I followed UX and UI Design processess <b>end to end</b>. I conducted extensive <b>user reasearch</b>, including numerous <b>usability tests</b>. I created <b>application interfaces</b> and contributed to the development of the company's <b>Design System</b>.<br><br> About <b>UX research</b>, I've conducted many types of them, such as <u>Usability Tests, Desk Research, Benchmarking, Interviews, Qualitative and Quantitative Research</u>.<br><br> Furthermore, I used <b>Information Architecture</b> to create various flowcharts such as <u>sitemaps, user flows, funcionality flowcharts, task flows and use cases</u>.<br><br> For the <b>user interface creation</b>, I built <b>wireframes and high-fidelity prototypes</b> for validation with the team and the users throug <u>Usability Tests</u>.<br><br> Finally, I <b>supported the Design System</b> after each project with <u>insigths and future improvements</u>, and the <b>the project was delivered</b> with the <u>presentation</u> of the final result and a <u>documented handoff</u> to the development team.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of solutions, passing on of deliverables to development.",
     image_solution: "/assets/images/image_solution/selbetti-solution.png"
   },
 
@@ -76,9 +76,10 @@ export const projects = [
     tool_react: false,
     tool_typescript: false,
     problem: "The challenge was to create a <b>simple, modern, and user-friendly</b> landing page that showcased the essentials about the company and its market presence.",
-    solution: "I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as market research, applications of design theories, benchmarking, among others, etc.<br><br> The interface design was the result of research and greatly pleased the client.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.<br>",
+    solution: "I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as <u>Desk Research, Benchmarking, etc</u>.<br><br> Furthermore, I used <b>Information Architecture</b> to create various flowcharts such as <u>sitemaps, user flows, funcionality flowcharts, task flows and use cases</u>.<br><br> For the <b>user interface creation</b>, I created the entire <b>Style Guide</b> for the project, including <u>color palette and typography definition</u>, and  built <b>wireframes and high-fidelity prototypes</b> for validation with the team and the client.<br><br> Finally, the project was <b>delivered</b> with the <u>presentation</u> of the final result and a <u>documented handoff</u> to the development team.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.",
     image_solution: "/assets/images/image_solution/cropfix-solution.png"
   },
+
   {
     // WELLIFY
     id: "well",
@@ -102,16 +103,9 @@ export const projects = [
     tool_react: false,
     tool_typescript: false,
     problem: "The challenge was to create a <b>simple, modern, and user-friendly</b> app that allows users to <b>easily and quickly</b> schedule and attend a <b>remote medical appointment</b>.",
-    solution: "I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as market research, applications of design theories, benchmarking, among others, etc.<br><br> The interface design was the result of research and greatly pleased the client.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.",
+    solution: "I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as <u>Desk Research, Benchmarking, etc</u>.<br><br> Furthermore, I used <b>Information Architecture</b> to create various flowcharts such as <u>sitemaps, user flows, funcionality flowcharts, task flows and use cases</u>.<br><br> For the <b>user interface creation</b>, I created the entire <b>Style Guide</b> for the project, including <u>color palette and typography definition</u>, and  built <b>wireframes and high-fidelity prototypes</b> for validation with the team and the client.<br><br> Finally, the project was <b>delivered</b> with the <u>presentation</u> of the final result and a <u>documented handoff</u> to the development team.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.",
     image_solution: "/assets/images/image_solution/wellify-solution.png"
   },
-
-
-
-
-
-
-
 
   {
     // PERGUNTORL
@@ -136,10 +130,21 @@ export const projects = [
     tool_react: false,
     tool_typescript: false,
     problem: "The challenge was to create a <b>simple, modern, and user-friendly</b> app that allows users to <b>solve questions</b> and <b>track their perfomance</b> easily.",
-    solution: "I created something to do somethingxxxx xxxxxxxxx.",
+    solution: "I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as <u>Desk Research, Benchmarking, etc</u>.<br><br> Furthermore, I used <b>Information Architecture</b> to create various flowcharts such as <u>sitemaps, user flows, funcionality flowcharts, task flows and use cases</u>.<br><br> For the <b>user interface creation</b>, I created the entire <b>Style Guide</b> for the project, including <u>color palette and typography definition</u>, and  built <b>wireframes and high-fidelity prototypes</b> for validation with the team and the client.<br><br> Finally, the project was <b>delivered</b> with the <u>presentation</u> of the final result and a <u>documented handoff</u> to the development team.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.",
     image_solution: "/assets/images/image_solution/perguntorl-solution.png"
   },
 
+
+
+
+
+
+
+
+
+
+
+  
   {
     // ADVICE EDUCATION
     id: "advi",

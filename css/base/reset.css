@@ -21,5 +21,10 @@ strong {
   font-family: "Poppins", sans-serif;
 }
 
+u {
+  text-decoration: underline dotted;
+  font-family: "Poppins", sans-serif;
+}
+
 
 

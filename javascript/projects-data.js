@@ -66,7 +66,7 @@ export const projects = [
     image_card: "/assets/images/images_projects/cropfix-project.png",
     // project details (modal)
     image_mockup: "/assets/images/images_projects/cropfix-project.png",
-    overview: "Cropfix is a Brazilian <b>agribusiness company</b> that provides technological products for the sector.<br><br> Cropfix was a <b>client of the company Sozei</b>, and it was through Sozei that I participated in this project. <b>I was the only UX/UI designer on the team</b> and I was in direct contact with the client. <br><br> <b>The goal</b> of this project was to <b>redesign</b> the company website's landing page.<br>",
+    overview: "Cropfix is a Brazilian <b>agribusiness company</b> that provides technological products for the sector.<br><br> Cropfix was a <b>client of the company Sozei</b>, and it was through Sozei that I participated in this project. <b>I was the only Product UX/UI designer on the team</b> and I was in direct contact with the client. <br><br> <b>The goal</b> of this project was to <b>redesign</b> the company website's landing page.<br>",
     tool_figma: true,
     tool_adobexd: false,
     tool_html: false,
@@ -93,7 +93,7 @@ export const projects = [
     image_card: "/assets/images/images_projects/wellify-project.png",
     // project details (modal)
     image_mockup: "/assets/images/images_projects/wellify-project.png",
-    overview: "Wellify is a <b>Brazilian  company</b> that provides technological products and services.<br><br> Wellify was a <b>client of the company Sozei</b>, and it was through Sozei that I participated in this project. <b>I was the only UX/UI designer on the team</b> and I was in direct contact with the client. <br><br> <b>The goal</b> of this project was to <b>create a health and telemedicine app</b>.<br>",
+    overview: "Wellify is a <b>Brazilian  company</b> that provides technological products and services.<br><br> Wellify was a <b>client of the company Sozei</b>, and it was through Sozei that I participated in this project. <b>I was the only Product UX/UI designer on the team</b> and I was in direct contact with the client. <br><br> <b>The goal</b> of this project was to <b>create a health and telemedicine app</b>.<br>",
     tool_figma: true,
     tool_adobexd: false,
     tool_html: false,
@@ -120,7 +120,7 @@ export const projects = [
     image_card: "/assets/images/images_projects/perguntorl-project.png",
     // project details (modal)
     image_mockup: "/assets/images/images_projects/perguntorl-project.png",
-    overview: "PerguntORL is an <b>applicaion for solving preparatory questions for the medical specialization exam in otolaryngology</b>, created by a medical specialist. <br><br> PerguntORL was a <b>client of the company Sozei</b>, and it was through Sozei that I participated in this project. <b>I was the only UX/UI designer on the team</b> and I was in direct contact with the client. <br><br> <b>The goal</b> of this project was to create a <b>mobile application for solving questions</b> and a <b>desktop administrative panel</b> for registering questions and analysing users.<br>",
+    overview: "PerguntORL is an <b>applicaion for solving preparatory questions for the medical specialization exam in otolaryngology</b>, created by a medical specialist. <br><br> PerguntORL was a <b>client of the company Sozei</b>, and it was through Sozei that I participated in this project. <b>I was the only Product UX/UI designer on the team</b> and I was in direct contact with the client. <br><br> <b>The goal</b> of this project was to create a <b>mobile application for solving questions</b> and a <b>desktop administrative panel</b> for registering questions and analysing users.<br>",
     tool_figma: true,
     tool_adobexd: false,
     tool_html: false,
@@ -130,25 +130,14 @@ export const projects = [
     tool_react: false,
     tool_typescript: false,
     problem: "The challenge was to create a <b>simple, modern, and user-friendly</b> app that allows users to <b>solve questions</b> and <b>track their perfomance</b> easily.",
-    solution: "I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as <u>Desk Research, Benchmarking, etc</u>.<br><br> Furthermore, I used <b>Information Architecture</b> to create various flowcharts such as <u>sitemaps, user flows, funcionality flowcharts, task flows and use cases</u>.<br><br> For the <b>user interface creation</b>, I created the entire <b>Style Guide</b> for the project, including <u>color palette and typography definition</u>, and  built <b>wireframes and high-fidelity prototypes</b> for validation with the team and the client.<br><br> Finally, the project was <b>delivered</b> with the <u>presentation</u> of the final result and a <u>documented handoff</u> to the development team.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.",
+    solution: "I created <b>two types of applications</b>: <br>A <b>mobile application for student users</b> who could study for the medical specialty exam by <u>solving multiple-choice questions</u>, <u>analyze the answers</u> to the questions with comments added by the specialist doctor, <u>analyze the statistics of errors and correct answers</u> for each question, <u>analyze their personal performance</u>, etc.<br><br> And I also created a website called a <b>management panel</b> so that the medical administrator could <u>add new questions</u> and <u>analyze the metrics of errors and correct answers</u> for each question.<br><br> I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as <u>Desk Research, Benchmarking, etc</u>.<br><br> Furthermore, I used <b>Information Architecture</b> to create various flowcharts such as <u>sitemaps, user flows, funcionality flowcharts, task flows and use cases</u>.<br><br> For the <b>user interface creation</b>, I created the entire <b>Style Guide</b> for the project, including <u>color palette and typography definition</u>, and  built <b>wireframes and high-fidelity prototypes</b> for validation with the team and the client.<br><br> Finally, the project was <b>delivered</b> with the <u>presentation</u> of the final result and a <u>documented handoff</u> to the development team.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.",
     image_solution: "/assets/images/image_solution/perguntorl-solution.png"
   },
 
-
-
-
-
-
-
-
-
-
-
-  
   {
     // ADVICE EDUCATION
     id: "advi",
-    page_in_progress: true,
+    page_in_progress: false,
     // card and basic information
     project_in_progress: false,
     title: "Advice Education",
@@ -158,20 +147,27 @@ export const projects = [
     image_card: "/assets/images/images_projects/advice-project.png",
     // project details (modal)
     image_mockup: "/assets/images/images_projects/advice-project.png",
-    overview: "Advice Education is a brazilian company xxxxxxxxxxxxxxx. <br><br> I was a sole UX/UI designer for this project. <br><br> The goal of this project was to create xxxxxxxxxxxxxx. <br>",
+    overview: "Advice Education is a <b>Brazilian educational institution</b> that offers <b>technical courses</b> in online (e-learning) and in-person formats in order to train qualified professionals. <br><br> Advice Education was a <b>client of the company Sozei</b>, and it was through Sozei that I participated in this project. <b>I was the only Product UX/UI designer on the team</b> and I was in direct contact with the client. <br><br> <b>The goal</b> of this project was to create a <b>website for online courses</b>, with one <b>version for students</b> and another <b>version for the educational institution</b> to manage the courses offered.<br>",
     tool_figma: true,
-    tool_adobexd: true,
-    tool_html: true,
-    tool_css: true,
-    tool_js: true,
-    tool_vscode: true,
-    tool_react: true,
-    tool_typescript: true,
-    problem: "The problem was Advice Education is a brazilian company xxxxxxxxxxxxxxx. <br><br> I was a sole UX/UI designer for this project. <br><br> The goal of this project was to create xxxxxxxxxxxxxx. <br>",
-    solution: "I created something to do somethingxxxx xxxxxxxxx.",
-    image_solution: "/assets/images/image_solution/advice-student-user-flow.png"
+    tool_adobexd: false,
+    tool_html: false,
+    tool_css: false,
+    tool_js: false,
+    tool_vscode: false,
+    tool_react: false,
+    tool_typescript: false,
+    problem: "The problem to be solved was that the <b>institution needed to offer online course students</b> an excellent website that would allow them to carry out all their student activities.<br><br> At the same time the <b>institution needed an online portal that could manage everything</b> offered to the student, as well as evaluate all students and function as an online administrative office for the distance learning student.<br>",
+    solution: "I created two types of websites: one being the <b>student portal for studying</b>, attending <u>classes, taking exams, and monitoring performance</u>; and the other being the <b>administrator portal</b> for the college and professors, where they could <u>manage courses, add classes, and evaluate students</u>.<br><br> I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as <u>Desk Research, Benchmarking, etc</u>.<br><br> Furthermore, I used <b>Information Architecture</b> to create various flowcharts such as <u>sitemaps, user flows, funcionality flowcharts, task flows and use cases</u>.<br><br> For the <b>user interface creation</b>, I created the entire <b>Style Guide</b> for the project, including <u>color palette and typography definition</u>, and  built <b>wireframes and high-fidelity prototypes</b> for validation with the team and the client.<br><br> Finally, the project was <b>delivered</b> with the <u>presentation</u> of the final result and a <u>documented handoff</u> to the development team.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.",
+    image_solution: "/assets/images/image_solution/advice-solution.png"
   },
 
+
+
+
+
+
+
+  
   {
     // PORTFOLIO
     id: "port",

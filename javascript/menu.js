@@ -75,7 +75,7 @@ links.forEach(link => {
 // HTML text 
 const menuHTMLdesktop = `
   <ul class="menu-desktop">
-    <li><a href="/index.html" class="menu-desktop-link">Project</a></li>
+    <li><a href="/index.html" class="menu-desktop-link">Projects</a></li>
     <li><a href="/html/pages/about.html" class="menu-desktop-link">About Me</a></li>
     <li><a href="/html/pages/contact.html" class="menu-desktop-link">Contact</a></li>
   </ul>

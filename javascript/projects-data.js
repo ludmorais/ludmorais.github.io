@@ -171,7 +171,7 @@ export const projects = [
   {
     // PORTFOLIO
     id: "port",
-    page_in_progress: true,
+    page_in_progress: false,
     // card and basic information
     project_in_progress: false,
     title: "Personal Portfolio",
@@ -181,19 +181,38 @@ export const projects = [
     image_card: "/assets/images/images_projects/portfolio-project.png",
     // project details (modal)
     image_mockup: "/assets/images/images_projects/portfolio-project.png",
-    overview: "Advice Education is a brazilian company xxxxxxxxxxxxxxx. <br><br> I was a sole UX/UI designer for this project. <br><br> The goal of this project was to create xxxxxxxxxxxxxx. <br>",
+    overview: "Personal Portfolio is a Personal Project created with the intention of applying the knowledge acquired <b>from studies on Desing Systems</b> in UX/UI and <b>Front-End Development</b>.<br><br> <b>The goal</b> of this project was to create the <b>entire website</b> using <b>HTML and CSS to create the design</b> and <b>apply the concepts of Design Systems</b> in the development, and to use pure <b>JavaScript</b> for <b>interactions and optimize</b> the website with <b>clean code.</b><br>",
     tool_figma: true,
-    tool_adobexd: true,
+    tool_adobexd: false,
     tool_html: true,
     tool_css: true,
     tool_js: true,
     tool_vscode: true,
-    tool_react: true,
-    tool_typescript: true,
-    problem: "The problem was Advice Education is a brazilian company xxxxxxxxxxxxxxx. <br><br> I was a sole UX/UI designer for this project. <br><br> The goal of this project was to create xxxxxxxxxxxxxx. <br>",
-    solution: "I created something to do somethingxxxx xxxxxxxxx.",
-    image_solution: "/assets/images/image_solution/advice-student-user-flow.png"
+    tool_react: false,
+    tool_typescript: false,
+    problem: "O problema a ser resolvido era criar um website em que eu pudesse <b>demonstrar todos os meus projetos de UX/UI ou Front-End Developer</b> de forma simples e descomplicada e tornasse então o meu portfolio.",
+    solution:`
+      <div class="text-box-center">
+        <p class="text-poppins-02">
+          A construção do website foi dividida em etapas: <br><br> 
+          <u><b>Etapa 1: Design System</b></u><br><br>
+          Criar o <b>Design System</b> do projeto (que inclusive eu poderia utilizar em projetos pessoais futuros). Com isto, em arquivos <u>.css</u> defini o que seriam os <b>elementos replicáveis</b> e os transformei em <b>tokens</b>, criando então o arquivo <b>design-tokens.css</b> para transformar todos estes elementos em variáveis. A partir disso, criei os <b>componentes</b> como <u>badges, labels, cards, buttons, menu, footer, etc</u> utilizando CSS. Abaixo temos os arquivos CSS que compõe o Design System:
+        </p>
+      </div>
+      <img src="/assets/images/image_solution/port/tokens-text-decoration.png" class="image-solution-process" alt="Solution image">
+    `,
+    image_solution: "/assets/images/images_projects/portfolio-project.png"
   }, 
+
+
+
+
+
+
+
+
+
+
 
   {
     // CPAK

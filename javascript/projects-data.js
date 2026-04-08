@@ -179,7 +179,7 @@ export const projects = [
     image_card: "/assets/images/images_projects/portfolio-project.png",
     // project details (modal)
     image_mockup: "/assets/images/images_projects/portfolio-project.png",
-    overview: "Personal Portfolio is a Personal Project created with the intention of applying the knowledge acquired <b>from studies on Design Systems</b> in UX/UI and <b>Front-End Development</b>.<br><br> <b>The goal</b> of this project was to create the <b>entire website</b> using <b>HTML and CSS to create the design</b> and <b>apply the concepts of Design Systems</b> in the development, and to use pure <b>JavaScript</b> for <b>interactions and optimize</b> the website with <b>clean code.</b><br>",
+    overview: "Personal Portfolio is a Personal Project created with the intention of applying the knowledge acquired <b>from studies on Design Systems</b> in UX/UI and <b>Front-End Development</b>.<br><br> <b>The goal</b> of this project was to create the <b>entire mobile-first and responsive website</b> using <b>HTML and CSS to create the design</b> and <b>apply the concepts of Design Systems</b> in the development, and to use pure <b>JavaScript</b> for <b>interactions and optimize</b> the website with <b>clean code.</b><br>",
     tool_figma: true,
     tool_adobexd: false,
     tool_html: true,

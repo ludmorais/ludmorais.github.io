@@ -1,4 +1,5 @@
-export const projects = [ 
+export const projects = [
+  // FLUERE
   {
     // FLUERE
     id: "flue",
@@ -24,8 +25,9 @@ export const projects = [
     problem: "The <strong>main challenge</strong> was the difficulty patients faced in <b>finding psychologists</b> who could meet their needs <b>quickly and affordably</b>, so they could begin remote therapy. This often caused patients to abandon their search for a professional and, consequently, worsening mental health issues. At the same time, <b>some psychologists did not feel fully adapted to digital tools</b>.",
     solution: "The solution was based on <b>making it easier</b> for <b>patients to find and schedule</b> appointments with professionals, and <b>for professionals</b>, the solution was based on creating an <b>application that would facilitate online therapy sessions</b>.<br><br> <b>Responsibilities:</b> Project mapping, UX research, interpretation and compilation of research results, assistance in creating the experience and interface solution.",
     image_solution: "/assets/images/image_solution/fluere-solution.png"
-  }, 
+  },
 
+  // SELBETTI
   {
     // SELBETTI
     id: "selb",
@@ -53,6 +55,7 @@ export const projects = [
     image_solution: "/assets/images/image_solution/selbetti-solution.png"
   },
 
+  // CROPFIX
   {
     // CROPFIX
     id: "crop",
@@ -80,6 +83,7 @@ export const projects = [
     image_solution: "/assets/images/image_solution/cropfix-solution.png"
   },
 
+  // WELLIFY
   {
     // WELLIFY
     id: "well",
@@ -106,7 +110,7 @@ export const projects = [
     solution: "I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as <u>Desk Research, Benchmarking, etc</u>.<br><br> Furthermore, I used <b>Information Architecture</b> to create various flowcharts such as <u>sitemaps, user flows, funcionality flowcharts, task flows and use cases</u>.<br><br> For the <b>user interface creation</b>, I created the entire <b>Style Guide</b> for the project, including <u>color palette and typography definition</u>, and  built <b>wireframes and high-fidelity prototypes</b> for validation with the team and the client.<br><br> Finally, the project was <b>delivered</b> with the <u>presentation</u> of the final result and a <u>documented handoff</u> to the development team.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.",
     image_solution: "/assets/images/image_solution/wellify-solution.png"
   },
-
+  // PERGUNTORL
   {
     // PERGUNTORL
     id: "perg",
@@ -133,7 +137,7 @@ export const projects = [
     solution: "I created <b>two types of applications</b>: <br>A <b>mobile application for student users</b> who could study for the medical specialty exam by <u>solving multiple-choice questions</u>, <u>analyze the answers</u> to the questions with comments added by the specialist doctor, <u>analyze the statistics of errors and correct answers</u> for each question, <u>analyze their personal performance</u>, etc.<br><br> And I also created a website called a <b>management panel</b> so that the medical administrator could <u>add new questions</u> and <u>analyze the metrics of errors and correct answers</u> for each question.<br><br> I followed an adapted UX/UI design process considering that we didn't have users for direct user research.<br><br> However, even though the lack of real users was an impediment, I adapted the process to conduct other <b>UX research</b>, such as <u>Desk Research, Benchmarking, etc</u>.<br><br> Furthermore, I used <b>Information Architecture</b> to create various flowcharts such as <u>sitemaps, user flows, funcionality flowcharts, task flows and use cases</u>.<br><br> For the <b>user interface creation</b>, I created the entire <b>Style Guide</b> for the project, including <u>color palette and typography definition</u>, and  built <b>wireframes and high-fidelity prototypes</b> for validation with the team and the client.<br><br> Finally, the project was <b>delivered</b> with the <u>presentation</u> of the final result and a <u>documented handoff</u> to the development team.<br><br> <b>Responsibilities:</b> Project mapping, UX research, UI prototyping, presentation of the solution to the client, transfer of deliverables to development.",
     image_solution: "/assets/images/image_solution/perguntorl-solution.png"
   },
-
+  // ADVICE EDUCATION
   {
     // ADVICE EDUCATION
     id: "advi",
@@ -161,13 +165,7 @@ export const projects = [
     image_solution: "/assets/images/image_solution/advice-solution.png"
   },
 
-
-
-
-
-
-
-  
+  // PORTFOLIO
   {
     // PORTFOLIO
     id: "port",
@@ -181,7 +179,7 @@ export const projects = [
     image_card: "/assets/images/images_projects/portfolio-project.png",
     // project details (modal)
     image_mockup: "/assets/images/images_projects/portfolio-project.png",
-    overview: "Personal Portfolio is a Personal Project created with the intention of applying the knowledge acquired <b>from studies on Desing Systems</b> in UX/UI and <b>Front-End Development</b>.<br><br> <b>The goal</b> of this project was to create the <b>entire website</b> using <b>HTML and CSS to create the design</b> and <b>apply the concepts of Design Systems</b> in the development, and to use pure <b>JavaScript</b> for <b>interactions and optimize</b> the website with <b>clean code.</b><br>",
+    overview: "Personal Portfolio is a Personal Project created with the intention of applying the knowledge acquired <b>from studies on Design Systems</b> in UX/UI and <b>Front-End Development</b>.<br><br> <b>The goal</b> of this project was to create the <b>entire website</b> using <b>HTML and CSS to create the design</b> and <b>apply the concepts of Design Systems</b> in the development, and to use pure <b>JavaScript</b> for <b>interactions and optimize</b> the website with <b>clean code.</b><br>",
     tool_figma: true,
     tool_adobexd: false,
     tool_html: true,
@@ -190,30 +188,76 @@ export const projects = [
     tool_vscode: true,
     tool_react: false,
     tool_typescript: false,
-    problem: "O problema a ser resolvido era criar um website em que eu pudesse <b>demonstrar todos os meus projetos de UX/UI ou Front-End Developer</b> de forma simples e descomplicada e tornasse então o meu portfolio.",
-    solution:`
+    problem: "The problem to be solved was to create a website where I could <b>showcase all my UX/UI or Front-End Developer projects</b> in a simple and straightforward way, turning it into my portfolio.",
+    solution: `
       <div class="text-box-center">
         <p class="text-poppins-02">
-          A construção do website foi dividida em etapas: <br><br> 
-          <u><b>Etapa 1: Design System</b></u><br><br>
-          Criar o <b>Design System</b> do projeto (que inclusive eu poderia utilizar em projetos pessoais futuros). Com isto, em arquivos <u>.css</u> defini o que seriam os <b>elementos replicáveis</b> e os transformei em <b>tokens</b>, criando então o arquivo <b>design-tokens.css</b> para transformar todos estes elementos em variáveis. A partir disso, criei os <b>componentes</b> como <u>badges, labels, cards, buttons, menu, footer, etc</u> utilizando CSS. Abaixo temos os arquivos CSS que compõe o Design System:
+          The website construction was divided into stages: <br><br>
+          <span class="color-primary-01 fs-16px semibold underline">Stage 1: Design System</span><br><br>
+
+          A <b>Design System</b> is a <u>product that serves another product</u>. A Design System is <u>not a project</u>, as projects have a beginning, middle, and end, while products have continuous improvement. <br><br>
+
+          Working with a <u>Design System</u> involves working with <b>systematization and organization</b>, and with this we guarantee benefits such as <b>avoiding rework, greater speed, and more consistency in the product.</b><br><br>
+
+          Therefore, in <u>.css</u> files I systematized the entire <b>Design System</b>, creating <u>Design Tokens (replicable elements) and Components (composite organisms)</u> that I would use in this project, however with the possibility of expanding it according to the needs of the current project and future projects. <u>See below how I organized the CSS files:</u><br><br>
         </p>
       </div>
-      <img src="/assets/images/image_solution/port/tokens-text-decoration.png" class="image-solution-process" alt="Solution image">
+      <img src="/assets/images/image_solution/port/1.1-ds-organization.jpg" class="image-solution-process" alt="Solution image"><br><br>
+
+      <div class="text-box-center">
+        <p class="text-poppins-02">
+          To create <b>Design Tokens</b>, I defined which <b>replicable elements</b> are most present in this project, and transformed them into <b>tokens</b> using CSS variables. <u>See some examples of created Tokens, such as <b>colors, typography, and size:</b></u><br><br>
+        </p>
+      </div>
+      <img src="/assets/images/image_solution/port/2.1-tokens-colors.png" class="image-solution-process" alt="Solution image"><br>
+      <img src="/assets/images/image_solution/port/2.2-tokens-typography.png" class="image-solution-process" alt="Solution image"><br>
+      <img src="/assets/images/image_solution/port/2.3-tokens-size.png" class="image-solution-process" alt="Solution image"><br><br>
+
+      <div class="text-box-center">
+        <p class="text-poppins-02">
+          From this, using Tokens, I created the <b>components</b> such as <u>badges, labels, cards, buttons, menu, footer, etc.</u>, also using CSS. <u>Below are some examples</u> of part of the code for a <b>button</b> component, where the base for the buttons and the primary regular button was created:<br>
+        </p>
+      </div>
+      <img src="/assets/images/image_solution/port/3.1-components-btn-base.png" class="image-solution-process" alt="Solution image"><br>
+      <img src="/assets/images/image_solution/port/3.2-components-btn-regular-primary.png" class="image-solution-process" alt="Solution image"><br><br>
+
+      <div class="text-box-center">
+        <p class="text-poppins-02">
+          <span class="color-primary-01 fs-16px semibold underline">Stage 2: Coding in HTML and JavaScript</span><br><br>
+
+          Using <b>HTML</b>, I created the basic structure of the pages, avoiding replicating structures and paying attention to what could be optimized with JavaScript, making the code cleaner.</b><br>
+
+          However, it's worth highlighting the development with the <b>JavaScript</b> programming language that I used to create some elements and page interactions, emphasizing how I developed the <u>functionality of adding new projects to the portfolio</u>.<br><br>
+
+          To <b>add new projects to the portfolio</b>, I created the entire project presentation structure and interactions in a single <u>JS</u> file, so that I could <u>add each project dynamically</u> through a file that simulated a database, like a <b>Mock Database</b>.<br><br>
+
+          See below a part of the JavaScript code where I created the entire Project structure, similar to templates, for adding them dynamically later:<br>
+        </p>
+      </div>
+      <img src="/assets/images/image_solution/port/4.1-js-cards.png" class="image-solution-process" alt="Solution image"><br>
+      <img src="/assets/images/image_solution/port/4.2-js-open-render.png" class="image-solution-process" alt="Solution image"><br><br>
+
+      <div class="text-box-center">
+        <p class="text-poppins-02">
+          And now a part of the code that simulates the Database, <b>Mock Database</b>, used to dynamically add each project to the portfolio:<br>
+        </p>
+      </div>
+      <img src="/assets/images/image_solution/port/5.1-js-mock-db.png" class="image-solution-process" alt="Solution image"><br><br>
+
+      <div class="text-box-center">
+        <p class="text-poppins-02">
+          That said, I tried to save code as much as possible, paying attention to <b>Design System and Front-end Development</b> issues.<br><br>
+
+          You can see this complete project through my GitHub profile.<br><br>
+
+          I'll leave you with some screenshots of the final result of this website.<br>
+        </p>
+      </div>
     `,
-    image_solution: "/assets/images/images_projects/portfolio-project.png"
-  }, 
+    image_solution: "/assets/images/image_solution/cropfix-solution.png"
+  },
 
-
-
-
-
-
-
-
-
-
-
+  // CPAK
   {
     // CPAK
     id: "cpak",
@@ -239,8 +283,9 @@ export const projects = [
     problem: "The problem was Advice Education is a brazilian company xxxxxxxxxxxxxxx. <br><br> I was a sole UX/UI designer for this project. <br><br> The goal of this project was to create xxxxxxxxxxxxxx. <br>",
     solution: "I created something to do somethingxxxx xxxxxxxxx.",
     image_solution: "/assets/images/image_solution/advice-student-user-flow.png"
-  }, 
+  },
 
+  // MY SH BOOKSHELF
   {
     // MY SH BOOKSHELF
     id: "book",
@@ -253,8 +298,8 @@ export const projects = [
     workproject_OR_personalproject: "Personal Project",
     image_card: "/assets/images/undraw_typing-code_6t2b.svg",
     // project details (modal)
-    image_mockup: "/assets/images/images_projects/advice-project.png",
-    overview: "Advice Education is a brazilian company xxxxxxxxxxxxxxx. <br><br> I was a sole UX/UI designer for this project. <br><br> The goal of this project was to create xxxxxxxxxxxxxx. <br>",
+    image_mockup: "N/A",
+    overview: "N/A",
     tool_figma: true,
     tool_adobexd: true,
     tool_html: true,
@@ -263,9 +308,9 @@ export const projects = [
     tool_vscode: true,
     tool_react: true,
     tool_typescript: true,
-    problem: "The problem was Advice Education is a brazilian company xxxxxxxxxxxxxxx. <br><br> I was a sole UX/UI designer for this project. <br><br> The goal of this project was to create xxxxxxxxxxxxxx. <br>",
-    solution: "I created something to do somethingxxxx xxxxxxxxx.",
-    image_solution: "/assets/images/image_solution/advice-student-user-flow.png"
+    problem: "N/A",
+    solution: "N/A",
+    image_solution: "N/A"
   },
 
 ]        

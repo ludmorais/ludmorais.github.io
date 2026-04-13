@@ -254,7 +254,7 @@ export const projects = [
         </p>
       </div>
     `,
-    image_solution: "/assets/images/image_solution/cropfix-solution.png"
+    image_solution: "/assets/images/image_solution/portfolio-solution.png"
   },
 
   // CPAK

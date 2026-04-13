@@ -109,6 +109,7 @@ function renderModal(id) {
     <div class="badge-box">
       ${project.tool_figma === true ? `<span class="badge badge-figma">Figma</span>` : ""}
       ${project.tool_adobexd === true ? `<span class="badge badge-adobexd">Adobe XD</span>` : ""}
+      ${project.tool_ai === true ? `<span class="badge badge-ai">AI</span>` : ""}
       ${project.tool_html === true ? `<span class="badge badge-html">HTML</span>` : ""}
       ${project.tool_css === true ? `<span class="badge badge-css">CSS</span>` : ""}
       ${project.tool_js === true ? `<span class="badge badge-js">JavaScript</span>` : ""}

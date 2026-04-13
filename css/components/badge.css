@@ -28,13 +28,25 @@
 }
 
 .badge-figma {
+  color: var(--color-neutral-10);
+  background-color: #A259FF;
+}
+
+/*
+.badge-figma {
   color: #2D2D35;
   background-image: linear-gradient(270deg, #0ACF83, #A259FF, #F24E1E, #FF7262, #1ABCFE);
 }
+*/
 
 .badge-adobexd {
   color: #FF61F6;
   background-color: #470137;
+}
+
+.badge-ai {
+  color: var(--color-neutral-100);
+  background-color: var(--color-opacity-dark-80);
 }
 
 .badge-vscode {

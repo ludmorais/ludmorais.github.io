@@ -366,10 +366,10 @@ export const projects = [
 
           Follow me to keep updated...<br><br>
 
-          See you soon!<br><br><br><br>
+          See you soon!<br><br>
         </p>
       </div>`,
-    image_solution: "/assets/images/undraw_typing-code_6t2b.svg"
+    image_solution: "/assets/images/images_projects/mysh-project.png"
   },
 
 ]        
